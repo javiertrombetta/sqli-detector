@@ -1,0 +1,345 @@
+model,seed,subject,measure,value
+logreg,0,normaliser,reverted_variants,2400.0
+logreg,0,normaliser,reverted_equal_original_pct,100.0
+logreg,0,normaliser,held_attacks_unchanged_pct,100.0
+logreg,0,normaliser,held_normal_unchanged_pct,100.0
+logreg,0,normaliser,train_normal_changed_pct,0.0
+logreg,0,normaliser,train_sqli_changed_pct,0.0
+logreg,0,letter case,upper_case_ngrams_in_A,0.0
+logreg,0,letter case,upper_case_ngrams_in_B,5500.0
+logreg,0,letter case,upper_case_ngrams_in_B_positive_pct,100.0
+logreg,0,variants of charencode,with_upper_case_pct,100.0
+logreg,0,variants of charencode,changed_by_normaliser_pct,100.0
+logreg,0,variants of chardoubleencode,with_upper_case_pct,100.0
+logreg,0,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+logreg,0,variants of percentage,with_upper_case_pct,0.0
+logreg,0,variants of percentage,changed_by_normaliser_pct,0.0
+logreg,0,variants of htmlencode,with_upper_case_pct,0.0
+logreg,0,variants of htmlencode,changed_by_normaliser_pct,0.0
+logreg,0,variants of space2comment,with_upper_case_pct,0.0
+logreg,0,variants of space2comment,changed_by_normaliser_pct,99.75
+logreg,0,variants of randomcomments,with_upper_case_pct,0.0
+logreg,0,variants of randomcomments,changed_by_normaliser_pct,99.38
+logreg,0,variants of randomcase,with_upper_case_pct,99.62
+logreg,0,variants of randomcase,changed_by_normaliser_pct,0.0
+logreg,0,normal values in charencode,changed_pct,100.0
+logreg,0,normal values in chardoubleencode,changed_pct,100.0
+logreg,0,normal values in base64encode,changed_pct,100.0
+logreg,0,normal values in percentage,changed_pct,100.0
+logreg,0,normal values in htmlencode,changed_pct,32.15
+logreg,1,normaliser,reverted_variants,2400.0
+logreg,1,normaliser,reverted_equal_original_pct,100.0
+logreg,1,normaliser,held_attacks_unchanged_pct,100.0
+logreg,1,normaliser,held_normal_unchanged_pct,100.0
+logreg,1,normaliser,train_normal_changed_pct,0.0
+logreg,1,normaliser,train_sqli_changed_pct,0.0
+logreg,1,letter case,upper_case_ngrams_in_A,0.0
+logreg,1,letter case,upper_case_ngrams_in_B,5460.0
+logreg,1,letter case,upper_case_ngrams_in_B_positive_pct,100.0
+logreg,1,variants of charencode,with_upper_case_pct,99.88
+logreg,1,variants of charencode,changed_by_normaliser_pct,100.0
+logreg,1,variants of chardoubleencode,with_upper_case_pct,99.88
+logreg,1,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+logreg,1,variants of percentage,with_upper_case_pct,0.0
+logreg,1,variants of percentage,changed_by_normaliser_pct,0.0
+logreg,1,variants of htmlencode,with_upper_case_pct,0.0
+logreg,1,variants of htmlencode,changed_by_normaliser_pct,0.0
+logreg,1,variants of space2comment,with_upper_case_pct,0.0
+logreg,1,variants of space2comment,changed_by_normaliser_pct,98.88
+logreg,1,variants of randomcomments,with_upper_case_pct,0.0
+logreg,1,variants of randomcomments,changed_by_normaliser_pct,98.75
+logreg,1,variants of randomcase,with_upper_case_pct,99.5
+logreg,1,variants of randomcase,changed_by_normaliser_pct,0.0
+logreg,1,normal values in charencode,changed_pct,100.0
+logreg,1,normal values in chardoubleencode,changed_pct,100.0
+logreg,1,normal values in base64encode,changed_pct,100.0
+logreg,1,normal values in percentage,changed_pct,100.0
+logreg,1,normal values in htmlencode,changed_pct,32.15
+logreg,2,normaliser,reverted_variants,2400.0
+logreg,2,normaliser,reverted_equal_original_pct,100.0
+logreg,2,normaliser,held_attacks_unchanged_pct,100.0
+logreg,2,normaliser,held_normal_unchanged_pct,100.0
+logreg,2,normaliser,train_normal_changed_pct,0.0
+logreg,2,normaliser,train_sqli_changed_pct,0.0
+logreg,2,letter case,upper_case_ngrams_in_A,0.0
+logreg,2,letter case,upper_case_ngrams_in_B,5514.0
+logreg,2,letter case,upper_case_ngrams_in_B_positive_pct,100.0
+logreg,2,variants of charencode,with_upper_case_pct,100.0
+logreg,2,variants of charencode,changed_by_normaliser_pct,100.0
+logreg,2,variants of chardoubleencode,with_upper_case_pct,100.0
+logreg,2,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+logreg,2,variants of percentage,with_upper_case_pct,0.0
+logreg,2,variants of percentage,changed_by_normaliser_pct,0.0
+logreg,2,variants of htmlencode,with_upper_case_pct,0.0
+logreg,2,variants of htmlencode,changed_by_normaliser_pct,0.0
+logreg,2,variants of space2comment,with_upper_case_pct,0.0
+logreg,2,variants of space2comment,changed_by_normaliser_pct,99.0
+logreg,2,variants of randomcomments,with_upper_case_pct,0.0
+logreg,2,variants of randomcomments,changed_by_normaliser_pct,98.38
+logreg,2,variants of randomcase,with_upper_case_pct,99.12
+logreg,2,variants of randomcase,changed_by_normaliser_pct,0.0
+logreg,2,normal values in charencode,changed_pct,100.0
+logreg,2,normal values in chardoubleencode,changed_pct,100.0
+logreg,2,normal values in base64encode,changed_pct,100.0
+logreg,2,normal values in percentage,changed_pct,100.0
+logreg,2,normal values in htmlencode,changed_pct,32.15
+logreg,3,normaliser,reverted_variants,2400.0
+logreg,3,normaliser,reverted_equal_original_pct,100.0
+logreg,3,normaliser,held_attacks_unchanged_pct,100.0
+logreg,3,normaliser,held_normal_unchanged_pct,100.0
+logreg,3,normaliser,train_normal_changed_pct,0.0
+logreg,3,normaliser,train_sqli_changed_pct,0.0
+logreg,3,letter case,upper_case_ngrams_in_A,0.0
+logreg,3,letter case,upper_case_ngrams_in_B,5482.0
+logreg,3,letter case,upper_case_ngrams_in_B_positive_pct,100.0
+logreg,3,variants of charencode,with_upper_case_pct,100.0
+logreg,3,variants of charencode,changed_by_normaliser_pct,100.0
+logreg,3,variants of chardoubleencode,with_upper_case_pct,100.0
+logreg,3,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+logreg,3,variants of percentage,with_upper_case_pct,0.0
+logreg,3,variants of percentage,changed_by_normaliser_pct,0.0
+logreg,3,variants of htmlencode,with_upper_case_pct,0.0
+logreg,3,variants of htmlencode,changed_by_normaliser_pct,0.0
+logreg,3,variants of space2comment,with_upper_case_pct,0.0
+logreg,3,variants of space2comment,changed_by_normaliser_pct,99.75
+logreg,3,variants of randomcomments,with_upper_case_pct,0.0
+logreg,3,variants of randomcomments,changed_by_normaliser_pct,99.25
+logreg,3,variants of randomcase,with_upper_case_pct,99.5
+logreg,3,variants of randomcase,changed_by_normaliser_pct,0.0
+logreg,3,normal values in charencode,changed_pct,100.0
+logreg,3,normal values in chardoubleencode,changed_pct,100.0
+logreg,3,normal values in base64encode,changed_pct,100.0
+logreg,3,normal values in percentage,changed_pct,100.0
+logreg,3,normal values in htmlencode,changed_pct,32.15
+logreg,4,normaliser,reverted_variants,2400.0
+logreg,4,normaliser,reverted_equal_original_pct,100.0
+logreg,4,normaliser,held_attacks_unchanged_pct,100.0
+logreg,4,normaliser,held_normal_unchanged_pct,100.0
+logreg,4,normaliser,train_normal_changed_pct,0.0
+logreg,4,normaliser,train_sqli_changed_pct,0.0
+logreg,4,letter case,upper_case_ngrams_in_A,0.0
+logreg,4,letter case,upper_case_ngrams_in_B,5441.0
+logreg,4,letter case,upper_case_ngrams_in_B_positive_pct,100.0
+logreg,4,variants of charencode,with_upper_case_pct,100.0
+logreg,4,variants of charencode,changed_by_normaliser_pct,100.0
+logreg,4,variants of chardoubleencode,with_upper_case_pct,100.0
+logreg,4,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+logreg,4,variants of percentage,with_upper_case_pct,0.0
+logreg,4,variants of percentage,changed_by_normaliser_pct,0.0
+logreg,4,variants of htmlencode,with_upper_case_pct,0.0
+logreg,4,variants of htmlencode,changed_by_normaliser_pct,0.0
+logreg,4,variants of space2comment,with_upper_case_pct,0.0
+logreg,4,variants of space2comment,changed_by_normaliser_pct,99.75
+logreg,4,variants of randomcomments,with_upper_case_pct,0.0
+logreg,4,variants of randomcomments,changed_by_normaliser_pct,99.75
+logreg,4,variants of randomcase,with_upper_case_pct,100.0
+logreg,4,variants of randomcase,changed_by_normaliser_pct,0.0
+logreg,4,normal values in charencode,changed_pct,100.0
+logreg,4,normal values in chardoubleencode,changed_pct,100.0
+logreg,4,normal values in base64encode,changed_pct,100.0
+logreg,4,normal values in percentage,changed_pct,100.0
+logreg,4,normal values in htmlencode,changed_pct,32.15
+,,train normal,rows,13513.0
+,,train normal,upper_case_letter_pct,0.0
+,,train normal,percent_sign_pct,0.0
+,,train normal,url_escape_pct,0.0
+,,train normal,equals_sign_pct,0.0
+,,train normal,digit_pct,49.35
+,,train normal,whitespace_pct,20.4
+,,train normal,upper_case_chars_pct,0.0
+,,train sqli,rows,7596.0
+,,train sqli,upper_case_letter_pct,0.0
+,,train sqli,percent_sign_pct,16.93
+,,train sqli,url_escape_pct,0.0
+,,train sqli,equals_sign_pct,79.87
+,,train sqli,digit_pct,100.0
+,,train sqli,whitespace_pct,99.21
+,,train sqli,upper_case_chars_pct,0.0
+,,val normal,rows,2895.0
+,,val normal,upper_case_letter_pct,0.0
+,,val normal,percent_sign_pct,0.0
+,,val normal,url_escape_pct,0.0
+,,val normal,equals_sign_pct,0.0
+,,val normal,digit_pct,50.81
+,,val normal,whitespace_pct,20.21
+,,val normal,upper_case_chars_pct,0.0
+,,val sqli,rows,1628.0
+,,val sqli,upper_case_letter_pct,0.0
+,,val sqli,percent_sign_pct,16.22
+,,val sqli,url_escape_pct,0.0
+,,val sqli,equals_sign_pct,77.95
+,,val sqli,digit_pct,100.0
+,,val sqli,whitespace_pct,99.51
+,,val sqli,upper_case_chars_pct,0.0
+,,test normal,rows,2896.0
+,,test normal,upper_case_letter_pct,0.0
+,,test normal,percent_sign_pct,0.0
+,,test normal,url_escape_pct,0.0
+,,test normal,equals_sign_pct,0.0
+,,test normal,digit_pct,50.03
+,,test normal,whitespace_pct,20.27
+,,test normal,upper_case_chars_pct,0.0
+,,test in base64encode normal,rows,2896.0
+,,test in base64encode normal,upper_case_letter_pct,99.48
+,,test in base64encode normal,percent_sign_pct,0.0
+,,test in base64encode normal,url_escape_pct,0.0
+,,test in base64encode normal,equals_sign_pct,68.06
+,,test in base64encode normal,digit_pct,80.7
+,,test in base64encode normal,whitespace_pct,0.0
+,,test in base64encode normal,upper_case_chars_pct,44.66
+,,test sqli,rows,1628.0
+,,test sqli,upper_case_letter_pct,0.0
+,,test sqli,percent_sign_pct,16.34
+,,test sqli,url_escape_pct,0.0
+,,test sqli,equals_sign_pct,77.46
+,,test sqli,digit_pct,100.0
+,,test sqli,whitespace_pct,99.51
+,,test sqli,upper_case_chars_pct,0.0
+,,test in base64encode sqli,rows,1628.0
+,,test in base64encode sqli,upper_case_letter_pct,100.0
+,,test in base64encode sqli,percent_sign_pct,0.0
+,,test in base64encode sqli,url_escape_pct,0.0
+,,test in base64encode sqli,equals_sign_pct,65.6
+,,test in base64encode sqli,digit_pct,99.75
+,,test in base64encode sqli,whitespace_pct,0.0
+,,test in base64encode sqli,upper_case_chars_pct,48.29
+linsvc,0,normaliser,reverted_variants,2400.0
+linsvc,0,normaliser,reverted_equal_original_pct,100.0
+linsvc,0,normaliser,held_attacks_unchanged_pct,100.0
+linsvc,0,normaliser,held_normal_unchanged_pct,100.0
+linsvc,0,normaliser,train_normal_changed_pct,0.0
+linsvc,0,normaliser,train_sqli_changed_pct,0.0
+linsvc,0,letter case,upper_case_ngrams_in_A,0.0
+linsvc,0,letter case,upper_case_ngrams_in_B,5500.0
+linsvc,0,letter case,upper_case_ngrams_in_B_positive_pct,93.47
+linsvc,0,variants of charencode,with_upper_case_pct,100.0
+linsvc,0,variants of charencode,changed_by_normaliser_pct,100.0
+linsvc,0,variants of chardoubleencode,with_upper_case_pct,100.0
+linsvc,0,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+linsvc,0,variants of percentage,with_upper_case_pct,0.0
+linsvc,0,variants of percentage,changed_by_normaliser_pct,0.0
+linsvc,0,variants of htmlencode,with_upper_case_pct,0.0
+linsvc,0,variants of htmlencode,changed_by_normaliser_pct,0.0
+linsvc,0,variants of space2comment,with_upper_case_pct,0.0
+linsvc,0,variants of space2comment,changed_by_normaliser_pct,99.75
+linsvc,0,variants of randomcomments,with_upper_case_pct,0.0
+linsvc,0,variants of randomcomments,changed_by_normaliser_pct,99.38
+linsvc,0,variants of randomcase,with_upper_case_pct,99.62
+linsvc,0,variants of randomcase,changed_by_normaliser_pct,0.0
+linsvc,0,normal values in charencode,changed_pct,100.0
+linsvc,0,normal values in chardoubleencode,changed_pct,100.0
+linsvc,0,normal values in base64encode,changed_pct,100.0
+linsvc,0,normal values in percentage,changed_pct,100.0
+linsvc,0,normal values in htmlencode,changed_pct,32.15
+linsvc,1,normaliser,reverted_variants,2400.0
+linsvc,1,normaliser,reverted_equal_original_pct,100.0
+linsvc,1,normaliser,held_attacks_unchanged_pct,100.0
+linsvc,1,normaliser,held_normal_unchanged_pct,100.0
+linsvc,1,normaliser,train_normal_changed_pct,0.0
+linsvc,1,normaliser,train_sqli_changed_pct,0.0
+linsvc,1,letter case,upper_case_ngrams_in_A,0.0
+linsvc,1,letter case,upper_case_ngrams_in_B,5460.0
+linsvc,1,letter case,upper_case_ngrams_in_B_positive_pct,93.52
+linsvc,1,variants of charencode,with_upper_case_pct,99.88
+linsvc,1,variants of charencode,changed_by_normaliser_pct,100.0
+linsvc,1,variants of chardoubleencode,with_upper_case_pct,99.88
+linsvc,1,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+linsvc,1,variants of percentage,with_upper_case_pct,0.0
+linsvc,1,variants of percentage,changed_by_normaliser_pct,0.0
+linsvc,1,variants of htmlencode,with_upper_case_pct,0.0
+linsvc,1,variants of htmlencode,changed_by_normaliser_pct,0.0
+linsvc,1,variants of space2comment,with_upper_case_pct,0.0
+linsvc,1,variants of space2comment,changed_by_normaliser_pct,98.88
+linsvc,1,variants of randomcomments,with_upper_case_pct,0.0
+linsvc,1,variants of randomcomments,changed_by_normaliser_pct,98.75
+linsvc,1,variants of randomcase,with_upper_case_pct,99.5
+linsvc,1,variants of randomcase,changed_by_normaliser_pct,0.0
+linsvc,1,normal values in charencode,changed_pct,100.0
+linsvc,1,normal values in chardoubleencode,changed_pct,100.0
+linsvc,1,normal values in base64encode,changed_pct,100.0
+linsvc,1,normal values in percentage,changed_pct,100.0
+linsvc,1,normal values in htmlencode,changed_pct,32.15
+linsvc,2,normaliser,reverted_variants,2400.0
+linsvc,2,normaliser,reverted_equal_original_pct,100.0
+linsvc,2,normaliser,held_attacks_unchanged_pct,100.0
+linsvc,2,normaliser,held_normal_unchanged_pct,100.0
+linsvc,2,normaliser,train_normal_changed_pct,0.0
+linsvc,2,normaliser,train_sqli_changed_pct,0.0
+linsvc,2,letter case,upper_case_ngrams_in_A,0.0
+linsvc,2,letter case,upper_case_ngrams_in_B,5514.0
+linsvc,2,letter case,upper_case_ngrams_in_B_positive_pct,92.44
+linsvc,2,variants of charencode,with_upper_case_pct,100.0
+linsvc,2,variants of charencode,changed_by_normaliser_pct,100.0
+linsvc,2,variants of chardoubleencode,with_upper_case_pct,100.0
+linsvc,2,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+linsvc,2,variants of percentage,with_upper_case_pct,0.0
+linsvc,2,variants of percentage,changed_by_normaliser_pct,0.0
+linsvc,2,variants of htmlencode,with_upper_case_pct,0.0
+linsvc,2,variants of htmlencode,changed_by_normaliser_pct,0.0
+linsvc,2,variants of space2comment,with_upper_case_pct,0.0
+linsvc,2,variants of space2comment,changed_by_normaliser_pct,99.0
+linsvc,2,variants of randomcomments,with_upper_case_pct,0.0
+linsvc,2,variants of randomcomments,changed_by_normaliser_pct,98.38
+linsvc,2,variants of randomcase,with_upper_case_pct,99.12
+linsvc,2,variants of randomcase,changed_by_normaliser_pct,0.0
+linsvc,2,normal values in charencode,changed_pct,100.0
+linsvc,2,normal values in chardoubleencode,changed_pct,100.0
+linsvc,2,normal values in base64encode,changed_pct,100.0
+linsvc,2,normal values in percentage,changed_pct,100.0
+linsvc,2,normal values in htmlencode,changed_pct,32.15
+linsvc,3,normaliser,reverted_variants,2400.0
+linsvc,3,normaliser,reverted_equal_original_pct,100.0
+linsvc,3,normaliser,held_attacks_unchanged_pct,100.0
+linsvc,3,normaliser,held_normal_unchanged_pct,100.0
+linsvc,3,normaliser,train_normal_changed_pct,0.0
+linsvc,3,normaliser,train_sqli_changed_pct,0.0
+linsvc,3,letter case,upper_case_ngrams_in_A,0.0
+linsvc,3,letter case,upper_case_ngrams_in_B,5482.0
+linsvc,3,letter case,upper_case_ngrams_in_B_positive_pct,91.74
+linsvc,3,variants of charencode,with_upper_case_pct,100.0
+linsvc,3,variants of charencode,changed_by_normaliser_pct,100.0
+linsvc,3,variants of chardoubleencode,with_upper_case_pct,100.0
+linsvc,3,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+linsvc,3,variants of percentage,with_upper_case_pct,0.0
+linsvc,3,variants of percentage,changed_by_normaliser_pct,0.0
+linsvc,3,variants of htmlencode,with_upper_case_pct,0.0
+linsvc,3,variants of htmlencode,changed_by_normaliser_pct,0.0
+linsvc,3,variants of space2comment,with_upper_case_pct,0.0
+linsvc,3,variants of space2comment,changed_by_normaliser_pct,99.75
+linsvc,3,variants of randomcomments,with_upper_case_pct,0.0
+linsvc,3,variants of randomcomments,changed_by_normaliser_pct,99.25
+linsvc,3,variants of randomcase,with_upper_case_pct,99.5
+linsvc,3,variants of randomcase,changed_by_normaliser_pct,0.0
+linsvc,3,normal values in charencode,changed_pct,100.0
+linsvc,3,normal values in chardoubleencode,changed_pct,100.0
+linsvc,3,normal values in base64encode,changed_pct,100.0
+linsvc,3,normal values in percentage,changed_pct,100.0
+linsvc,3,normal values in htmlencode,changed_pct,32.15
+linsvc,4,normaliser,reverted_variants,2400.0
+linsvc,4,normaliser,reverted_equal_original_pct,100.0
+linsvc,4,normaliser,held_attacks_unchanged_pct,100.0
+linsvc,4,normaliser,held_normal_unchanged_pct,100.0
+linsvc,4,normaliser,train_normal_changed_pct,0.0
+linsvc,4,normaliser,train_sqli_changed_pct,0.0
+linsvc,4,letter case,upper_case_ngrams_in_A,0.0
+linsvc,4,letter case,upper_case_ngrams_in_B,5441.0
+linsvc,4,letter case,upper_case_ngrams_in_B_positive_pct,92.61
+linsvc,4,variants of charencode,with_upper_case_pct,100.0
+linsvc,4,variants of charencode,changed_by_normaliser_pct,100.0
+linsvc,4,variants of chardoubleencode,with_upper_case_pct,100.0
+linsvc,4,variants of chardoubleencode,changed_by_normaliser_pct,100.0
+linsvc,4,variants of percentage,with_upper_case_pct,0.0
+linsvc,4,variants of percentage,changed_by_normaliser_pct,0.0
+linsvc,4,variants of htmlencode,with_upper_case_pct,0.0
+linsvc,4,variants of htmlencode,changed_by_normaliser_pct,0.0
+linsvc,4,variants of space2comment,with_upper_case_pct,0.0
+linsvc,4,variants of space2comment,changed_by_normaliser_pct,99.75
+linsvc,4,variants of randomcomments,with_upper_case_pct,0.0
+linsvc,4,variants of randomcomments,changed_by_normaliser_pct,99.75
+linsvc,4,variants of randomcase,with_upper_case_pct,100.0
+linsvc,4,variants of randomcase,changed_by_normaliser_pct,0.0
+linsvc,4,normal values in charencode,changed_pct,100.0
+linsvc,4,normal values in chardoubleencode,changed_pct,100.0
+linsvc,4,normal values in base64encode,changed_pct,100.0
+linsvc,4,normal values in percentage,changed_pct,100.0
+linsvc,4,normal values in htmlencode,changed_pct,32.15

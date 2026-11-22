@@ -1,0 +1,97 @@
+model,threshold_rule,threshold,class,group,rows,share_pct,median_similarity,flagged_as_attack_pct
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036808,99.92435703479576
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.61179361179361,0.8011109346393951,100.0
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+logreg,ROC corners (old rule),0.20777694791275,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287467,0.996140727504318,100.0
+logreg,ROC corners (old rule),0.20777694791275,normal,all test rows,2896,100.0,0.4403368152916851,0.1381215469613259
+logreg,ROC corners (old rule),0.20777694791275,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.3782362631093777,0.116822429906542
+logreg,ROC corners (old rule),0.20777694791275,normal,has no near-duplicate in train,2040,70.44198895027624,0.4610008792106947,0.1470588235294117
+logreg,ROC corners (old rule),0.20777694791275,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,0.1557632398753894
+logreg,ROC corners (old rule),0.20777694791275,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,0.1196172248803827
+logreg,ROC corners (old rule),0.20777694791275,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+logreg,ROC corners (old rule),0.20777694791275,normal,nearest training row at similarity 0.90 to 0.99,4,0.1381215469613259,0.9245119093045924,0.0
+logreg,ROC corners (old rule),0.20777694791275,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036808,99.92435703479576
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.61179361179361,0.8011109346393951,100.0
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+logreg,exact 1% FPR,0.1564470875244634,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287467,0.996140727504318,100.0
+logreg,exact 1% FPR,0.1564470875244634,normal,all test rows,2896,100.0,0.4403368152916851,0.9668508287292816
+logreg,exact 1% FPR,0.1564470875244634,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.3782362631093777,1.2850467289719625
+logreg,exact 1% FPR,0.1564470875244634,normal,has no near-duplicate in train,2040,70.44198895027624,0.4610008792106947,0.8333333333333334
+logreg,exact 1% FPR,0.1564470875244634,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,1.142263759086189
+logreg,exact 1% FPR,0.1564470875244634,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,0.7177033492822966
+logreg,exact 1% FPR,0.1564470875244634,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+logreg,exact 1% FPR,0.1564470875244634,normal,nearest training row at similarity 0.90 to 0.99,4,0.1381215469613259,0.9245119093045924,0.0
+logreg,exact 1% FPR,0.1564470875244634,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036808,99.92435703479576
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.61179361179361,0.8011109346393951,100.0
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+linsvc,ROC corners (old rule),0.4069913109181904,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287467,0.996140727504318,100.0
+linsvc,ROC corners (old rule),0.4069913109181904,normal,all test rows,2896,100.0,0.4403368152916851,0.1035911602209944
+linsvc,ROC corners (old rule),0.4069913109181904,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.3782362631093777,0.116822429906542
+linsvc,ROC corners (old rule),0.4069913109181904,normal,has no near-duplicate in train,2040,70.44198895027624,0.4610008792106947,0.0980392156862745
+linsvc,ROC corners (old rule),0.4069913109181904,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,0.1038421599169262
+linsvc,ROC corners (old rule),0.4069913109181904,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,0.1196172248803827
+linsvc,ROC corners (old rule),0.4069913109181904,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+linsvc,ROC corners (old rule),0.4069913109181904,normal,nearest training row at similarity 0.90 to 0.99,4,0.1381215469613259,0.9245119093045924,0.0
+linsvc,ROC corners (old rule),0.4069913109181904,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036808,99.92435703479576
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.61179361179361,0.8011109346393951,100.0
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+linsvc,exact 1% FPR,0.3387108342443392,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287467,0.996140727504318,100.0
+linsvc,exact 1% FPR,0.3387108342443392,normal,all test rows,2896,100.0,0.4403368152916851,0.9668508287292816
+linsvc,exact 1% FPR,0.3387108342443392,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.3782362631093777,0.4672897196261681
+linsvc,exact 1% FPR,0.3387108342443392,normal,has no near-duplicate in train,2040,70.44198895027624,0.4610008792106947,1.1764705882352942
+linsvc,exact 1% FPR,0.3387108342443392,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,0.9345794392523364
+linsvc,exact 1% FPR,0.3387108342443392,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,1.1961722488038278
+linsvc,exact 1% FPR,0.3387108342443392,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+linsvc,exact 1% FPR,0.3387108342443392,normal,nearest training row at similarity 0.90 to 0.99,4,0.1381215469613259,0.9245119093045924,0.0
+linsvc,exact 1% FPR,0.3387108342443392,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036807,99.92435703479576
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.611793611793612,0.8011109346393951,100.0
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+rf,ROC corners (old rule),0.03666666666666667,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287469,0.9961407275043181,100.0
+rf,ROC corners (old rule),0.03666666666666667,normal,all test rows,2896,100.0,0.4403368152916851,0.7941988950276244
+rf,ROC corners (old rule),0.03666666666666667,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.37823626310937775,0.11682242990654204
+rf,ROC corners (old rule),0.03666666666666667,normal,has no near-duplicate in train,2040,70.44198895027624,0.46100087921069477,1.0784313725490196
+rf,ROC corners (old rule),0.03666666666666667,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,0.8826583592938734
+rf,ROC corners (old rule),0.03666666666666667,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,0.7177033492822966
+rf,ROC corners (old rule),0.03666666666666667,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+rf,ROC corners (old rule),0.03666666666666667,normal,nearest training row at similarity 0.90 to 0.99,4,0.13812154696132595,0.9245119093045925,0.0
+rf,ROC corners (old rule),0.03666666666666667,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,
+rf,exact 1% FPR,0.03666666666666667,SQL injection,all test rows,1628,100.0,0.9059051767396478,99.93857493857494
+rf,exact 1% FPR,0.03666666666666667,SQL injection,"has a near-duplicate in train (same text but for case, numbers, spacing)",306,18.796068796068795,0.6219920043277699,100.0
+rf,exact 1% FPR,0.03666666666666667,SQL injection,has no near-duplicate in train,1322,81.2039312039312,0.9226414578036807,99.92435703479576
+rf,exact 1% FPR,0.03666666666666667,SQL injection,nearest training row at similarity below 0.50,315,19.348894348894348,0.3776257761473669,99.68253968253968
+rf,exact 1% FPR,0.03666666666666667,SQL injection,nearest training row at similarity 0.50 to 0.70,176,10.81081081081081,0.5939426102654344,100.0
+rf,exact 1% FPR,0.03666666666666667,SQL injection,nearest training row at similarity 0.70 to 0.90,303,18.611793611793612,0.8011109346393951,100.0
+rf,exact 1% FPR,0.03666666666666667,SQL injection,nearest training row at similarity 0.90 to 0.99,631,38.75921375921376,0.9588711431840176,100.0
+rf,exact 1% FPR,0.03666666666666667,SQL injection,nearest training row at similarity 0.99 to 1.00,203,12.469287469287469,0.9961407275043181,100.0
+rf,exact 1% FPR,0.03666666666666667,normal,all test rows,2896,100.0,0.4403368152916851,0.7941988950276244
+rf,exact 1% FPR,0.03666666666666667,normal,"has a near-duplicate in train (same text but for case, numbers, spacing)",856,29.55801104972376,0.37823626310937775,0.11682242990654204
+rf,exact 1% FPR,0.03666666666666667,normal,has no near-duplicate in train,2040,70.44198895027624,0.46100087921069477,1.0784313725490196
+rf,exact 1% FPR,0.03666666666666667,normal,nearest training row at similarity below 0.50,1926,66.50552486187846,0.3843968985506063,0.8826583592938734
+rf,exact 1% FPR,0.03666666666666667,normal,nearest training row at similarity 0.50 to 0.70,836,28.867403314917127,0.570801836383179,0.7177033492822966
+rf,exact 1% FPR,0.03666666666666667,normal,nearest training row at similarity 0.70 to 0.90,130,4.488950276243094,0.7479443382087629,0.0
+rf,exact 1% FPR,0.03666666666666667,normal,nearest training row at similarity 0.90 to 0.99,4,0.13812154696132595,0.9245119093045925,0.0
+rf,exact 1% FPR,0.03666666666666667,normal,nearest training row at similarity 0.99 to 1.00,0,0.0,,

@@ -1,0 +1,39 @@
+<%- include('../partials/head', { title }) %>
+<div class="auth">
+  <a class="close-btn" href="/" aria-label="Close and return to the home page" title="Close"><%- include('../partials/icon', { name: 'x' }) %></a>
+  <aside class="auth-brand">
+    <%- include('../partials/logo', { sub: 'Detector console' }) %>
+    <div>
+      <h2>Every sign-in is scored before the database is queried</h2>
+      <p>The detector reads the username and the password. A request that looks like SQL injection is blocked.</p>
+    </div>
+    <p class="notice">Demonstration only. The accounts on this site are fictional.</p>
+  </aside>
+  <main class="auth-form">
+    <div class="form-box">
+      <h1>Sign in</h1>
+      <p class="sub">Enter your username and password to open the console.</p>
+      <% if (error) { %><div class="alert" role="alert"><%= error %></div><% } %>
+      <form method="post" action="/login">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username" value="<%= username %>" required>
+        <label for="password">Password</label>
+        <div class="password-field">
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button class="reveal" type="button" data-reveal="password" aria-label="Show password" aria-pressed="false" hidden>
+            <span class="reveal-show"><%- include('../partials/icon', { name: 'eye' }) %></span>
+            <span class="reveal-hide"><%- include('../partials/icon', { name: 'eye-off' }) %></span>
+          </button>
+        </div>
+        <div class="row">
+          <label class="check"><input type="checkbox" name="remember"> Keep me signed in</label>
+        </div>
+        <button class="btn btn-navy" type="submit">Sign in</button>
+      </form>
+      <p class="help">The demonstration accounts are listed on the <a href="/#demo">home page</a>.</p>
+      <%- include('../partials/env-note') %>
+    </div>
+  </main>
+</div>
+<script src="/js/reveal.js" defer></script>
+<%- include('../partials/foot') %>

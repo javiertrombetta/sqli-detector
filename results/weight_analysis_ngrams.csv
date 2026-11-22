@@ -1,0 +1,1649 @@
+model,seed,comparison,rank,ngram,group,weight_x,tfidf_x,contribution_x,weight_y,tfidf_y,contribution_y,difference
+logreg,0,rise: charencode normal minus plain normal,1,[%],percent,0.8879,0.6447,0.5724,0.8879,0.0,0.0,0.5724
+logreg,0,rise: charencode normal minus plain normal,2,[ ],word boundary,4.6056,0.0394,0.1815,4.6056,0.0825,0.38,-0.1986
+logreg,0,rise: charencode normal minus plain normal,3,[6],digits,1.0991,0.185,0.2033,1.0991,0.0168,0.0185,0.1848
+logreg,0,rise: charencode normal minus plain normal,4,[3],digits,1.4784,0.1378,0.2037,1.4784,0.0178,0.0263,0.1774
+logreg,0,rise: charencode normal minus plain normal,5,[7],digits,1.3936,0.0798,0.1112,1.3936,0.018,0.0251,0.0861
+logreg,0,rise: charencode normal minus plain normal,6,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,0,rise: charencode normal minus plain normal,7,[1],digits,2.0546,0.0381,0.0783,2.0546,0.0183,0.0375,0.0408
+logreg,0,rise: charencode normal minus plain normal,8,[1%],percent,0.4754,0.0766,0.0364,0.4754,0.0,0.0,0.0364
+logreg,0,rise: charencode normal minus plain normal,9,[2],digits,1.1958,0.0479,0.0573,1.1958,0.0175,0.0209,0.0364
+logreg,0,rise: charencode normal minus plain normal,10,[5],digits,1.6579,0.0371,0.0614,1.6579,0.0161,0.0266,0.0348
+logreg,0,rise: charencode normal minus plain normal,11,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,0,rise: charencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,0,rise: charencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,0,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,0,rise: charencode normal minus plain normal,15,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,0,rise: charencode normal minus plain normal,16,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,0,rise: charencode normal minus plain normal,17,[9],digits,1.3348,0.0309,0.0412,1.3348,0.0197,0.0263,0.015
+logreg,0,rise: charencode normal minus plain normal,18,[t],lower-case letters,0.969,0.0,0.0,0.969,0.0149,0.0145,-0.0145
+logreg,0,rise: charencode normal minus plain normal,19,[4],digits,1.0926,0.0322,0.0351,1.0926,0.02,0.0218,0.0133
+logreg,0,rise: charencode normal minus plain normal,20,[72],digits,0.3511,0.038,0.0133,0.3511,0.0026,0.0009,0.0124
+logreg,0,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.8879,0.3363,0.2986,0.8879,0.0,0.0,0.2986
+logreg,0,rise: chardoubleencode normal minus plain normal,2,[5],digits,1.6579,0.1929,0.3199,1.6579,0.0161,0.0266,0.2932
+logreg,0,rise: chardoubleencode normal minus plain normal,3,[ ],word boundary,4.6056,0.0206,0.0947,4.6056,0.0825,0.38,-0.2853
+logreg,0,rise: chardoubleencode normal minus plain normal,4,[2],digits,1.1958,0.2034,0.2433,1.1958,0.0175,0.0209,0.2223
+logreg,0,rise: chardoubleencode normal minus plain normal,5,[6],digits,1.0991,0.0961,0.1056,1.0991,0.0168,0.0185,0.0871
+logreg,0,rise: chardoubleencode normal minus plain normal,6,[3],digits,1.4784,0.0719,0.1063,1.4784,0.0178,0.0263,0.08
+logreg,0,rise: chardoubleencode normal minus plain normal,7,[25],digits,0.1767,0.3938,0.0696,0.1767,0.0035,0.0006,0.069
+logreg,0,rise: chardoubleencode normal minus plain normal,8,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,0,rise: chardoubleencode normal minus plain normal,9,[7],digits,1.3936,0.0422,0.0588,1.3936,0.018,0.0251,0.0338
+logreg,0,rise: chardoubleencode normal minus plain normal,10,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,0,rise: chardoubleencode normal minus plain normal,11,[57],digits,0.4298,0.0704,0.0303,0.4298,0.002,0.0009,0.0294
+logreg,0,rise: chardoubleencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,0,rise: chardoubleencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,0,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,0,rise: chardoubleencode normal minus plain normal,15,[53],digits,0.2092,0.1142,0.0239,0.2092,0.0031,0.0006,0.0232
+logreg,0,rise: chardoubleencode normal minus plain normal,16,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,0,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.4754,0.0395,0.0188,0.4754,0.0,0.0,0.0188
+logreg,0,rise: chardoubleencode normal minus plain normal,18,[257],digits,0.1709,0.1029,0.0176,0.1709,0.0002,0.0,0.0175
+logreg,0,rise: chardoubleencode normal minus plain normal,19,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,0,rise: chardoubleencode normal minus plain normal,20,[256],digits,0.0594,0.2895,0.0172,0.0594,0.0006,0.0,0.0172
+logreg,0,rise: base64encode normal minus plain normal,1,[=],other symbols,2.5246,0.1819,0.4592,2.5246,0.0,0.0,0.4592
+logreg,0,rise: base64encode normal minus plain normal,2,[ ],word boundary,4.6056,0.1549,0.7135,4.6056,0.0825,0.38,0.3334
+logreg,0,rise: base64encode normal minus plain normal,3,[2],digits,1.1958,0.0598,0.0715,1.1958,0.0175,0.0209,0.0506
+logreg,0,rise: base64encode normal minus plain normal,4,[e],lower-case letters,1.8681,0.0042,0.0078,1.8681,0.0285,0.0532,-0.0454
+logreg,0,rise: base64encode normal minus plain normal,5,[y],lower-case letters,0.6058,0.0678,0.041,0.6058,0.006,0.0036,0.0374
+logreg,0,rise: base64encode normal minus plain normal,6,[w],lower-case letters,0.8975,0.0434,0.039,0.8975,0.0018,0.0016,0.0374
+logreg,0,rise: base64encode normal minus plain normal,7,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,0,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.9442,0.0363,0.0343,0.9442,0.0086,0.0081,0.0262
+logreg,0,rise: base64encode normal minus plain normal,9,[7],digits,1.3936,0.0,0.0,1.3936,0.018,0.0251,-0.0251
+logreg,0,rise: base64encode normal minus plain normal,10,[x],lower-case letters,0.4708,0.0507,0.0239,0.4708,0.0017,0.0008,0.0231
+logreg,0,rise: base64encode normal minus plain normal,11,[5],digits,1.6579,0.0285,0.0473,1.6579,0.0161,0.0266,0.0207
+logreg,0,rise: base64encode normal minus plain normal,12,[z],lower-case letters,-0.2044,0.1074,-0.0219,-0.2044,0.0068,-0.0014,-0.0206
+logreg,0,rise: base64encode normal minus plain normal,13,[0],digits,1.5895,0.0302,0.0481,1.5895,0.0179,0.0285,0.0196
+logreg,0,rise: base64encode normal minus plain normal,14,[3],digits,1.4784,0.0298,0.044,1.4784,0.0178,0.0263,0.0177
+logreg,0,rise: base64encode normal minus plain normal,15,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,0,rise: base64encode normal minus plain normal,16,[c],lower-case letters,0.5801,0.0455,0.0264,0.5801,0.0171,0.0099,0.0165
+logreg,0,rise: base64encode normal minus plain normal,17,[k],lower-case letters,0.3847,0.0451,0.0173,0.3847,0.0047,0.0018,0.0155
+logreg,0,rise: base64encode normal minus plain normal,18,[l],lower-case letters,1.4527,0.0331,0.048,1.4527,0.0229,0.0333,0.0147
+logreg,0,rise: base64encode normal minus plain normal,19,[6],digits,1.0991,0.0036,0.0039,1.0991,0.0168,0.0185,-0.0146
+logreg,0,rise: base64encode normal minus plain normal,20,[j],lower-case letters,-0.207,0.0753,-0.0156,-0.207,0.0064,-0.0013,-0.0143
+logreg,0,rise: percentage normal minus plain normal,1,[%],percent,0.8879,0.9004,0.7995,0.8879,0.0,0.0,0.7995
+logreg,0,rise: percentage normal minus plain normal,2,[ ],word boundary,4.6056,0.0706,0.3253,4.6056,0.0825,0.38,-0.0548
+logreg,0,rise: percentage normal minus plain normal,3,[1%],percent,0.4754,0.0318,0.0151,0.4754,0.0,0.0,0.0151
+logreg,0,rise: percentage normal minus plain normal,4,[e],lower-case letters,1.8681,0.0229,0.0427,1.8681,0.0285,0.0532,-0.0105
+logreg,0,rise: percentage normal minus plain normal,5,[ a],lower-case letters,1.7143,0.0,0.0,1.7143,0.0051,0.0087,-0.0087
+logreg,0,rise: percentage normal minus plain normal,6,[ c],lower-case letters,-0.6979,0.0,0.0,-0.6979,0.0107,-0.0075,0.0075
+logreg,0,rise: percentage normal minus plain normal,7,[1],digits,2.0546,0.0148,0.0304,2.0546,0.0183,0.0375,-0.0071
+logreg,0,rise: percentage normal minus plain normal,8,[l],lower-case letters,1.4527,0.0184,0.0268,1.4527,0.0229,0.0333,-0.0066
+logreg,0,rise: percentage normal minus plain normal,9,[0],digits,1.5895,0.0141,0.0225,1.5895,0.0179,0.0285,-0.006
+logreg,0,rise: percentage normal minus plain normal,10,[7],digits,1.3936,0.0138,0.0192,1.3936,0.018,0.0251,-0.0059
+logreg,0,rise: percentage normal minus plain normal,11,[9],digits,1.3348,0.0154,0.0205,1.3348,0.0197,0.0263,-0.0058
+logreg,0,rise: percentage normal minus plain normal,12,[s],lower-case letters,1.5722,0.0144,0.0227,1.5722,0.018,0.0284,-0.0057
+logreg,0,rise: percentage normal minus plain normal,13,[5],digits,1.6579,0.0127,0.021,1.6579,0.0161,0.0266,-0.0056
+logreg,0,rise: percentage normal minus plain normal,14,"[,]",other symbols,3.1901,0.0037,0.0118,3.1901,0.0055,0.0174,-0.0056
+logreg,0,rise: percentage normal minus plain normal,15,[3],digits,1.4784,0.0141,0.0208,1.4784,0.0178,0.0263,-0.0054
+logreg,0,rise: percentage normal minus plain normal,16,[ll],lower-case letters,0.7801,0.0,0.0,0.7801,0.0069,0.0054,-0.0054
+logreg,0,rise: percentage normal minus plain normal,17,[8],digits,1.3272,0.0142,0.0188,1.3272,0.0181,0.0241,-0.0053
+logreg,0,rise: percentage normal minus plain normal,18,[el],lower-case letters,1.033,0.0,0.0,1.033,0.0049,0.005,-0.005
+logreg,0,rise: percentage normal minus plain normal,19,[ra],lower-case letters,-0.5684,0.0,0.0,-0.5684,0.0088,-0.005,0.005
+logreg,0,rise: percentage normal minus plain normal,20,[ 1],digits,0.8638,0.0,0.0,0.8638,0.0058,0.005,-0.005
+logreg,0,rise: htmlencode normal minus plain normal,1,[ ],word boundary,4.6056,0.0616,0.2835,4.6056,0.0825,0.38,-0.0965
+logreg,0,rise: htmlencode normal minus plain normal,2,[#],other symbols,1.1715,0.0595,0.0697,1.1715,0.0,0.0,0.0697
+logreg,0,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.798,0.0575,0.0459,0.798,0.0,0.0,0.0459
+logreg,0,rise: htmlencode normal minus plain normal,4,[3],digits,1.4784,0.0359,0.053,1.4784,0.0178,0.0263,0.0267
+logreg,0,rise: htmlencode normal minus plain normal,5,[4],digits,1.0926,0.0396,0.0432,1.0926,0.02,0.0218,0.0214
+logreg,0,rise: htmlencode normal minus plain normal,6,[2],digits,1.1958,0.0336,0.0402,1.1958,0.0175,0.0209,0.0193
+logreg,0,rise: htmlencode normal minus plain normal,7,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,0,rise: htmlencode normal minus plain normal,8,[32],digits,0.3443,0.0382,0.0132,0.3443,0.0025,0.0009,0.0123
+logreg,0,rise: htmlencode normal minus plain normal,9,[6],digits,1.0991,0.0261,0.0287,1.0991,0.0168,0.0185,0.0102
+logreg,0,rise: htmlencode normal minus plain normal,10,"[, ]",other symbols,-1.0802,0.0,0.0,-1.0802,0.0093,-0.0101,0.0101
+logreg,0,rise: htmlencode normal minus plain normal,11,[-],other symbols,3.2394,0.0,0.0,3.2394,0.0023,0.0073,-0.0073
+logreg,0,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-1.3751,0.0141,-0.0194,-1.3751,0.0193,-0.0266,0.0072
+logreg,0,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.9806,0.0092,-0.009,-0.9806,0.0124,-0.0122,0.0032
+logreg,0,rise: htmlencode normal minus plain normal,14,[@],other symbols,-0.454,0.0,0.0,-0.454,0.0063,-0.0029,0.0029
+logreg,0,rise: htmlencode normal minus plain normal,15,[ 1],digits,0.8638,0.003,0.0026,0.8638,0.0058,0.005,-0.0024
+logreg,0,rise: htmlencode normal minus plain normal,16,[e],lower-case letters,1.8681,0.0272,0.0508,1.8681,0.0285,0.0532,-0.0024
+logreg,0,rise: htmlencode normal minus plain normal,17,[5],digits,1.6579,0.0175,0.0289,1.6579,0.0161,0.0266,0.0023
+logreg,0,rise: htmlencode normal minus plain normal,18,[ c],lower-case letters,-0.6979,0.008,-0.0055,-0.6979,0.0107,-0.0075,0.0019
+logreg,0,rise: htmlencode normal minus plain normal,19,[ a],lower-case letters,1.7143,0.004,0.0069,1.7143,0.0051,0.0087,-0.0019
+logreg,0,rise: htmlencode normal minus plain normal,20,[l],lower-case letters,1.4527,0.0218,0.0316,1.4527,0.0229,0.0333,-0.0017
+logreg,0,example: ' OR 1=1 --,1,[ ],word boundary,4.6056,0.471,2.1693,,,,2.1693
+logreg,0,example: ' OR 1=1 --,2,[-],other symbols,3.2394,0.2968,0.9614,,,,0.9614
+logreg,0,example: ' OR 1=1 --,3,['],other symbols,2.8528,0.1584,0.4519,,,,0.4519
+logreg,0,example: ' OR 1=1 --,4,[1],digits,2.0546,0.1974,0.4056,,,,0.4056
+logreg,0,example: ' OR 1=1 --,5,[ -],other symbols,1.9016,0.2081,0.3958,,,,0.3958
+logreg,0,example: ' OR 1=1 --,6,[=],other symbols,2.5246,0.1323,0.3339,,,,0.3339
+logreg,0,example: ' OR 1=1 --,7,[- ],other symbols,1.2157,0.172,0.2091,,,,0.2091
+logreg,0,example: ' OR 1=1 --,8,[-- ],other symbols,1.2157,0.172,0.2091,,,,0.2091
+logreg,0,example: ' OR 1=1 --,9,[--],other symbols,1.2157,0.172,0.2091,,,,0.2091
+logreg,0,example: ' OR 1=1 --,10,[' ],other symbols,0.9122,0.2039,0.186,,,,0.186
+logreg,0,example: ' OR 1=1 --,11,[ '],other symbols,0.5897,0.2332,0.1375,,,,0.1375
+logreg,0,example: ' OR 1=1 --,12,[1=],other symbols,0.4137,0.2715,0.1123,,,,0.1123
+logreg,0,example: ' OR 1=1 --,13,[=1],other symbols,0.4072,0.2656,0.1082,,,,0.1082
+logreg,0,example: ' OR 1=1 --,14,[ 1],digits,0.8638,0.118,0.1019,,,,0.1019
+logreg,0,example: ' OR 1=1 --,15,[1=1],other symbols,0.0543,0.4265,0.0232,,,,0.0232
+logreg,0,example: ' OR 1=1 --,16,[1 ],digits,0.0404,0.2009,0.0081,,,,0.0081
+logreg,0,example: JyBPUiAxPTEgLS0=,1,[ ],word boundary,4.6056,0.2569,1.1833,,,,1.1833
+logreg,0,example: JyBPUiAxPTEgLS0=,2,[=],other symbols,2.5246,0.2886,0.7287,,,,0.7287
+logreg,0,example: JyBPUiAxPTEgLS0=,3,[0],digits,1.5895,0.2651,0.4214,,,,0.4214
+logreg,0,example: JyBPUiAxPTEgLS0=,4,[y],lower-case letters,0.6058,0.3784,0.2292,,,,0.2292
+logreg,0,example: JyBPUiAxPTEgLS0=,5,[0=],other symbols,0.3697,0.5545,0.205,,,,0.205
+logreg,0,example: JyBPUiAxPTEgLS0=,6,[x],lower-case letters,0.4708,0.4096,0.1928,,,,0.1928
+logreg,0,example: JyBPUiAxPTEgLS0=,7,[g],lower-case letters,-0.3728,0.3329,-0.1241,,,,-0.1241
+logreg,0,example: JyBPUiAxPTEgLS0=,8,[i],lower-case letters,-0.3816,0.226,-0.0862,,,,-0.0862
+logreg,0,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.9364,0.1726,0.1616,,0.0,0.0,0.1616
+logreg,0,gap: B minus A on base64encode attacks,2,[ ],word boundary,3.7631,0.0228,0.086,4.6056,0.044,0.2025,-0.1165
+logreg,0,gap: B minus A on base64encode attacks,3,[S],upper-case letters,0.7313,0.1481,0.1083,,0.0,0.0,0.1083
+logreg,0,gap: B minus A on base64encode attacks,4,[L],upper-case letters,1.2655,0.0604,0.0765,,0.0,0.0,0.0765
+logreg,0,gap: B minus A on base64encode attacks,5,[0],digits,1.4153,0.0347,0.0491,1.5895,0.074,0.1176,-0.0686
+logreg,0,gap: B minus A on base64encode attacks,6,[I],upper-case letters,0.3289,0.2044,0.0672,,0.0,0.0,0.0672
+logreg,0,gap: B minus A on base64encode attacks,7,[=],other symbols,2.5663,0.0241,0.0618,2.5246,0.0497,0.1255,-0.0638
+logreg,0,gap: B minus A on base64encode attacks,8,[T],upper-case letters,0.5875,0.0994,0.0584,,0.0,0.0,0.0584
+logreg,0,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.8105,0.0672,0.0545,,0.0,0.0,0.0545
+logreg,0,gap: B minus A on base64encode attacks,10,[M],upper-case letters,0.1904,0.2578,0.0491,,0.0,0.0,0.0491
+logreg,0,gap: B minus A on base64encode attacks,11,[l],lower-case letters,1.4304,0.0382,0.0547,1.4527,0.0713,0.1036,-0.0489
+logreg,0,gap: B minus A on base64encode attacks,12,[1],digits,1.9056,0.0184,0.0351,2.0546,0.038,0.0781,-0.0429
+logreg,0,gap: B minus A on base64encode attacks,13,[s],lower-case letters,1.4683,0.0291,0.0427,1.5722,0.0542,0.0852,-0.0425
+logreg,0,gap: B minus A on base64encode attacks,14,[w],lower-case letters,0.8598,0.0442,0.038,0.8975,0.0897,0.0805,-0.0425
+logreg,0,gap: B minus A on base64encode attacks,15,[D],upper-case letters,0.4253,0.097,0.0412,,0.0,0.0,0.0412
+logreg,0,gap: B minus A on base64encode attacks,16,[E],upper-case letters,1.3068,0.0315,0.0411,,0.0,0.0,0.0411
+logreg,0,gap: B minus A on base64encode attacks,17,[A],upper-case letters,0.6414,0.0626,0.0402,,0.0,0.0,0.0402
+logreg,0,gap: B minus A on base64encode attacks,18,[3],digits,1.7647,0.0301,0.0531,1.4784,0.0622,0.092,-0.0389
+logreg,0,gap: B minus A on base64encode attacks,19,[9],digits,1.0841,0.021,0.0227,1.3348,0.0448,0.0598,-0.037
+logreg,0,gap: B minus A on base64encode attacks,20,[y],lower-case letters,0.525,0.0558,0.0293,0.6058,0.1083,0.0656,-0.0363
+logreg,0,gap: B minus A on base64encode normal,1,[ ],word boundary,3.7631,0.0792,0.2979,4.6056,0.1549,0.7135,-0.4156
+logreg,0,gap: B minus A on base64encode normal,2,[=],other symbols,2.5663,0.0852,0.2187,2.5246,0.1819,0.4592,-0.2405
+logreg,0,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.9364,0.1057,0.0989,,0.0,0.0,0.0989
+logreg,0,gap: B minus A on base64encode normal,4,[T],upper-case letters,0.5875,0.0589,0.0346,,0.0,0.0,0.0346
+logreg,0,gap: B minus A on base64encode normal,5,[E],upper-case letters,1.3068,0.0264,0.0345,,0.0,0.0,0.0345
+logreg,0,gap: B minus A on base64encode normal,6,[0],digits,1.4153,0.0133,0.0189,1.5895,0.0302,0.0481,-0.0292
+logreg,0,gap: B minus A on base64encode normal,7,[M],upper-case letters,0.1904,0.1311,0.025,,0.0,0.0,0.025
+logreg,0,gap: B minus A on base64encode normal,8,[1],digits,1.9056,0.0095,0.0182,2.0546,0.0208,0.0428,-0.0247
+logreg,0,gap: B minus A on base64encode normal,9,[A],upper-case letters,0.6414,0.0376,0.0241,,0.0,0.0,0.0241
+logreg,0,gap: B minus A on base64encode normal,10,[O],upper-case letters,0.5399,0.0421,0.0227,,0.0,0.0,0.0227
+logreg,0,gap: B minus A on base64encode normal,11,[y],lower-case letters,0.525,0.0364,0.0191,0.6058,0.0678,0.041,-0.0219
+logreg,0,gap: B minus A on base64encode normal,12,[5],digits,1.8219,0.0142,0.0259,1.6579,0.0285,0.0473,-0.0214
+logreg,0,gap: B minus A on base64encode normal,13,[W],upper-case letters,0.1964,0.1037,0.0204,,0.0,0.0,0.0204
+logreg,0,gap: B minus A on base64encode normal,14,[w],lower-case letters,0.8598,0.0228,0.0196,0.8975,0.0434,0.039,-0.0194
+logreg,0,gap: B minus A on base64encode normal,15,[3],digits,1.7647,0.014,0.0247,1.4784,0.0298,0.044,-0.0193
+logreg,0,gap: B minus A on base64encode normal,16,[D],upper-case letters,0.4253,0.0435,0.0185,,0.0,0.0,0.0185
+logreg,0,gap: B minus A on base64encode normal,17,[R],upper-case letters,0.7319,0.024,0.0175,,0.0,0.0,0.0175
+logreg,0,gap: B minus A on base64encode normal,18,[l],lower-case letters,1.4304,0.0213,0.0305,1.4527,0.0331,0.048,-0.0175
+logreg,0,gap: B minus A on base64encode normal,19,[s],lower-case letters,1.4683,0.0134,0.0197,1.5722,0.0233,0.0366,-0.0169
+logreg,0,gap: B minus A on base64encode normal,20,[U],upper-case letters,0.4344,0.0343,0.0149,,0.0,0.0,0.0149
+logreg,0,gap: D minus B on base64encode attacks,1,[ ],word boundary,5.4156,0.0225,0.1218,3.7631,0.0228,0.086,0.0358
+logreg,0,gap: D minus B on base64encode attacks,2,[2],digits,1.2562,0.0404,0.0508,1.8756,0.0399,0.0749,-0.0241
+logreg,0,gap: D minus B on base64encode attacks,3,[E],upper-case letters,1.4114,0.0408,0.0575,1.3068,0.0315,0.0411,0.0164
+logreg,0,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.8737,0.1696,0.1481,0.9364,0.1726,0.1616,-0.0135
+logreg,0,gap: D minus B on base64encode attacks,5,[D],upper-case letters,0.3777,0.1409,0.0532,0.4253,0.097,0.0412,0.012
+logreg,0,gap: D minus B on base64encode attacks,6,[S],upper-case letters,0.6679,0.1456,0.0973,0.7313,0.1481,0.1083,-0.011
+logreg,0,gap: D minus B on base64encode attacks,7,[A],upper-case letters,0.6857,0.0737,0.0505,0.6414,0.0626,0.0402,0.0104
+logreg,0,gap: D minus B on base64encode attacks,8,[0],digits,1.5904,0.0351,0.0559,1.4153,0.0347,0.0491,0.0068
+logreg,0,gap: D minus B on base64encode attacks,9,[5],digits,1.5159,0.0226,0.0342,1.8219,0.0224,0.0408,-0.0066
+logreg,0,gap: D minus B on base64encode attacks,10,[C],upper-case letters,0.6594,0.0917,0.0604,0.8105,0.0672,0.0545,0.006
+logreg,0,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.5381,0.0977,0.0526,0.5875,0.0994,0.0584,-0.0058
+logreg,0,gap: D minus B on base64encode attacks,12,[I],upper-case letters,0.3057,0.2011,0.0615,0.3289,0.2044,0.0672,-0.0058
+logreg,0,gap: D minus B on base64encode attacks,13,[L],upper-case letters,1.199,0.0594,0.0712,1.2655,0.0604,0.0765,-0.0053
+logreg,0,gap: D minus B on base64encode attacks,14,[9],digits,1.2905,0.0215,0.0278,1.0841,0.021,0.0227,0.0051
+logreg,0,gap: D minus B on base64encode attacks,15,[M],upper-case letters,0.1744,0.2533,0.0442,0.1904,0.2578,0.0491,-0.0049
+logreg,0,gap: D minus B on base64encode attacks,16,[4],digits,1.4359,0.0148,0.0213,1.1919,0.0146,0.0174,0.0039
+logreg,0,gap: D minus B on base64encode attacks,17,[g],lower-case letters,-0.4825,0.0847,-0.0409,-0.5034,0.0889,-0.0447,0.0039
+logreg,0,gap: D minus B on base64encode attacks,18,[=],other symbols,2.6315,0.0222,0.0583,2.5663,0.0241,0.0618,-0.0035
+logreg,0,gap: D minus B on base64encode attacks,19,[B],upper-case letters,0.1134,0.1088,0.0123,0.1194,0.076,0.0091,0.0033
+logreg,0,gap: D minus B on base64encode attacks,20,[W],upper-case letters,0.1747,0.1247,0.0218,0.1964,0.1267,0.0249,-0.0031
+logreg,1,rise: charencode normal minus plain normal,1,[%],percent,0.8879,0.6447,0.5724,0.8879,0.0,0.0,0.5724
+logreg,1,rise: charencode normal minus plain normal,2,[ ],word boundary,4.6056,0.0394,0.1815,4.6056,0.0825,0.38,-0.1986
+logreg,1,rise: charencode normal minus plain normal,3,[6],digits,1.0991,0.185,0.2033,1.0991,0.0168,0.0185,0.1848
+logreg,1,rise: charencode normal minus plain normal,4,[3],digits,1.4784,0.1378,0.2037,1.4784,0.0178,0.0263,0.1774
+logreg,1,rise: charencode normal minus plain normal,5,[7],digits,1.3936,0.0798,0.1112,1.3936,0.018,0.0251,0.0861
+logreg,1,rise: charencode normal minus plain normal,6,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,1,rise: charencode normal minus plain normal,7,[1],digits,2.0546,0.0381,0.0783,2.0546,0.0183,0.0375,0.0408
+logreg,1,rise: charencode normal minus plain normal,8,[1%],percent,0.4754,0.0766,0.0364,0.4754,0.0,0.0,0.0364
+logreg,1,rise: charencode normal minus plain normal,9,[2],digits,1.1958,0.0479,0.0573,1.1958,0.0175,0.0209,0.0364
+logreg,1,rise: charencode normal minus plain normal,10,[5],digits,1.6579,0.0371,0.0614,1.6579,0.0161,0.0266,0.0348
+logreg,1,rise: charencode normal minus plain normal,11,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,1,rise: charencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,1,rise: charencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,1,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,1,rise: charencode normal minus plain normal,15,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,1,rise: charencode normal minus plain normal,16,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,1,rise: charencode normal minus plain normal,17,[9],digits,1.3348,0.0309,0.0412,1.3348,0.0197,0.0263,0.015
+logreg,1,rise: charencode normal minus plain normal,18,[t],lower-case letters,0.969,0.0,0.0,0.969,0.0149,0.0145,-0.0145
+logreg,1,rise: charencode normal minus plain normal,19,[4],digits,1.0926,0.0322,0.0351,1.0926,0.02,0.0218,0.0133
+logreg,1,rise: charencode normal minus plain normal,20,[72],digits,0.3511,0.038,0.0133,0.3511,0.0026,0.0009,0.0124
+logreg,1,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.8879,0.3363,0.2986,0.8879,0.0,0.0,0.2986
+logreg,1,rise: chardoubleencode normal minus plain normal,2,[5],digits,1.6579,0.1929,0.3199,1.6579,0.0161,0.0266,0.2932
+logreg,1,rise: chardoubleencode normal minus plain normal,3,[ ],word boundary,4.6056,0.0206,0.0947,4.6056,0.0825,0.38,-0.2853
+logreg,1,rise: chardoubleencode normal minus plain normal,4,[2],digits,1.1958,0.2034,0.2433,1.1958,0.0175,0.0209,0.2223
+logreg,1,rise: chardoubleencode normal minus plain normal,5,[6],digits,1.0991,0.0961,0.1056,1.0991,0.0168,0.0185,0.0871
+logreg,1,rise: chardoubleencode normal minus plain normal,6,[3],digits,1.4784,0.0719,0.1063,1.4784,0.0178,0.0263,0.08
+logreg,1,rise: chardoubleencode normal minus plain normal,7,[25],digits,0.1767,0.3938,0.0696,0.1767,0.0035,0.0006,0.069
+logreg,1,rise: chardoubleencode normal minus plain normal,8,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,1,rise: chardoubleencode normal minus plain normal,9,[7],digits,1.3936,0.0422,0.0588,1.3936,0.018,0.0251,0.0338
+logreg,1,rise: chardoubleencode normal minus plain normal,10,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,1,rise: chardoubleencode normal minus plain normal,11,[57],digits,0.4298,0.0704,0.0303,0.4298,0.002,0.0009,0.0294
+logreg,1,rise: chardoubleencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,1,rise: chardoubleencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,1,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,1,rise: chardoubleencode normal minus plain normal,15,[53],digits,0.2092,0.1142,0.0239,0.2092,0.0031,0.0006,0.0232
+logreg,1,rise: chardoubleencode normal minus plain normal,16,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,1,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.4754,0.0395,0.0188,0.4754,0.0,0.0,0.0188
+logreg,1,rise: chardoubleencode normal minus plain normal,18,[257],digits,0.1709,0.1029,0.0176,0.1709,0.0002,0.0,0.0175
+logreg,1,rise: chardoubleencode normal minus plain normal,19,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,1,rise: chardoubleencode normal minus plain normal,20,[256],digits,0.0594,0.2895,0.0172,0.0594,0.0006,0.0,0.0172
+logreg,1,rise: base64encode normal minus plain normal,1,[=],other symbols,2.5246,0.1819,0.4592,2.5246,0.0,0.0,0.4592
+logreg,1,rise: base64encode normal minus plain normal,2,[ ],word boundary,4.6056,0.1549,0.7135,4.6056,0.0825,0.38,0.3334
+logreg,1,rise: base64encode normal minus plain normal,3,[2],digits,1.1958,0.0598,0.0715,1.1958,0.0175,0.0209,0.0506
+logreg,1,rise: base64encode normal minus plain normal,4,[e],lower-case letters,1.8681,0.0042,0.0078,1.8681,0.0285,0.0532,-0.0454
+logreg,1,rise: base64encode normal minus plain normal,5,[y],lower-case letters,0.6058,0.0678,0.041,0.6058,0.006,0.0036,0.0374
+logreg,1,rise: base64encode normal minus plain normal,6,[w],lower-case letters,0.8975,0.0434,0.039,0.8975,0.0018,0.0016,0.0374
+logreg,1,rise: base64encode normal minus plain normal,7,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,1,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.9442,0.0363,0.0343,0.9442,0.0086,0.0081,0.0262
+logreg,1,rise: base64encode normal minus plain normal,9,[7],digits,1.3936,0.0,0.0,1.3936,0.018,0.0251,-0.0251
+logreg,1,rise: base64encode normal minus plain normal,10,[x],lower-case letters,0.4708,0.0507,0.0239,0.4708,0.0017,0.0008,0.0231
+logreg,1,rise: base64encode normal minus plain normal,11,[5],digits,1.6579,0.0285,0.0473,1.6579,0.0161,0.0266,0.0207
+logreg,1,rise: base64encode normal minus plain normal,12,[z],lower-case letters,-0.2044,0.1074,-0.0219,-0.2044,0.0068,-0.0014,-0.0206
+logreg,1,rise: base64encode normal minus plain normal,13,[0],digits,1.5895,0.0302,0.0481,1.5895,0.0179,0.0285,0.0196
+logreg,1,rise: base64encode normal minus plain normal,14,[3],digits,1.4784,0.0298,0.044,1.4784,0.0178,0.0263,0.0177
+logreg,1,rise: base64encode normal minus plain normal,15,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,1,rise: base64encode normal minus plain normal,16,[c],lower-case letters,0.5801,0.0455,0.0264,0.5801,0.0171,0.0099,0.0165
+logreg,1,rise: base64encode normal minus plain normal,17,[k],lower-case letters,0.3847,0.0451,0.0173,0.3847,0.0047,0.0018,0.0155
+logreg,1,rise: base64encode normal minus plain normal,18,[l],lower-case letters,1.4527,0.0331,0.048,1.4527,0.0229,0.0333,0.0147
+logreg,1,rise: base64encode normal minus plain normal,19,[6],digits,1.0991,0.0036,0.0039,1.0991,0.0168,0.0185,-0.0146
+logreg,1,rise: base64encode normal minus plain normal,20,[j],lower-case letters,-0.207,0.0753,-0.0156,-0.207,0.0064,-0.0013,-0.0143
+logreg,1,rise: percentage normal minus plain normal,1,[%],percent,0.8879,0.9004,0.7995,0.8879,0.0,0.0,0.7995
+logreg,1,rise: percentage normal minus plain normal,2,[ ],word boundary,4.6056,0.0706,0.3253,4.6056,0.0825,0.38,-0.0548
+logreg,1,rise: percentage normal minus plain normal,3,[1%],percent,0.4754,0.0318,0.0151,0.4754,0.0,0.0,0.0151
+logreg,1,rise: percentage normal minus plain normal,4,[e],lower-case letters,1.8681,0.0229,0.0427,1.8681,0.0285,0.0532,-0.0105
+logreg,1,rise: percentage normal minus plain normal,5,[ a],lower-case letters,1.7143,0.0,0.0,1.7143,0.0051,0.0087,-0.0087
+logreg,1,rise: percentage normal minus plain normal,6,[ c],lower-case letters,-0.6979,0.0,0.0,-0.6979,0.0107,-0.0075,0.0075
+logreg,1,rise: percentage normal minus plain normal,7,[1],digits,2.0546,0.0148,0.0304,2.0546,0.0183,0.0375,-0.0071
+logreg,1,rise: percentage normal minus plain normal,8,[l],lower-case letters,1.4527,0.0184,0.0268,1.4527,0.0229,0.0333,-0.0066
+logreg,1,rise: percentage normal minus plain normal,9,[0],digits,1.5895,0.0141,0.0225,1.5895,0.0179,0.0285,-0.006
+logreg,1,rise: percentage normal minus plain normal,10,[7],digits,1.3936,0.0138,0.0192,1.3936,0.018,0.0251,-0.0059
+logreg,1,rise: percentage normal minus plain normal,11,[9],digits,1.3348,0.0154,0.0205,1.3348,0.0197,0.0263,-0.0058
+logreg,1,rise: percentage normal minus plain normal,12,[s],lower-case letters,1.5722,0.0144,0.0227,1.5722,0.018,0.0284,-0.0057
+logreg,1,rise: percentage normal minus plain normal,13,[5],digits,1.6579,0.0127,0.021,1.6579,0.0161,0.0266,-0.0056
+logreg,1,rise: percentage normal minus plain normal,14,"[,]",other symbols,3.1901,0.0037,0.0118,3.1901,0.0055,0.0174,-0.0056
+logreg,1,rise: percentage normal minus plain normal,15,[3],digits,1.4784,0.0141,0.0208,1.4784,0.0178,0.0263,-0.0054
+logreg,1,rise: percentage normal minus plain normal,16,[ll],lower-case letters,0.7801,0.0,0.0,0.7801,0.0069,0.0054,-0.0054
+logreg,1,rise: percentage normal minus plain normal,17,[8],digits,1.3272,0.0142,0.0188,1.3272,0.0181,0.0241,-0.0053
+logreg,1,rise: percentage normal minus plain normal,18,[el],lower-case letters,1.033,0.0,0.0,1.033,0.0049,0.005,-0.005
+logreg,1,rise: percentage normal minus plain normal,19,[ra],lower-case letters,-0.5684,0.0,0.0,-0.5684,0.0088,-0.005,0.005
+logreg,1,rise: percentage normal minus plain normal,20,[ 1],digits,0.8638,0.0,0.0,0.8638,0.0058,0.005,-0.005
+logreg,1,rise: htmlencode normal minus plain normal,1,[ ],word boundary,4.6056,0.0616,0.2835,4.6056,0.0825,0.38,-0.0965
+logreg,1,rise: htmlencode normal minus plain normal,2,[#],other symbols,1.1715,0.0595,0.0697,1.1715,0.0,0.0,0.0697
+logreg,1,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.798,0.0575,0.0459,0.798,0.0,0.0,0.0459
+logreg,1,rise: htmlencode normal minus plain normal,4,[3],digits,1.4784,0.0359,0.053,1.4784,0.0178,0.0263,0.0267
+logreg,1,rise: htmlencode normal minus plain normal,5,[4],digits,1.0926,0.0396,0.0432,1.0926,0.02,0.0218,0.0214
+logreg,1,rise: htmlencode normal minus plain normal,6,[2],digits,1.1958,0.0336,0.0402,1.1958,0.0175,0.0209,0.0193
+logreg,1,rise: htmlencode normal minus plain normal,7,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,1,rise: htmlencode normal minus plain normal,8,[32],digits,0.3443,0.0382,0.0132,0.3443,0.0025,0.0009,0.0123
+logreg,1,rise: htmlencode normal minus plain normal,9,[6],digits,1.0991,0.0261,0.0287,1.0991,0.0168,0.0185,0.0102
+logreg,1,rise: htmlencode normal minus plain normal,10,"[, ]",other symbols,-1.0802,0.0,0.0,-1.0802,0.0093,-0.0101,0.0101
+logreg,1,rise: htmlencode normal minus plain normal,11,[-],other symbols,3.2394,0.0,0.0,3.2394,0.0023,0.0073,-0.0073
+logreg,1,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-1.3751,0.0141,-0.0194,-1.3751,0.0193,-0.0266,0.0072
+logreg,1,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.9806,0.0092,-0.009,-0.9806,0.0124,-0.0122,0.0032
+logreg,1,rise: htmlencode normal minus plain normal,14,[@],other symbols,-0.454,0.0,0.0,-0.454,0.0063,-0.0029,0.0029
+logreg,1,rise: htmlencode normal minus plain normal,15,[ 1],digits,0.8638,0.003,0.0026,0.8638,0.0058,0.005,-0.0024
+logreg,1,rise: htmlencode normal minus plain normal,16,[e],lower-case letters,1.8681,0.0272,0.0508,1.8681,0.0285,0.0532,-0.0024
+logreg,1,rise: htmlencode normal minus plain normal,17,[5],digits,1.6579,0.0175,0.0289,1.6579,0.0161,0.0266,0.0023
+logreg,1,rise: htmlencode normal minus plain normal,18,[ c],lower-case letters,-0.6979,0.008,-0.0055,-0.6979,0.0107,-0.0075,0.0019
+logreg,1,rise: htmlencode normal minus plain normal,19,[ a],lower-case letters,1.7143,0.004,0.0069,1.7143,0.0051,0.0087,-0.0019
+logreg,1,rise: htmlencode normal minus plain normal,20,[l],lower-case letters,1.4527,0.0218,0.0316,1.4527,0.0229,0.0333,-0.0017
+logreg,1,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.9751,0.1732,0.1689,,0.0,0.0,0.1689
+logreg,1,gap: B minus A on base64encode attacks,2,[ ],word boundary,3.7488,0.0231,0.0864,4.6056,0.044,0.2025,-0.1161
+logreg,1,gap: B minus A on base64encode attacks,3,[S],upper-case letters,0.7052,0.149,0.1051,,0.0,0.0,0.1051
+logreg,1,gap: B minus A on base64encode attacks,4,[L],upper-case letters,1.1734,0.0611,0.0717,,0.0,0.0,0.0717
+logreg,1,gap: B minus A on base64encode attacks,5,[I],upper-case letters,0.324,0.2109,0.0683,,0.0,0.0,0.0683
+logreg,1,gap: B minus A on base64encode attacks,6,[0],digits,1.4336,0.0349,0.05,1.5895,0.074,0.1176,-0.0676
+logreg,1,gap: B minus A on base64encode attacks,7,[=],other symbols,2.5748,0.0243,0.0625,2.5246,0.0497,0.1255,-0.063
+logreg,1,gap: B minus A on base64encode attacks,8,[M],upper-case letters,0.2219,0.2522,0.056,,0.0,0.0,0.056
+logreg,1,gap: B minus A on base64encode attacks,9,[T],upper-case letters,0.5395,0.1008,0.0544,,0.0,0.0,0.0544
+logreg,1,gap: B minus A on base64encode attacks,10,[C],upper-case letters,0.773,0.068,0.0525,,0.0,0.0,0.0525
+logreg,1,gap: B minus A on base64encode attacks,11,[l],lower-case letters,1.391,0.0385,0.0536,1.4527,0.0713,0.1036,-0.05
+logreg,1,gap: B minus A on base64encode attacks,12,[E],upper-case letters,1.3317,0.0316,0.0421,,0.0,0.0,0.0421
+logreg,1,gap: B minus A on base64encode attacks,13,[D],upper-case letters,0.4308,0.0975,0.042,,0.0,0.0,0.042
+logreg,1,gap: B minus A on base64encode attacks,14,[1],digits,1.9475,0.0186,0.0363,2.0546,0.038,0.0781,-0.0418
+logreg,1,gap: B minus A on base64encode attacks,15,[w],lower-case letters,0.8688,0.0446,0.0388,0.8975,0.0897,0.0805,-0.0418
+logreg,1,gap: B minus A on base64encode attacks,16,[s],lower-case letters,1.5026,0.0294,0.0441,1.5722,0.0542,0.0852,-0.0411
+logreg,1,gap: B minus A on base64encode attacks,17,[A],upper-case letters,0.6475,0.0627,0.0406,,0.0,0.0,0.0406
+logreg,1,gap: B minus A on base64encode attacks,18,[3],digits,1.7113,0.0304,0.052,1.4784,0.0622,0.092,-0.0401
+logreg,1,gap: B minus A on base64encode attacks,19,[H],upper-case letters,0.4564,0.0808,0.0369,,0.0,0.0,0.0369
+logreg,1,gap: B minus A on base64encode attacks,20,[9],digits,1.1261,0.0211,0.0237,1.3348,0.0448,0.0598,-0.0361
+logreg,1,gap: B minus A on base64encode normal,1,[ ],word boundary,3.7488,0.0796,0.2983,4.6056,0.1549,0.7135,-0.4152
+logreg,1,gap: B minus A on base64encode normal,2,[=],other symbols,2.5748,0.0856,0.2204,2.5246,0.1819,0.4592,-0.2387
+logreg,1,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.9751,0.1059,0.1033,,0.0,0.0,0.1033
+logreg,1,gap: B minus A on base64encode normal,4,[E],upper-case letters,1.3317,0.0266,0.0355,,0.0,0.0,0.0355
+logreg,1,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.5395,0.06,0.0324,,0.0,0.0,0.0324
+logreg,1,gap: B minus A on base64encode normal,6,[0],digits,1.4336,0.0134,0.0192,1.5895,0.0302,0.0481,-0.0289
+logreg,1,gap: B minus A on base64encode normal,7,[M],upper-case letters,0.2219,0.1285,0.0285,,0.0,0.0,0.0285
+logreg,1,gap: B minus A on base64encode normal,8,[A],upper-case letters,0.6475,0.0378,0.0245,,0.0,0.0,0.0245
+logreg,1,gap: B minus A on base64encode normal,9,[1],digits,1.9475,0.0096,0.0187,2.0546,0.0208,0.0428,-0.0241
+logreg,1,gap: B minus A on base64encode normal,10,[O],upper-case letters,0.5042,0.0423,0.0214,,0.0,0.0,0.0214
+logreg,1,gap: B minus A on base64encode normal,11,[5],digits,1.8544,0.0142,0.0264,1.6579,0.0285,0.0473,-0.0209
+logreg,1,gap: B minus A on base64encode normal,12,[y],lower-case letters,0.5514,0.0367,0.0202,0.6058,0.0678,0.041,-0.0208
+logreg,1,gap: B minus A on base64encode normal,13,[W],upper-case letters,0.1969,0.105,0.0207,,0.0,0.0,0.0207
+logreg,1,gap: B minus A on base64encode normal,14,[3],digits,1.7113,0.0141,0.0242,1.4784,0.0298,0.044,-0.0198
+logreg,1,gap: B minus A on base64encode normal,15,[w],lower-case letters,0.8688,0.023,0.02,0.8975,0.0434,0.039,-0.019
+logreg,1,gap: B minus A on base64encode normal,16,[D],upper-case letters,0.4308,0.0439,0.0189,,0.0,0.0,0.0189
+logreg,1,gap: B minus A on base64encode normal,17,[l],lower-case letters,1.391,0.0215,0.0299,1.4527,0.0331,0.048,-0.0181
+logreg,1,gap: B minus A on base64encode normal,18,[R],upper-case letters,0.6904,0.0238,0.0164,,0.0,0.0,0.0164
+logreg,1,gap: B minus A on base64encode normal,19,[s],lower-case letters,1.5026,0.0135,0.0203,1.5722,0.0233,0.0366,-0.0162
+logreg,1,gap: B minus A on base64encode normal,20,[U],upper-case letters,0.4422,0.0353,0.0156,,0.0,0.0,0.0156
+logreg,1,gap: D minus B on base64encode attacks,1,[ ],word boundary,5.387,0.0227,0.1221,3.7488,0.0231,0.0864,0.0357
+logreg,1,gap: D minus B on base64encode attacks,2,[2],digits,1.2657,0.0405,0.0513,1.8782,0.0401,0.0752,-0.024
+logreg,1,gap: D minus B on base64encode attacks,3,[E],upper-case letters,1.44,0.041,0.0591,1.3317,0.0316,0.0421,0.017
+logreg,1,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.9057,0.1701,0.1541,0.9751,0.1732,0.1689,-0.0148
+logreg,1,gap: D minus B on base64encode attacks,5,[D],upper-case letters,0.3832,0.1411,0.0541,0.4308,0.0975,0.042,0.0121
+logreg,1,gap: D minus B on base64encode attacks,6,[S],upper-case letters,0.6385,0.1465,0.0935,0.7052,0.149,0.1051,-0.0116
+logreg,1,gap: D minus B on base64encode attacks,7,[A],upper-case letters,0.6844,0.074,0.0506,0.6475,0.0627,0.0406,0.01
+logreg,1,gap: D minus B on base64encode attacks,8,[5],digits,1.5653,0.0227,0.0356,1.8544,0.0226,0.0419,-0.0063
+logreg,1,gap: D minus B on base64encode attacks,9,[M],upper-case letters,0.2005,0.2477,0.0497,0.2219,0.2522,0.056,-0.0063
+logreg,1,gap: D minus B on base64encode attacks,10,[0],digits,1.5896,0.0353,0.0562,1.4336,0.0349,0.05,0.0061
+logreg,1,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.4876,0.0991,0.0483,0.5395,0.1008,0.0544,-0.0061
+logreg,1,gap: D minus B on base64encode attacks,12,[I],upper-case letters,0.3015,0.2074,0.0625,0.324,0.2109,0.0683,-0.0058
+logreg,1,gap: D minus B on base64encode attacks,13,[C],upper-case letters,0.6221,0.0938,0.0583,0.773,0.068,0.0525,0.0058
+logreg,1,gap: D minus B on base64encode attacks,14,[L],upper-case letters,1.1065,0.06,0.0664,1.1734,0.0611,0.0717,-0.0053
+logreg,1,gap: D minus B on base64encode attacks,15,[9],digits,1.3438,0.0216,0.029,1.1261,0.0211,0.0237,0.0053
+logreg,1,gap: D minus B on base64encode attacks,16,[4],digits,1.5534,0.0149,0.0231,1.2649,0.0146,0.0185,0.0046
+logreg,1,gap: D minus B on base64encode attacks,17,[3],digits,1.5347,0.0309,0.0474,1.7113,0.0304,0.052,-0.0045
+logreg,1,gap: D minus B on base64encode attacks,18,[=],other symbols,2.6259,0.0223,0.0586,2.5748,0.0243,0.0625,-0.0039
+logreg,1,gap: D minus B on base64encode attacks,19,[g],lower-case letters,-0.483,0.0844,-0.0408,-0.5018,0.0889,-0.0446,0.0038
+logreg,1,gap: D minus B on base64encode attacks,20,[1],digits,2.1598,0.0183,0.0396,1.9475,0.0186,0.0363,0.0034
+logreg,2,rise: charencode normal minus plain normal,1,[%],percent,0.8879,0.6447,0.5724,0.8879,0.0,0.0,0.5724
+logreg,2,rise: charencode normal minus plain normal,2,[ ],word boundary,4.6056,0.0394,0.1815,4.6056,0.0825,0.38,-0.1986
+logreg,2,rise: charencode normal minus plain normal,3,[6],digits,1.0991,0.185,0.2033,1.0991,0.0168,0.0185,0.1848
+logreg,2,rise: charencode normal minus plain normal,4,[3],digits,1.4784,0.1378,0.2037,1.4784,0.0178,0.0263,0.1774
+logreg,2,rise: charencode normal minus plain normal,5,[7],digits,1.3936,0.0798,0.1112,1.3936,0.018,0.0251,0.0861
+logreg,2,rise: charencode normal minus plain normal,6,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,2,rise: charencode normal minus plain normal,7,[1],digits,2.0546,0.0381,0.0783,2.0546,0.0183,0.0375,0.0408
+logreg,2,rise: charencode normal minus plain normal,8,[1%],percent,0.4754,0.0766,0.0364,0.4754,0.0,0.0,0.0364
+logreg,2,rise: charencode normal minus plain normal,9,[2],digits,1.1958,0.0479,0.0573,1.1958,0.0175,0.0209,0.0364
+logreg,2,rise: charencode normal minus plain normal,10,[5],digits,1.6579,0.0371,0.0614,1.6579,0.0161,0.0266,0.0348
+logreg,2,rise: charencode normal minus plain normal,11,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,2,rise: charencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,2,rise: charencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,2,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,2,rise: charencode normal minus plain normal,15,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,2,rise: charencode normal minus plain normal,16,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,2,rise: charencode normal minus plain normal,17,[9],digits,1.3348,0.0309,0.0412,1.3348,0.0197,0.0263,0.015
+logreg,2,rise: charencode normal minus plain normal,18,[t],lower-case letters,0.969,0.0,0.0,0.969,0.0149,0.0145,-0.0145
+logreg,2,rise: charencode normal minus plain normal,19,[4],digits,1.0926,0.0322,0.0351,1.0926,0.02,0.0218,0.0133
+logreg,2,rise: charencode normal minus plain normal,20,[72],digits,0.3511,0.038,0.0133,0.3511,0.0026,0.0009,0.0124
+logreg,2,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.8879,0.3363,0.2986,0.8879,0.0,0.0,0.2986
+logreg,2,rise: chardoubleencode normal minus plain normal,2,[5],digits,1.6579,0.1929,0.3199,1.6579,0.0161,0.0266,0.2932
+logreg,2,rise: chardoubleencode normal minus plain normal,3,[ ],word boundary,4.6056,0.0206,0.0947,4.6056,0.0825,0.38,-0.2853
+logreg,2,rise: chardoubleencode normal minus plain normal,4,[2],digits,1.1958,0.2034,0.2433,1.1958,0.0175,0.0209,0.2223
+logreg,2,rise: chardoubleencode normal minus plain normal,5,[6],digits,1.0991,0.0961,0.1056,1.0991,0.0168,0.0185,0.0871
+logreg,2,rise: chardoubleencode normal minus plain normal,6,[3],digits,1.4784,0.0719,0.1063,1.4784,0.0178,0.0263,0.08
+logreg,2,rise: chardoubleencode normal minus plain normal,7,[25],digits,0.1767,0.3938,0.0696,0.1767,0.0035,0.0006,0.069
+logreg,2,rise: chardoubleencode normal minus plain normal,8,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,2,rise: chardoubleencode normal minus plain normal,9,[7],digits,1.3936,0.0422,0.0588,1.3936,0.018,0.0251,0.0338
+logreg,2,rise: chardoubleencode normal minus plain normal,10,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,2,rise: chardoubleencode normal minus plain normal,11,[57],digits,0.4298,0.0704,0.0303,0.4298,0.002,0.0009,0.0294
+logreg,2,rise: chardoubleencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,2,rise: chardoubleencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,2,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,2,rise: chardoubleencode normal minus plain normal,15,[53],digits,0.2092,0.1142,0.0239,0.2092,0.0031,0.0006,0.0232
+logreg,2,rise: chardoubleencode normal minus plain normal,16,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,2,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.4754,0.0395,0.0188,0.4754,0.0,0.0,0.0188
+logreg,2,rise: chardoubleencode normal minus plain normal,18,[257],digits,0.1709,0.1029,0.0176,0.1709,0.0002,0.0,0.0175
+logreg,2,rise: chardoubleencode normal minus plain normal,19,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,2,rise: chardoubleencode normal minus plain normal,20,[256],digits,0.0594,0.2895,0.0172,0.0594,0.0006,0.0,0.0172
+logreg,2,rise: base64encode normal minus plain normal,1,[=],other symbols,2.5246,0.1819,0.4592,2.5246,0.0,0.0,0.4592
+logreg,2,rise: base64encode normal minus plain normal,2,[ ],word boundary,4.6056,0.1549,0.7135,4.6056,0.0825,0.38,0.3334
+logreg,2,rise: base64encode normal minus plain normal,3,[2],digits,1.1958,0.0598,0.0715,1.1958,0.0175,0.0209,0.0506
+logreg,2,rise: base64encode normal minus plain normal,4,[e],lower-case letters,1.8681,0.0042,0.0078,1.8681,0.0285,0.0532,-0.0454
+logreg,2,rise: base64encode normal minus plain normal,5,[y],lower-case letters,0.6058,0.0678,0.041,0.6058,0.006,0.0036,0.0374
+logreg,2,rise: base64encode normal minus plain normal,6,[w],lower-case letters,0.8975,0.0434,0.039,0.8975,0.0018,0.0016,0.0374
+logreg,2,rise: base64encode normal minus plain normal,7,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,2,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.9442,0.0363,0.0343,0.9442,0.0086,0.0081,0.0262
+logreg,2,rise: base64encode normal minus plain normal,9,[7],digits,1.3936,0.0,0.0,1.3936,0.018,0.0251,-0.0251
+logreg,2,rise: base64encode normal minus plain normal,10,[x],lower-case letters,0.4708,0.0507,0.0239,0.4708,0.0017,0.0008,0.0231
+logreg,2,rise: base64encode normal minus plain normal,11,[5],digits,1.6579,0.0285,0.0473,1.6579,0.0161,0.0266,0.0207
+logreg,2,rise: base64encode normal minus plain normal,12,[z],lower-case letters,-0.2044,0.1074,-0.0219,-0.2044,0.0068,-0.0014,-0.0206
+logreg,2,rise: base64encode normal minus plain normal,13,[0],digits,1.5895,0.0302,0.0481,1.5895,0.0179,0.0285,0.0196
+logreg,2,rise: base64encode normal minus plain normal,14,[3],digits,1.4784,0.0298,0.044,1.4784,0.0178,0.0263,0.0177
+logreg,2,rise: base64encode normal minus plain normal,15,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,2,rise: base64encode normal minus plain normal,16,[c],lower-case letters,0.5801,0.0455,0.0264,0.5801,0.0171,0.0099,0.0165
+logreg,2,rise: base64encode normal minus plain normal,17,[k],lower-case letters,0.3847,0.0451,0.0173,0.3847,0.0047,0.0018,0.0155
+logreg,2,rise: base64encode normal minus plain normal,18,[l],lower-case letters,1.4527,0.0331,0.048,1.4527,0.0229,0.0333,0.0147
+logreg,2,rise: base64encode normal minus plain normal,19,[6],digits,1.0991,0.0036,0.0039,1.0991,0.0168,0.0185,-0.0146
+logreg,2,rise: base64encode normal minus plain normal,20,[j],lower-case letters,-0.207,0.0753,-0.0156,-0.207,0.0064,-0.0013,-0.0143
+logreg,2,rise: percentage normal minus plain normal,1,[%],percent,0.8879,0.9004,0.7995,0.8879,0.0,0.0,0.7995
+logreg,2,rise: percentage normal minus plain normal,2,[ ],word boundary,4.6056,0.0706,0.3253,4.6056,0.0825,0.38,-0.0548
+logreg,2,rise: percentage normal minus plain normal,3,[1%],percent,0.4754,0.0318,0.0151,0.4754,0.0,0.0,0.0151
+logreg,2,rise: percentage normal minus plain normal,4,[e],lower-case letters,1.8681,0.0229,0.0427,1.8681,0.0285,0.0532,-0.0105
+logreg,2,rise: percentage normal minus plain normal,5,[ a],lower-case letters,1.7143,0.0,0.0,1.7143,0.0051,0.0087,-0.0087
+logreg,2,rise: percentage normal minus plain normal,6,[ c],lower-case letters,-0.6979,0.0,0.0,-0.6979,0.0107,-0.0075,0.0075
+logreg,2,rise: percentage normal minus plain normal,7,[1],digits,2.0546,0.0148,0.0304,2.0546,0.0183,0.0375,-0.0071
+logreg,2,rise: percentage normal minus plain normal,8,[l],lower-case letters,1.4527,0.0184,0.0268,1.4527,0.0229,0.0333,-0.0066
+logreg,2,rise: percentage normal minus plain normal,9,[0],digits,1.5895,0.0141,0.0225,1.5895,0.0179,0.0285,-0.006
+logreg,2,rise: percentage normal minus plain normal,10,[7],digits,1.3936,0.0138,0.0192,1.3936,0.018,0.0251,-0.0059
+logreg,2,rise: percentage normal minus plain normal,11,[9],digits,1.3348,0.0154,0.0205,1.3348,0.0197,0.0263,-0.0058
+logreg,2,rise: percentage normal minus plain normal,12,[s],lower-case letters,1.5722,0.0144,0.0227,1.5722,0.018,0.0284,-0.0057
+logreg,2,rise: percentage normal minus plain normal,13,[5],digits,1.6579,0.0127,0.021,1.6579,0.0161,0.0266,-0.0056
+logreg,2,rise: percentage normal minus plain normal,14,"[,]",other symbols,3.1901,0.0037,0.0118,3.1901,0.0055,0.0174,-0.0056
+logreg,2,rise: percentage normal minus plain normal,15,[3],digits,1.4784,0.0141,0.0208,1.4784,0.0178,0.0263,-0.0054
+logreg,2,rise: percentage normal minus plain normal,16,[ll],lower-case letters,0.7801,0.0,0.0,0.7801,0.0069,0.0054,-0.0054
+logreg,2,rise: percentage normal minus plain normal,17,[8],digits,1.3272,0.0142,0.0188,1.3272,0.0181,0.0241,-0.0053
+logreg,2,rise: percentage normal minus plain normal,18,[el],lower-case letters,1.033,0.0,0.0,1.033,0.0049,0.005,-0.005
+logreg,2,rise: percentage normal minus plain normal,19,[ra],lower-case letters,-0.5684,0.0,0.0,-0.5684,0.0088,-0.005,0.005
+logreg,2,rise: percentage normal minus plain normal,20,[ 1],digits,0.8638,0.0,0.0,0.8638,0.0058,0.005,-0.005
+logreg,2,rise: htmlencode normal minus plain normal,1,[ ],word boundary,4.6056,0.0616,0.2835,4.6056,0.0825,0.38,-0.0965
+logreg,2,rise: htmlencode normal minus plain normal,2,[#],other symbols,1.1715,0.0595,0.0697,1.1715,0.0,0.0,0.0697
+logreg,2,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.798,0.0575,0.0459,0.798,0.0,0.0,0.0459
+logreg,2,rise: htmlencode normal minus plain normal,4,[3],digits,1.4784,0.0359,0.053,1.4784,0.0178,0.0263,0.0267
+logreg,2,rise: htmlencode normal minus plain normal,5,[4],digits,1.0926,0.0396,0.0432,1.0926,0.02,0.0218,0.0214
+logreg,2,rise: htmlencode normal minus plain normal,6,[2],digits,1.1958,0.0336,0.0402,1.1958,0.0175,0.0209,0.0193
+logreg,2,rise: htmlencode normal minus plain normal,7,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,2,rise: htmlencode normal minus plain normal,8,[32],digits,0.3443,0.0382,0.0132,0.3443,0.0025,0.0009,0.0123
+logreg,2,rise: htmlencode normal minus plain normal,9,[6],digits,1.0991,0.0261,0.0287,1.0991,0.0168,0.0185,0.0102
+logreg,2,rise: htmlencode normal minus plain normal,10,"[, ]",other symbols,-1.0802,0.0,0.0,-1.0802,0.0093,-0.0101,0.0101
+logreg,2,rise: htmlencode normal minus plain normal,11,[-],other symbols,3.2394,0.0,0.0,3.2394,0.0023,0.0073,-0.0073
+logreg,2,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-1.3751,0.0141,-0.0194,-1.3751,0.0193,-0.0266,0.0072
+logreg,2,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.9806,0.0092,-0.009,-0.9806,0.0124,-0.0122,0.0032
+logreg,2,rise: htmlencode normal minus plain normal,14,[@],other symbols,-0.454,0.0,0.0,-0.454,0.0063,-0.0029,0.0029
+logreg,2,rise: htmlencode normal minus plain normal,15,[ 1],digits,0.8638,0.003,0.0026,0.8638,0.0058,0.005,-0.0024
+logreg,2,rise: htmlencode normal minus plain normal,16,[e],lower-case letters,1.8681,0.0272,0.0508,1.8681,0.0285,0.0532,-0.0024
+logreg,2,rise: htmlencode normal minus plain normal,17,[5],digits,1.6579,0.0175,0.0289,1.6579,0.0161,0.0266,0.0023
+logreg,2,rise: htmlencode normal minus plain normal,18,[ c],lower-case letters,-0.6979,0.008,-0.0055,-0.6979,0.0107,-0.0075,0.0019
+logreg,2,rise: htmlencode normal minus plain normal,19,[ a],lower-case letters,1.7143,0.004,0.0069,1.7143,0.0051,0.0087,-0.0019
+logreg,2,rise: htmlencode normal minus plain normal,20,[l],lower-case letters,1.4527,0.0218,0.0316,1.4527,0.0229,0.0333,-0.0017
+logreg,2,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.9253,0.1737,0.1608,,0.0,0.0,0.1608
+logreg,2,gap: B minus A on base64encode attacks,2,[ ],word boundary,3.7791,0.023,0.087,4.6056,0.044,0.2025,-0.1155
+logreg,2,gap: B minus A on base64encode attacks,3,[S],upper-case letters,0.7281,0.1479,0.1077,,0.0,0.0,0.1077
+logreg,2,gap: B minus A on base64encode attacks,4,[L],upper-case letters,1.2512,0.0607,0.0759,,0.0,0.0,0.0759
+logreg,2,gap: B minus A on base64encode attacks,5,[I],upper-case letters,0.3374,0.2093,0.0706,,0.0,0.0,0.0706
+logreg,2,gap: B minus A on base64encode attacks,6,[0],digits,1.4176,0.0349,0.0494,1.5895,0.074,0.1176,-0.0682
+logreg,2,gap: B minus A on base64encode attacks,7,[=],other symbols,2.5865,0.0242,0.0627,2.5246,0.0497,0.1255,-0.0628
+logreg,2,gap: B minus A on base64encode attacks,8,[T],upper-case letters,0.5679,0.1003,0.0569,,0.0,0.0,0.0569
+logreg,2,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.7925,0.068,0.0539,,0.0,0.0,0.0539
+logreg,2,gap: B minus A on base64encode attacks,10,[M],upper-case letters,0.2052,0.2581,0.0529,,0.0,0.0,0.0529
+logreg,2,gap: B minus A on base64encode attacks,11,[l],lower-case letters,1.3722,0.0386,0.053,1.4527,0.0713,0.1036,-0.0505
+logreg,2,gap: B minus A on base64encode attacks,12,[D],upper-case letters,0.4529,0.0973,0.0441,,0.0,0.0,0.0441
+logreg,2,gap: B minus A on base64encode attacks,13,[s],lower-case letters,1.4596,0.0292,0.0427,1.5722,0.0542,0.0852,-0.0426
+logreg,2,gap: B minus A on base64encode attacks,14,[A],upper-case letters,0.6615,0.0642,0.0424,,0.0,0.0,0.0424
+logreg,2,gap: B minus A on base64encode attacks,15,[w],lower-case letters,0.8819,0.0444,0.0391,0.8975,0.0897,0.0805,-0.0414
+logreg,2,gap: B minus A on base64encode attacks,16,[1],digits,1.9987,0.0186,0.0371,2.0546,0.038,0.0781,-0.041
+logreg,2,gap: B minus A on base64encode attacks,17,[E],upper-case letters,1.2917,0.0317,0.0409,,0.0,0.0,0.0409
+logreg,2,gap: B minus A on base64encode attacks,18,[3],digits,1.6837,0.0303,0.0511,1.4784,0.0622,0.092,-0.0409
+logreg,2,gap: B minus A on base64encode attacks,19,[H],upper-case letters,0.4887,0.0803,0.0392,,0.0,0.0,0.0392
+logreg,2,gap: B minus A on base64encode attacks,20,[9],digits,1.079,0.0211,0.0228,1.3348,0.0448,0.0598,-0.037
+logreg,2,gap: B minus A on base64encode normal,1,[ ],word boundary,3.7791,0.0798,0.3015,4.6056,0.1549,0.7135,-0.412
+logreg,2,gap: B minus A on base64encode normal,2,[=],other symbols,2.5865,0.0858,0.222,2.5246,0.1819,0.4592,-0.2372
+logreg,2,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.9253,0.1061,0.0982,,0.0,0.0,0.0982
+logreg,2,gap: B minus A on base64encode normal,4,[E],upper-case letters,1.2917,0.0267,0.0345,,0.0,0.0,0.0345
+logreg,2,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.5679,0.0592,0.0336,,0.0,0.0,0.0336
+logreg,2,gap: B minus A on base64encode normal,6,[0],digits,1.4176,0.0134,0.019,1.5895,0.0302,0.0481,-0.0291
+logreg,2,gap: B minus A on base64encode normal,7,[M],upper-case letters,0.2052,0.1309,0.0269,,0.0,0.0,0.0269
+logreg,2,gap: B minus A on base64encode normal,8,[A],upper-case letters,0.6615,0.0388,0.0257,,0.0,0.0,0.0257
+logreg,2,gap: B minus A on base64encode normal,9,[1],digits,1.9987,0.0096,0.0192,2.0546,0.0208,0.0428,-0.0236
+logreg,2,gap: B minus A on base64encode normal,10,[O],upper-case letters,0.5162,0.0427,0.022,,0.0,0.0,0.022
+logreg,2,gap: B minus A on base64encode normal,11,[W],upper-case letters,0.204,0.1056,0.0215,,0.0,0.0,0.0215
+logreg,2,gap: B minus A on base64encode normal,12,[y],lower-case letters,0.5469,0.0367,0.0201,0.6058,0.0678,0.041,-0.021
+logreg,2,gap: B minus A on base64encode normal,13,[3],digits,1.6837,0.0141,0.0238,1.4784,0.0298,0.044,-0.0202
+logreg,2,gap: B minus A on base64encode normal,14,[5],digits,1.9151,0.0142,0.0273,1.6579,0.0285,0.0473,-0.02
+logreg,2,gap: B minus A on base64encode normal,15,[D],upper-case letters,0.4529,0.0438,0.0199,,0.0,0.0,0.0199
+logreg,2,gap: B minus A on base64encode normal,16,[w],lower-case letters,0.8819,0.023,0.0203,0.8975,0.0434,0.039,-0.0187
+logreg,2,gap: B minus A on base64encode normal,17,[l],lower-case letters,1.3722,0.0217,0.0297,1.4527,0.0331,0.048,-0.0183
+logreg,2,gap: B minus A on base64encode normal,18,[R],upper-case letters,0.7426,0.0241,0.0179,,0.0,0.0,0.0179
+logreg,2,gap: B minus A on base64encode normal,19,[s],lower-case letters,1.4596,0.0136,0.0198,1.5722,0.0233,0.0366,-0.0167
+logreg,2,gap: B minus A on base64encode normal,20,[I],upper-case letters,0.3374,0.0443,0.0149,,0.0,0.0,0.0149
+logreg,2,gap: D minus B on base64encode attacks,1,[ ],word boundary,5.5319,0.0226,0.1253,3.7791,0.023,0.087,0.0383
+logreg,2,gap: D minus B on base64encode attacks,2,[2],digits,1.3615,0.0404,0.0551,1.9277,0.04,0.0772,-0.0221
+logreg,2,gap: D minus B on base64encode attacks,3,[N],upper-case letters,0.8457,0.1707,0.1443,0.9253,0.1737,0.1608,-0.0164
+logreg,2,gap: D minus B on base64encode attacks,4,[E],upper-case letters,1.3757,0.041,0.0564,1.2917,0.0317,0.0409,0.0155
+logreg,2,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.6516,0.1453,0.0947,0.7281,0.1479,0.1077,-0.0129
+logreg,2,gap: D minus B on base64encode attacks,6,[D],upper-case letters,0.3989,0.14,0.0558,0.4529,0.0973,0.0441,0.0118
+logreg,2,gap: D minus B on base64encode attacks,7,[A],upper-case letters,0.6837,0.0749,0.0512,0.6615,0.0642,0.0424,0.0087
+logreg,2,gap: D minus B on base64encode attacks,8,[I],upper-case letters,0.31,0.2058,0.0638,0.3374,0.2093,0.0706,-0.0068
+logreg,2,gap: D minus B on base64encode attacks,9,[T],upper-case letters,0.5101,0.0986,0.0503,0.5679,0.1003,0.0569,-0.0067
+logreg,2,gap: D minus B on base64encode attacks,10,[L],upper-case letters,1.1645,0.0596,0.0694,1.2512,0.0607,0.0759,-0.0065
+logreg,2,gap: D minus B on base64encode attacks,11,[M],upper-case letters,0.1833,0.2536,0.0465,0.2052,0.2581,0.0529,-0.0065
+logreg,2,gap: D minus B on base64encode attacks,12,[3],digits,1.4686,0.0309,0.0453,1.6837,0.0303,0.0511,-0.0058
+logreg,2,gap: D minus B on base64encode attacks,13,[0],digits,1.5463,0.0353,0.0546,1.4176,0.0349,0.0494,0.0052
+logreg,2,gap: D minus B on base64encode attacks,14,[C],upper-case letters,0.6297,0.0935,0.0589,0.7925,0.068,0.0539,0.005
+logreg,2,gap: D minus B on base64encode attacks,15,[5],digits,1.6909,0.0226,0.0383,1.9151,0.0225,0.0431,-0.0048
+logreg,2,gap: D minus B on base64encode attacks,16,[9],digits,1.2715,0.0216,0.0275,1.079,0.0211,0.0228,0.0048
+logreg,2,gap: D minus B on base64encode attacks,17,[H],upper-case letters,0.4406,0.079,0.0348,0.4887,0.0803,0.0392,-0.0044
+logreg,2,gap: D minus B on base64encode attacks,18,[1],digits,2.2432,0.0183,0.041,1.9987,0.0186,0.0371,0.0039
+logreg,2,gap: D minus B on base64encode attacks,19,[=],other symbols,2.6372,0.0223,0.0588,2.5865,0.0242,0.0627,-0.0039
+logreg,2,gap: D minus B on base64encode attacks,20,[W],upper-case letters,0.178,0.1263,0.0225,0.204,0.1283,0.0262,-0.0037
+logreg,3,rise: charencode normal minus plain normal,1,[%],percent,0.8879,0.6447,0.5724,0.8879,0.0,0.0,0.5724
+logreg,3,rise: charencode normal minus plain normal,2,[ ],word boundary,4.6056,0.0394,0.1815,4.6056,0.0825,0.38,-0.1986
+logreg,3,rise: charencode normal minus plain normal,3,[6],digits,1.0991,0.185,0.2033,1.0991,0.0168,0.0185,0.1848
+logreg,3,rise: charencode normal minus plain normal,4,[3],digits,1.4784,0.1378,0.2037,1.4784,0.0178,0.0263,0.1774
+logreg,3,rise: charencode normal minus plain normal,5,[7],digits,1.3936,0.0798,0.1112,1.3936,0.018,0.0251,0.0861
+logreg,3,rise: charencode normal minus plain normal,6,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,3,rise: charencode normal minus plain normal,7,[1],digits,2.0546,0.0381,0.0783,2.0546,0.0183,0.0375,0.0408
+logreg,3,rise: charencode normal minus plain normal,8,[1%],percent,0.4754,0.0766,0.0364,0.4754,0.0,0.0,0.0364
+logreg,3,rise: charencode normal minus plain normal,9,[2],digits,1.1958,0.0479,0.0573,1.1958,0.0175,0.0209,0.0364
+logreg,3,rise: charencode normal minus plain normal,10,[5],digits,1.6579,0.0371,0.0614,1.6579,0.0161,0.0266,0.0348
+logreg,3,rise: charencode normal minus plain normal,11,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,3,rise: charencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,3,rise: charencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,3,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,3,rise: charencode normal minus plain normal,15,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,3,rise: charencode normal minus plain normal,16,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,3,rise: charencode normal minus plain normal,17,[9],digits,1.3348,0.0309,0.0412,1.3348,0.0197,0.0263,0.015
+logreg,3,rise: charencode normal minus plain normal,18,[t],lower-case letters,0.969,0.0,0.0,0.969,0.0149,0.0145,-0.0145
+logreg,3,rise: charencode normal minus plain normal,19,[4],digits,1.0926,0.0322,0.0351,1.0926,0.02,0.0218,0.0133
+logreg,3,rise: charencode normal minus plain normal,20,[72],digits,0.3511,0.038,0.0133,0.3511,0.0026,0.0009,0.0124
+logreg,3,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.8879,0.3363,0.2986,0.8879,0.0,0.0,0.2986
+logreg,3,rise: chardoubleencode normal minus plain normal,2,[5],digits,1.6579,0.1929,0.3199,1.6579,0.0161,0.0266,0.2932
+logreg,3,rise: chardoubleencode normal minus plain normal,3,[ ],word boundary,4.6056,0.0206,0.0947,4.6056,0.0825,0.38,-0.2853
+logreg,3,rise: chardoubleencode normal minus plain normal,4,[2],digits,1.1958,0.2034,0.2433,1.1958,0.0175,0.0209,0.2223
+logreg,3,rise: chardoubleencode normal minus plain normal,5,[6],digits,1.0991,0.0961,0.1056,1.0991,0.0168,0.0185,0.0871
+logreg,3,rise: chardoubleencode normal minus plain normal,6,[3],digits,1.4784,0.0719,0.1063,1.4784,0.0178,0.0263,0.08
+logreg,3,rise: chardoubleencode normal minus plain normal,7,[25],digits,0.1767,0.3938,0.0696,0.1767,0.0035,0.0006,0.069
+logreg,3,rise: chardoubleencode normal minus plain normal,8,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,3,rise: chardoubleencode normal minus plain normal,9,[7],digits,1.3936,0.0422,0.0588,1.3936,0.018,0.0251,0.0338
+logreg,3,rise: chardoubleencode normal minus plain normal,10,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,3,rise: chardoubleencode normal minus plain normal,11,[57],digits,0.4298,0.0704,0.0303,0.4298,0.002,0.0009,0.0294
+logreg,3,rise: chardoubleencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,3,rise: chardoubleencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,3,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,3,rise: chardoubleencode normal minus plain normal,15,[53],digits,0.2092,0.1142,0.0239,0.2092,0.0031,0.0006,0.0232
+logreg,3,rise: chardoubleencode normal minus plain normal,16,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,3,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.4754,0.0395,0.0188,0.4754,0.0,0.0,0.0188
+logreg,3,rise: chardoubleencode normal minus plain normal,18,[257],digits,0.1709,0.1029,0.0176,0.1709,0.0002,0.0,0.0175
+logreg,3,rise: chardoubleencode normal minus plain normal,19,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,3,rise: chardoubleencode normal minus plain normal,20,[256],digits,0.0594,0.2895,0.0172,0.0594,0.0006,0.0,0.0172
+logreg,3,rise: base64encode normal minus plain normal,1,[=],other symbols,2.5246,0.1819,0.4592,2.5246,0.0,0.0,0.4592
+logreg,3,rise: base64encode normal minus plain normal,2,[ ],word boundary,4.6056,0.1549,0.7135,4.6056,0.0825,0.38,0.3334
+logreg,3,rise: base64encode normal minus plain normal,3,[2],digits,1.1958,0.0598,0.0715,1.1958,0.0175,0.0209,0.0506
+logreg,3,rise: base64encode normal minus plain normal,4,[e],lower-case letters,1.8681,0.0042,0.0078,1.8681,0.0285,0.0532,-0.0454
+logreg,3,rise: base64encode normal minus plain normal,5,[y],lower-case letters,0.6058,0.0678,0.041,0.6058,0.006,0.0036,0.0374
+logreg,3,rise: base64encode normal minus plain normal,6,[w],lower-case letters,0.8975,0.0434,0.039,0.8975,0.0018,0.0016,0.0374
+logreg,3,rise: base64encode normal minus plain normal,7,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,3,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.9442,0.0363,0.0343,0.9442,0.0086,0.0081,0.0262
+logreg,3,rise: base64encode normal minus plain normal,9,[7],digits,1.3936,0.0,0.0,1.3936,0.018,0.0251,-0.0251
+logreg,3,rise: base64encode normal minus plain normal,10,[x],lower-case letters,0.4708,0.0507,0.0239,0.4708,0.0017,0.0008,0.0231
+logreg,3,rise: base64encode normal minus plain normal,11,[5],digits,1.6579,0.0285,0.0473,1.6579,0.0161,0.0266,0.0207
+logreg,3,rise: base64encode normal minus plain normal,12,[z],lower-case letters,-0.2044,0.1074,-0.0219,-0.2044,0.0068,-0.0014,-0.0206
+logreg,3,rise: base64encode normal minus plain normal,13,[0],digits,1.5895,0.0302,0.0481,1.5895,0.0179,0.0285,0.0196
+logreg,3,rise: base64encode normal minus plain normal,14,[3],digits,1.4784,0.0298,0.044,1.4784,0.0178,0.0263,0.0177
+logreg,3,rise: base64encode normal minus plain normal,15,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,3,rise: base64encode normal minus plain normal,16,[c],lower-case letters,0.5801,0.0455,0.0264,0.5801,0.0171,0.0099,0.0165
+logreg,3,rise: base64encode normal minus plain normal,17,[k],lower-case letters,0.3847,0.0451,0.0173,0.3847,0.0047,0.0018,0.0155
+logreg,3,rise: base64encode normal minus plain normal,18,[l],lower-case letters,1.4527,0.0331,0.048,1.4527,0.0229,0.0333,0.0147
+logreg,3,rise: base64encode normal minus plain normal,19,[6],digits,1.0991,0.0036,0.0039,1.0991,0.0168,0.0185,-0.0146
+logreg,3,rise: base64encode normal minus plain normal,20,[j],lower-case letters,-0.207,0.0753,-0.0156,-0.207,0.0064,-0.0013,-0.0143
+logreg,3,rise: percentage normal minus plain normal,1,[%],percent,0.8879,0.9004,0.7995,0.8879,0.0,0.0,0.7995
+logreg,3,rise: percentage normal minus plain normal,2,[ ],word boundary,4.6056,0.0706,0.3253,4.6056,0.0825,0.38,-0.0548
+logreg,3,rise: percentage normal minus plain normal,3,[1%],percent,0.4754,0.0318,0.0151,0.4754,0.0,0.0,0.0151
+logreg,3,rise: percentage normal minus plain normal,4,[e],lower-case letters,1.8681,0.0229,0.0427,1.8681,0.0285,0.0532,-0.0105
+logreg,3,rise: percentage normal minus plain normal,5,[ a],lower-case letters,1.7143,0.0,0.0,1.7143,0.0051,0.0087,-0.0087
+logreg,3,rise: percentage normal minus plain normal,6,[ c],lower-case letters,-0.6979,0.0,0.0,-0.6979,0.0107,-0.0075,0.0075
+logreg,3,rise: percentage normal minus plain normal,7,[1],digits,2.0546,0.0148,0.0304,2.0546,0.0183,0.0375,-0.0071
+logreg,3,rise: percentage normal minus plain normal,8,[l],lower-case letters,1.4527,0.0184,0.0268,1.4527,0.0229,0.0333,-0.0066
+logreg,3,rise: percentage normal minus plain normal,9,[0],digits,1.5895,0.0141,0.0225,1.5895,0.0179,0.0285,-0.006
+logreg,3,rise: percentage normal minus plain normal,10,[7],digits,1.3936,0.0138,0.0192,1.3936,0.018,0.0251,-0.0059
+logreg,3,rise: percentage normal minus plain normal,11,[9],digits,1.3348,0.0154,0.0205,1.3348,0.0197,0.0263,-0.0058
+logreg,3,rise: percentage normal minus plain normal,12,[s],lower-case letters,1.5722,0.0144,0.0227,1.5722,0.018,0.0284,-0.0057
+logreg,3,rise: percentage normal minus plain normal,13,[5],digits,1.6579,0.0127,0.021,1.6579,0.0161,0.0266,-0.0056
+logreg,3,rise: percentage normal minus plain normal,14,"[,]",other symbols,3.1901,0.0037,0.0118,3.1901,0.0055,0.0174,-0.0056
+logreg,3,rise: percentage normal minus plain normal,15,[3],digits,1.4784,0.0141,0.0208,1.4784,0.0178,0.0263,-0.0054
+logreg,3,rise: percentage normal minus plain normal,16,[ll],lower-case letters,0.7801,0.0,0.0,0.7801,0.0069,0.0054,-0.0054
+logreg,3,rise: percentage normal minus plain normal,17,[8],digits,1.3272,0.0142,0.0188,1.3272,0.0181,0.0241,-0.0053
+logreg,3,rise: percentage normal minus plain normal,18,[el],lower-case letters,1.033,0.0,0.0,1.033,0.0049,0.005,-0.005
+logreg,3,rise: percentage normal minus plain normal,19,[ra],lower-case letters,-0.5684,0.0,0.0,-0.5684,0.0088,-0.005,0.005
+logreg,3,rise: percentage normal minus plain normal,20,[ 1],digits,0.8638,0.0,0.0,0.8638,0.0058,0.005,-0.005
+logreg,3,rise: htmlencode normal minus plain normal,1,[ ],word boundary,4.6056,0.0616,0.2835,4.6056,0.0825,0.38,-0.0965
+logreg,3,rise: htmlencode normal minus plain normal,2,[#],other symbols,1.1715,0.0595,0.0697,1.1715,0.0,0.0,0.0697
+logreg,3,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.798,0.0575,0.0459,0.798,0.0,0.0,0.0459
+logreg,3,rise: htmlencode normal minus plain normal,4,[3],digits,1.4784,0.0359,0.053,1.4784,0.0178,0.0263,0.0267
+logreg,3,rise: htmlencode normal minus plain normal,5,[4],digits,1.0926,0.0396,0.0432,1.0926,0.02,0.0218,0.0214
+logreg,3,rise: htmlencode normal minus plain normal,6,[2],digits,1.1958,0.0336,0.0402,1.1958,0.0175,0.0209,0.0193
+logreg,3,rise: htmlencode normal minus plain normal,7,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,3,rise: htmlencode normal minus plain normal,8,[32],digits,0.3443,0.0382,0.0132,0.3443,0.0025,0.0009,0.0123
+logreg,3,rise: htmlencode normal minus plain normal,9,[6],digits,1.0991,0.0261,0.0287,1.0991,0.0168,0.0185,0.0102
+logreg,3,rise: htmlencode normal minus plain normal,10,"[, ]",other symbols,-1.0802,0.0,0.0,-1.0802,0.0093,-0.0101,0.0101
+logreg,3,rise: htmlencode normal minus plain normal,11,[-],other symbols,3.2394,0.0,0.0,3.2394,0.0023,0.0073,-0.0073
+logreg,3,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-1.3751,0.0141,-0.0194,-1.3751,0.0193,-0.0266,0.0072
+logreg,3,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.9806,0.0092,-0.009,-0.9806,0.0124,-0.0122,0.0032
+logreg,3,rise: htmlencode normal minus plain normal,14,[@],other symbols,-0.454,0.0,0.0,-0.454,0.0063,-0.0029,0.0029
+logreg,3,rise: htmlencode normal minus plain normal,15,[ 1],digits,0.8638,0.003,0.0026,0.8638,0.0058,0.005,-0.0024
+logreg,3,rise: htmlencode normal minus plain normal,16,[e],lower-case letters,1.8681,0.0272,0.0508,1.8681,0.0285,0.0532,-0.0024
+logreg,3,rise: htmlencode normal minus plain normal,17,[5],digits,1.6579,0.0175,0.0289,1.6579,0.0161,0.0266,0.0023
+logreg,3,rise: htmlencode normal minus plain normal,18,[ c],lower-case letters,-0.6979,0.008,-0.0055,-0.6979,0.0107,-0.0075,0.0019
+logreg,3,rise: htmlencode normal minus plain normal,19,[ a],lower-case letters,1.7143,0.004,0.0069,1.7143,0.0051,0.0087,-0.0019
+logreg,3,rise: htmlencode normal minus plain normal,20,[l],lower-case letters,1.4527,0.0218,0.0316,1.4527,0.0229,0.0333,-0.0017
+logreg,3,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.962,0.1743,0.1677,,0.0,0.0,0.1677
+logreg,3,gap: B minus A on base64encode attacks,2,[ ],word boundary,3.8509,0.023,0.0886,4.6056,0.044,0.2025,-0.1139
+logreg,3,gap: B minus A on base64encode attacks,3,[S],upper-case letters,0.7597,0.1468,0.1115,,0.0,0.0,0.1115
+logreg,3,gap: B minus A on base64encode attacks,4,[L],upper-case letters,1.2026,0.0608,0.0732,,0.0,0.0,0.0732
+logreg,3,gap: B minus A on base64encode attacks,5,[0],digits,1.4329,0.0349,0.0501,1.5895,0.074,0.1176,-0.0676
+logreg,3,gap: B minus A on base64encode attacks,6,[I],upper-case letters,0.3139,0.2106,0.0661,,0.0,0.0,0.0661
+logreg,3,gap: B minus A on base64encode attacks,7,[M],upper-case letters,0.2554,0.253,0.0646,,0.0,0.0,0.0646
+logreg,3,gap: B minus A on base64encode attacks,8,[=],other symbols,2.5885,0.0242,0.0626,2.5246,0.0497,0.1255,-0.0629
+logreg,3,gap: B minus A on base64encode attacks,9,[T],upper-case letters,0.5918,0.0999,0.0591,,0.0,0.0,0.0591
+logreg,3,gap: B minus A on base64encode attacks,10,[C],upper-case letters,0.7592,0.0676,0.0513,,0.0,0.0,0.0513
+logreg,3,gap: B minus A on base64encode attacks,11,[l],lower-case letters,1.4176,0.0385,0.0545,1.4527,0.0713,0.1036,-0.049
+logreg,3,gap: B minus A on base64encode attacks,12,[E],upper-case letters,1.3706,0.0316,0.0433,,0.0,0.0,0.0433
+logreg,3,gap: B minus A on base64encode attacks,13,[1],digits,1.892,0.0186,0.0352,2.0546,0.038,0.0781,-0.0429
+logreg,3,gap: B minus A on base64encode attacks,14,[w],lower-case letters,0.8786,0.0441,0.0387,0.8975,0.0897,0.0805,-0.0418
+logreg,3,gap: B minus A on base64encode attacks,15,[s],lower-case letters,1.4849,0.0293,0.0436,1.5722,0.0542,0.0852,-0.0417
+logreg,3,gap: B minus A on base64encode attacks,16,[A],upper-case letters,0.6681,0.0618,0.0413,,0.0,0.0,0.0413
+logreg,3,gap: B minus A on base64encode attacks,17,[D],upper-case letters,0.4123,0.0977,0.0403,,0.0,0.0,0.0403
+logreg,3,gap: B minus A on base64encode attacks,18,[3],digits,1.7278,0.0303,0.0524,1.4784,0.0622,0.092,-0.0396
+logreg,3,gap: B minus A on base64encode attacks,19,[H],upper-case letters,0.4578,0.0803,0.0368,,0.0,0.0,0.0368
+logreg,3,gap: B minus A on base64encode attacks,20,[9],digits,1.1095,0.0211,0.0234,1.3348,0.0448,0.0598,-0.0363
+logreg,3,gap: B minus A on base64encode normal,1,[ ],word boundary,3.8509,0.0793,0.3053,4.6056,0.1549,0.7135,-0.4081
+logreg,3,gap: B minus A on base64encode normal,2,[=],other symbols,2.5885,0.0852,0.2206,2.5246,0.1819,0.4592,-0.2386
+logreg,3,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.962,0.106,0.1019,,0.0,0.0,0.1019
+logreg,3,gap: B minus A on base64encode normal,4,[E],upper-case letters,1.3706,0.0266,0.0365,,0.0,0.0,0.0365
+logreg,3,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.5918,0.0588,0.0348,,0.0,0.0,0.0348
+logreg,3,gap: B minus A on base64encode normal,6,[M],upper-case letters,0.2554,0.1276,0.0326,,0.0,0.0,0.0326
+logreg,3,gap: B minus A on base64encode normal,7,[0],digits,1.4329,0.0134,0.0192,1.5895,0.0302,0.0481,-0.0289
+logreg,3,gap: B minus A on base64encode normal,8,[A],upper-case letters,0.6681,0.0371,0.0248,,0.0,0.0,0.0248
+logreg,3,gap: B minus A on base64encode normal,9,[1],digits,1.892,0.0096,0.0181,2.0546,0.0208,0.0428,-0.0247
+logreg,3,gap: B minus A on base64encode normal,10,[W],upper-case letters,0.221,0.1031,0.0228,,0.0,0.0,0.0228
+logreg,3,gap: B minus A on base64encode normal,11,[O],upper-case letters,0.5115,0.0421,0.0215,,0.0,0.0,0.0215
+logreg,3,gap: B minus A on base64encode normal,12,[y],lower-case letters,0.5421,0.0363,0.0197,0.6058,0.0678,0.041,-0.0213
+logreg,3,gap: B minus A on base64encode normal,13,[5],digits,1.8568,0.0142,0.0263,1.6579,0.0285,0.0473,-0.021
+logreg,3,gap: B minus A on base64encode normal,14,[3],digits,1.7278,0.0141,0.0243,1.4784,0.0298,0.044,-0.0197
+logreg,3,gap: B minus A on base64encode normal,15,[w],lower-case letters,0.8786,0.0227,0.0199,0.8975,0.0434,0.039,-0.0191
+logreg,3,gap: B minus A on base64encode normal,16,[U],upper-case letters,0.5447,0.0335,0.0183,,0.0,0.0,0.0183
+logreg,3,gap: B minus A on base64encode normal,17,[R],upper-case letters,0.7677,0.0238,0.0182,,0.0,0.0,0.0182
+logreg,3,gap: B minus A on base64encode normal,18,[D],upper-case letters,0.4123,0.0438,0.0181,,0.0,0.0,0.0181
+logreg,3,gap: B minus A on base64encode normal,19,[l],lower-case letters,1.4176,0.0215,0.0304,1.4527,0.0331,0.048,-0.0176
+logreg,3,gap: B minus A on base64encode normal,20,[s],lower-case letters,1.4849,0.0134,0.0199,1.5722,0.0233,0.0366,-0.0166
+logreg,3,gap: D minus B on base64encode attacks,1,[ ],word boundary,5.6045,0.0226,0.1268,3.8509,0.023,0.0886,0.0382
+logreg,3,gap: D minus B on base64encode attacks,2,[2],digits,1.2782,0.0406,0.0519,1.8803,0.0401,0.0754,-0.0235
+logreg,3,gap: D minus B on base64encode attacks,3,[E],upper-case letters,1.4771,0.0407,0.0601,1.3706,0.0316,0.0433,0.0168
+logreg,3,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.8997,0.1712,0.154,0.962,0.1743,0.1677,-0.0137
+logreg,3,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.6948,0.1443,0.1003,0.7597,0.1468,0.1115,-0.0113
+logreg,3,gap: D minus B on base64encode attacks,6,[A],upper-case letters,0.7141,0.0735,0.0525,0.6681,0.0618,0.0413,0.0112
+logreg,3,gap: D minus B on base64encode attacks,7,[D],upper-case letters,0.3563,0.1433,0.0511,0.4123,0.0977,0.0403,0.0108
+logreg,3,gap: D minus B on base64encode attacks,8,[M],upper-case letters,0.2342,0.2485,0.0582,0.2554,0.253,0.0646,-0.0064
+logreg,3,gap: D minus B on base64encode attacks,9,[5],digits,1.5756,0.0226,0.0357,1.8568,0.0225,0.0418,-0.0061
+logreg,3,gap: D minus B on base64encode attacks,10,[T],upper-case letters,0.541,0.0982,0.0531,0.5918,0.0999,0.0591,-0.006
+logreg,3,gap: D minus B on base64encode attacks,11,[0],digits,1.5798,0.0355,0.056,1.4329,0.0349,0.0501,0.006
+logreg,3,gap: D minus B on base64encode attacks,12,[9],digits,1.3422,0.0217,0.0291,1.1095,0.0211,0.0234,0.0057
+logreg,3,gap: D minus B on base64encode attacks,13,[C],upper-case letters,0.6081,0.0932,0.0566,0.7592,0.0676,0.0513,0.0053
+logreg,3,gap: D minus B on base64encode attacks,14,[L],upper-case letters,1.1383,0.0597,0.068,1.2026,0.0608,0.0732,-0.0052
+logreg,3,gap: D minus B on base64encode attacks,15,[I],upper-case letters,0.295,0.2071,0.0611,0.3139,0.2106,0.0661,-0.005
+logreg,3,gap: D minus B on base64encode attacks,16,[4],digits,1.5015,0.0147,0.0221,1.2218,0.0145,0.0177,0.0043
+logreg,3,gap: D minus B on base64encode attacks,17,[W],upper-case letters,0.1947,0.1241,0.0242,0.221,0.1261,0.0279,-0.0037
+logreg,3,gap: D minus B on base64encode attacks,18,[k],lower-case letters,0.4326,0.0556,0.024,0.3482,0.0586,0.0204,0.0037
+logreg,3,gap: D minus B on base64encode attacks,19,[3],digits,1.5802,0.0309,0.0488,1.7278,0.0303,0.0524,-0.0036
+logreg,3,gap: D minus B on base64encode attacks,20,[g],lower-case letters,-0.4945,0.0851,-0.0421,-0.5097,0.0893,-0.0455,0.0035
+logreg,4,rise: charencode normal minus plain normal,1,[%],percent,0.8879,0.6447,0.5724,0.8879,0.0,0.0,0.5724
+logreg,4,rise: charencode normal minus plain normal,2,[ ],word boundary,4.6056,0.0394,0.1815,4.6056,0.0825,0.38,-0.1986
+logreg,4,rise: charencode normal minus plain normal,3,[6],digits,1.0991,0.185,0.2033,1.0991,0.0168,0.0185,0.1848
+logreg,4,rise: charencode normal minus plain normal,4,[3],digits,1.4784,0.1378,0.2037,1.4784,0.0178,0.0263,0.1774
+logreg,4,rise: charencode normal minus plain normal,5,[7],digits,1.3936,0.0798,0.1112,1.3936,0.018,0.0251,0.0861
+logreg,4,rise: charencode normal minus plain normal,6,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,4,rise: charencode normal minus plain normal,7,[1],digits,2.0546,0.0381,0.0783,2.0546,0.0183,0.0375,0.0408
+logreg,4,rise: charencode normal minus plain normal,8,[1%],percent,0.4754,0.0766,0.0364,0.4754,0.0,0.0,0.0364
+logreg,4,rise: charencode normal minus plain normal,9,[2],digits,1.1958,0.0479,0.0573,1.1958,0.0175,0.0209,0.0364
+logreg,4,rise: charencode normal minus plain normal,10,[5],digits,1.6579,0.0371,0.0614,1.6579,0.0161,0.0266,0.0348
+logreg,4,rise: charencode normal minus plain normal,11,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,4,rise: charencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,4,rise: charencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,4,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,4,rise: charencode normal minus plain normal,15,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,4,rise: charencode normal minus plain normal,16,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,4,rise: charencode normal minus plain normal,17,[9],digits,1.3348,0.0309,0.0412,1.3348,0.0197,0.0263,0.015
+logreg,4,rise: charencode normal minus plain normal,18,[t],lower-case letters,0.969,0.0,0.0,0.969,0.0149,0.0145,-0.0145
+logreg,4,rise: charencode normal minus plain normal,19,[4],digits,1.0926,0.0322,0.0351,1.0926,0.02,0.0218,0.0133
+logreg,4,rise: charencode normal minus plain normal,20,[72],digits,0.3511,0.038,0.0133,0.3511,0.0026,0.0009,0.0124
+logreg,4,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.8879,0.3363,0.2986,0.8879,0.0,0.0,0.2986
+logreg,4,rise: chardoubleencode normal minus plain normal,2,[5],digits,1.6579,0.1929,0.3199,1.6579,0.0161,0.0266,0.2932
+logreg,4,rise: chardoubleencode normal minus plain normal,3,[ ],word boundary,4.6056,0.0206,0.0947,4.6056,0.0825,0.38,-0.2853
+logreg,4,rise: chardoubleencode normal minus plain normal,4,[2],digits,1.1958,0.2034,0.2433,1.1958,0.0175,0.0209,0.2223
+logreg,4,rise: chardoubleencode normal minus plain normal,5,[6],digits,1.0991,0.0961,0.1056,1.0991,0.0168,0.0185,0.0871
+logreg,4,rise: chardoubleencode normal minus plain normal,6,[3],digits,1.4784,0.0719,0.1063,1.4784,0.0178,0.0263,0.08
+logreg,4,rise: chardoubleencode normal minus plain normal,7,[25],digits,0.1767,0.3938,0.0696,0.1767,0.0035,0.0006,0.069
+logreg,4,rise: chardoubleencode normal minus plain normal,8,[e],lower-case letters,1.8681,0.0,0.0,1.8681,0.0285,0.0532,-0.0532
+logreg,4,rise: chardoubleencode normal minus plain normal,9,[7],digits,1.3936,0.0422,0.0588,1.3936,0.018,0.0251,0.0338
+logreg,4,rise: chardoubleencode normal minus plain normal,10,[l],lower-case letters,1.4527,0.0,0.0,1.4527,0.0229,0.0333,-0.0333
+logreg,4,rise: chardoubleencode normal minus plain normal,11,[57],digits,0.4298,0.0704,0.0303,0.4298,0.002,0.0009,0.0294
+logreg,4,rise: chardoubleencode normal minus plain normal,12,[s],lower-case letters,1.5722,0.0,0.0,1.5722,0.018,0.0284,-0.0284
+logreg,4,rise: chardoubleencode normal minus plain normal,13,[a],lower-case letters,-0.6682,0.0,0.0,-0.6682,0.0401,-0.0268,0.0268
+logreg,4,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,4,rise: chardoubleencode normal minus plain normal,15,[53],digits,0.2092,0.1142,0.0239,0.2092,0.0031,0.0006,0.0232
+logreg,4,rise: chardoubleencode normal minus plain normal,16,[n],lower-case letters,1.1103,0.0,0.0,1.1103,0.0206,0.0229,-0.0229
+logreg,4,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.4754,0.0395,0.0188,0.4754,0.0,0.0,0.0188
+logreg,4,rise: chardoubleencode normal minus plain normal,18,[257],digits,0.1709,0.1029,0.0176,0.1709,0.0002,0.0,0.0175
+logreg,4,rise: chardoubleencode normal minus plain normal,19,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,4,rise: chardoubleencode normal minus plain normal,20,[256],digits,0.0594,0.2895,0.0172,0.0594,0.0006,0.0,0.0172
+logreg,4,rise: base64encode normal minus plain normal,1,[=],other symbols,2.5246,0.1819,0.4592,2.5246,0.0,0.0,0.4592
+logreg,4,rise: base64encode normal minus plain normal,2,[ ],word boundary,4.6056,0.1549,0.7135,4.6056,0.0825,0.38,0.3334
+logreg,4,rise: base64encode normal minus plain normal,3,[2],digits,1.1958,0.0598,0.0715,1.1958,0.0175,0.0209,0.0506
+logreg,4,rise: base64encode normal minus plain normal,4,[e],lower-case letters,1.8681,0.0042,0.0078,1.8681,0.0285,0.0532,-0.0454
+logreg,4,rise: base64encode normal minus plain normal,5,[y],lower-case letters,0.6058,0.0678,0.041,0.6058,0.006,0.0036,0.0374
+logreg,4,rise: base64encode normal minus plain normal,6,[w],lower-case letters,0.8975,0.0434,0.039,0.8975,0.0018,0.0016,0.0374
+logreg,4,rise: base64encode normal minus plain normal,7,[a ],lower-case letters,-1.3751,0.0,0.0,-1.3751,0.0193,-0.0266,0.0266
+logreg,4,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.9442,0.0363,0.0343,0.9442,0.0086,0.0081,0.0262
+logreg,4,rise: base64encode normal minus plain normal,9,[7],digits,1.3936,0.0,0.0,1.3936,0.018,0.0251,-0.0251
+logreg,4,rise: base64encode normal minus plain normal,10,[x],lower-case letters,0.4708,0.0507,0.0239,0.4708,0.0017,0.0008,0.0231
+logreg,4,rise: base64encode normal minus plain normal,11,[5],digits,1.6579,0.0285,0.0473,1.6579,0.0161,0.0266,0.0207
+logreg,4,rise: base64encode normal minus plain normal,12,[z],lower-case letters,-0.2044,0.1074,-0.0219,-0.2044,0.0068,-0.0014,-0.0206
+logreg,4,rise: base64encode normal minus plain normal,13,[0],digits,1.5895,0.0302,0.0481,1.5895,0.0179,0.0285,0.0196
+logreg,4,rise: base64encode normal minus plain normal,14,[3],digits,1.4784,0.0298,0.044,1.4784,0.0178,0.0263,0.0177
+logreg,4,rise: base64encode normal minus plain normal,15,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,4,rise: base64encode normal minus plain normal,16,[c],lower-case letters,0.5801,0.0455,0.0264,0.5801,0.0171,0.0099,0.0165
+logreg,4,rise: base64encode normal minus plain normal,17,[k],lower-case letters,0.3847,0.0451,0.0173,0.3847,0.0047,0.0018,0.0155
+logreg,4,rise: base64encode normal minus plain normal,18,[l],lower-case letters,1.4527,0.0331,0.048,1.4527,0.0229,0.0333,0.0147
+logreg,4,rise: base64encode normal minus plain normal,19,[6],digits,1.0991,0.0036,0.0039,1.0991,0.0168,0.0185,-0.0146
+logreg,4,rise: base64encode normal minus plain normal,20,[j],lower-case letters,-0.207,0.0753,-0.0156,-0.207,0.0064,-0.0013,-0.0143
+logreg,4,rise: percentage normal minus plain normal,1,[%],percent,0.8879,0.9004,0.7995,0.8879,0.0,0.0,0.7995
+logreg,4,rise: percentage normal minus plain normal,2,[ ],word boundary,4.6056,0.0706,0.3253,4.6056,0.0825,0.38,-0.0548
+logreg,4,rise: percentage normal minus plain normal,3,[1%],percent,0.4754,0.0318,0.0151,0.4754,0.0,0.0,0.0151
+logreg,4,rise: percentage normal minus plain normal,4,[e],lower-case letters,1.8681,0.0229,0.0427,1.8681,0.0285,0.0532,-0.0105
+logreg,4,rise: percentage normal minus plain normal,5,[ a],lower-case letters,1.7143,0.0,0.0,1.7143,0.0051,0.0087,-0.0087
+logreg,4,rise: percentage normal minus plain normal,6,[ c],lower-case letters,-0.6979,0.0,0.0,-0.6979,0.0107,-0.0075,0.0075
+logreg,4,rise: percentage normal minus plain normal,7,[1],digits,2.0546,0.0148,0.0304,2.0546,0.0183,0.0375,-0.0071
+logreg,4,rise: percentage normal minus plain normal,8,[l],lower-case letters,1.4527,0.0184,0.0268,1.4527,0.0229,0.0333,-0.0066
+logreg,4,rise: percentage normal minus plain normal,9,[0],digits,1.5895,0.0141,0.0225,1.5895,0.0179,0.0285,-0.006
+logreg,4,rise: percentage normal minus plain normal,10,[7],digits,1.3936,0.0138,0.0192,1.3936,0.018,0.0251,-0.0059
+logreg,4,rise: percentage normal minus plain normal,11,[9],digits,1.3348,0.0154,0.0205,1.3348,0.0197,0.0263,-0.0058
+logreg,4,rise: percentage normal minus plain normal,12,[s],lower-case letters,1.5722,0.0144,0.0227,1.5722,0.018,0.0284,-0.0057
+logreg,4,rise: percentage normal minus plain normal,13,[5],digits,1.6579,0.0127,0.021,1.6579,0.0161,0.0266,-0.0056
+logreg,4,rise: percentage normal minus plain normal,14,"[,]",other symbols,3.1901,0.0037,0.0118,3.1901,0.0055,0.0174,-0.0056
+logreg,4,rise: percentage normal minus plain normal,15,[3],digits,1.4784,0.0141,0.0208,1.4784,0.0178,0.0263,-0.0054
+logreg,4,rise: percentage normal minus plain normal,16,[ll],lower-case letters,0.7801,0.0,0.0,0.7801,0.0069,0.0054,-0.0054
+logreg,4,rise: percentage normal minus plain normal,17,[8],digits,1.3272,0.0142,0.0188,1.3272,0.0181,0.0241,-0.0053
+logreg,4,rise: percentage normal minus plain normal,18,[el],lower-case letters,1.033,0.0,0.0,1.033,0.0049,0.005,-0.005
+logreg,4,rise: percentage normal minus plain normal,19,[ra],lower-case letters,-0.5684,0.0,0.0,-0.5684,0.0088,-0.005,0.005
+logreg,4,rise: percentage normal minus plain normal,20,[ 1],digits,0.8638,0.0,0.0,0.8638,0.0058,0.005,-0.005
+logreg,4,rise: htmlencode normal minus plain normal,1,[ ],word boundary,4.6056,0.0616,0.2835,4.6056,0.0825,0.38,-0.0965
+logreg,4,rise: htmlencode normal minus plain normal,2,[#],other symbols,1.1715,0.0595,0.0697,1.1715,0.0,0.0,0.0697
+logreg,4,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.798,0.0575,0.0459,0.798,0.0,0.0,0.0459
+logreg,4,rise: htmlencode normal minus plain normal,4,[3],digits,1.4784,0.0359,0.053,1.4784,0.0178,0.0263,0.0267
+logreg,4,rise: htmlencode normal minus plain normal,5,[4],digits,1.0926,0.0396,0.0432,1.0926,0.02,0.0218,0.0214
+logreg,4,rise: htmlencode normal minus plain normal,6,[2],digits,1.1958,0.0336,0.0402,1.1958,0.0175,0.0209,0.0193
+logreg,4,rise: htmlencode normal minus plain normal,7,"[,]",other symbols,3.1901,0.0,0.0,3.1901,0.0055,0.0174,-0.0174
+logreg,4,rise: htmlencode normal minus plain normal,8,[32],digits,0.3443,0.0382,0.0132,0.3443,0.0025,0.0009,0.0123
+logreg,4,rise: htmlencode normal minus plain normal,9,[6],digits,1.0991,0.0261,0.0287,1.0991,0.0168,0.0185,0.0102
+logreg,4,rise: htmlencode normal minus plain normal,10,"[, ]",other symbols,-1.0802,0.0,0.0,-1.0802,0.0093,-0.0101,0.0101
+logreg,4,rise: htmlencode normal minus plain normal,11,[-],other symbols,3.2394,0.0,0.0,3.2394,0.0023,0.0073,-0.0073
+logreg,4,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-1.3751,0.0141,-0.0194,-1.3751,0.0193,-0.0266,0.0072
+logreg,4,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.9806,0.0092,-0.009,-0.9806,0.0124,-0.0122,0.0032
+logreg,4,rise: htmlencode normal minus plain normal,14,[@],other symbols,-0.454,0.0,0.0,-0.454,0.0063,-0.0029,0.0029
+logreg,4,rise: htmlencode normal minus plain normal,15,[ 1],digits,0.8638,0.003,0.0026,0.8638,0.0058,0.005,-0.0024
+logreg,4,rise: htmlencode normal minus plain normal,16,[e],lower-case letters,1.8681,0.0272,0.0508,1.8681,0.0285,0.0532,-0.0024
+logreg,4,rise: htmlencode normal minus plain normal,17,[5],digits,1.6579,0.0175,0.0289,1.6579,0.0161,0.0266,0.0023
+logreg,4,rise: htmlencode normal minus plain normal,18,[ c],lower-case letters,-0.6979,0.008,-0.0055,-0.6979,0.0107,-0.0075,0.0019
+logreg,4,rise: htmlencode normal minus plain normal,19,[ a],lower-case letters,1.7143,0.004,0.0069,1.7143,0.0051,0.0087,-0.0019
+logreg,4,rise: htmlencode normal minus plain normal,20,[l],lower-case letters,1.4527,0.0218,0.0316,1.4527,0.0229,0.0333,-0.0017
+logreg,4,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.9051,0.175,0.1584,,0.0,0.0,0.1584
+logreg,4,gap: B minus A on base64encode attacks,2,[ ],word boundary,3.7545,0.023,0.0864,4.6056,0.044,0.2025,-0.1161
+logreg,4,gap: B minus A on base64encode attacks,3,[S],upper-case letters,0.7131,0.1501,0.107,,0.0,0.0,0.107
+logreg,4,gap: B minus A on base64encode attacks,4,[L],upper-case letters,1.2745,0.0605,0.0771,,0.0,0.0,0.0771
+logreg,4,gap: B minus A on base64encode attacks,5,[I],upper-case letters,0.3411,0.2068,0.0705,,0.0,0.0,0.0705
+logreg,4,gap: B minus A on base64encode attacks,6,[0],digits,1.3645,0.0351,0.0479,1.5895,0.074,0.1176,-0.0697
+logreg,4,gap: B minus A on base64encode attacks,7,[=],other symbols,2.5664,0.0243,0.0623,2.5246,0.0497,0.1255,-0.0632
+logreg,4,gap: B minus A on base64encode attacks,8,[M],upper-case letters,0.2136,0.2565,0.0548,,0.0,0.0,0.0548
+logreg,4,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.7889,0.0682,0.0538,,0.0,0.0,0.0538
+logreg,4,gap: B minus A on base64encode attacks,10,[T],upper-case letters,0.5286,0.1013,0.0535,,0.0,0.0,0.0535
+logreg,4,gap: B minus A on base64encode attacks,11,[l],lower-case letters,1.4497,0.0386,0.0559,1.4527,0.0713,0.1036,-0.0476
+logreg,4,gap: B minus A on base64encode attacks,12,[E],upper-case letters,1.3605,0.0317,0.0431,,0.0,0.0,0.0431
+logreg,4,gap: B minus A on base64encode attacks,13,[s],lower-case letters,1.4654,0.0292,0.0429,1.5722,0.0542,0.0852,-0.0424
+logreg,4,gap: B minus A on base64encode attacks,14,[w],lower-case letters,0.8571,0.0447,0.0383,0.8975,0.0897,0.0805,-0.0422
+logreg,4,gap: B minus A on base64encode attacks,15,[1],digits,1.937,0.0185,0.0359,2.0546,0.038,0.0781,-0.0421
+logreg,4,gap: B minus A on base64encode attacks,16,[D],upper-case letters,0.4088,0.0982,0.0402,,0.0,0.0,0.0402
+logreg,4,gap: B minus A on base64encode attacks,17,[H],upper-case letters,0.4961,0.0803,0.0398,,0.0,0.0,0.0398
+logreg,4,gap: B minus A on base64encode attacks,18,[A],upper-case letters,0.6178,0.0636,0.0393,,0.0,0.0,0.0393
+logreg,4,gap: B minus A on base64encode attacks,19,[3],digits,1.7861,0.0304,0.0543,1.4784,0.0622,0.092,-0.0377
+logreg,4,gap: B minus A on base64encode attacks,20,[9],digits,1.0833,0.0211,0.0229,1.3348,0.0448,0.0598,-0.0369
+logreg,4,gap: B minus A on base64encode normal,1,[ ],word boundary,3.7545,0.0796,0.2989,4.6056,0.1549,0.7135,-0.4145
+logreg,4,gap: B minus A on base64encode normal,2,[=],other symbols,2.5664,0.0858,0.2202,2.5246,0.1819,0.4592,-0.239
+logreg,4,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.9051,0.1073,0.0972,,0.0,0.0,0.0972
+logreg,4,gap: B minus A on base64encode normal,4,[E],upper-case letters,1.3605,0.0267,0.0363,,0.0,0.0,0.0363
+logreg,4,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.5286,0.0598,0.0316,,0.0,0.0,0.0316
+logreg,4,gap: B minus A on base64encode normal,6,[0],digits,1.3645,0.0135,0.0184,1.5895,0.0302,0.0481,-0.0296
+logreg,4,gap: B minus A on base64encode normal,7,[M],upper-case letters,0.2136,0.1301,0.0278,,0.0,0.0,0.0278
+logreg,4,gap: B minus A on base64encode normal,8,[1],digits,1.937,0.0096,0.0186,2.0546,0.0208,0.0428,-0.0242
+logreg,4,gap: B minus A on base64encode normal,9,[A],upper-case letters,0.6178,0.0382,0.0236,,0.0,0.0,0.0236
+logreg,4,gap: B minus A on base64encode normal,10,[O],upper-case letters,0.4988,0.044,0.022,,0.0,0.0,0.022
+logreg,4,gap: B minus A on base64encode normal,11,[y],lower-case letters,0.5365,0.0365,0.0196,0.6058,0.0678,0.041,-0.0215
+logreg,4,gap: B minus A on base64encode normal,12,[5],digits,1.8781,0.0142,0.0267,1.6579,0.0285,0.0473,-0.0206
+logreg,4,gap: B minus A on base64encode normal,13,[W],upper-case letters,0.1855,0.1056,0.0196,,0.0,0.0,0.0196
+logreg,4,gap: B minus A on base64encode normal,14,[w],lower-case letters,0.8571,0.023,0.0198,0.8975,0.0434,0.039,-0.0192
+logreg,4,gap: B minus A on base64encode normal,15,[3],digits,1.7861,0.0142,0.0253,1.4784,0.0298,0.044,-0.0187
+logreg,4,gap: B minus A on base64encode normal,16,[D],upper-case letters,0.4088,0.0451,0.0184,,0.0,0.0,0.0184
+logreg,4,gap: B minus A on base64encode normal,17,[U],upper-case letters,0.539,0.0339,0.0183,,0.0,0.0,0.0183
+logreg,4,gap: B minus A on base64encode normal,18,[R],upper-case letters,0.7222,0.024,0.0173,,0.0,0.0,0.0173
+logreg,4,gap: B minus A on base64encode normal,19,[s],lower-case letters,1.4654,0.0134,0.0196,1.5722,0.0233,0.0366,-0.017
+logreg,4,gap: B minus A on base64encode normal,20,[l],lower-case letters,1.4497,0.0215,0.0312,1.4527,0.0331,0.048,-0.0169
+logreg,4,gap: D minus B on base64encode attacks,1,[ ],word boundary,5.4234,0.0226,0.1228,3.7545,0.023,0.0864,0.0364
+logreg,4,gap: D minus B on base64encode attacks,2,[2],digits,1.3589,0.0407,0.0553,1.9203,0.0402,0.0771,-0.0219
+logreg,4,gap: D minus B on base64encode attacks,3,[E],upper-case letters,1.4506,0.0409,0.0594,1.3605,0.0317,0.0431,0.0163
+logreg,4,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.8422,0.1719,0.1448,0.9051,0.175,0.1584,-0.0136
+logreg,4,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.6447,0.1475,0.0951,0.7131,0.1501,0.107,-0.0119
+logreg,4,gap: D minus B on base64encode attacks,6,[D],upper-case letters,0.3566,0.1424,0.0508,0.4088,0.0982,0.0402,0.0106
+logreg,4,gap: D minus B on base64encode attacks,7,[A],upper-case letters,0.649,0.0742,0.0481,0.6178,0.0636,0.0393,0.0089
+logreg,4,gap: D minus B on base64encode attacks,8,[I],upper-case letters,0.3144,0.2034,0.064,0.3411,0.2068,0.0705,-0.0066
+logreg,4,gap: D minus B on base64encode attacks,9,[0],digits,1.5116,0.0357,0.054,1.3645,0.0351,0.0479,0.006
+logreg,4,gap: D minus B on base64encode attacks,10,[9],digits,1.3238,0.0217,0.0288,1.0833,0.0211,0.0229,0.0059
+logreg,4,gap: D minus B on base64encode attacks,11,[L],upper-case letters,1.1992,0.0594,0.0713,1.2745,0.0605,0.0771,-0.0059
+logreg,4,gap: D minus B on base64encode attacks,12,[5],digits,1.6103,0.0226,0.0364,1.8781,0.0225,0.0422,-0.0058
+logreg,4,gap: D minus B on base64encode attacks,13,[T],upper-case letters,0.4793,0.0995,0.0477,0.5286,0.1013,0.0535,-0.0058
+logreg,4,gap: D minus B on base64encode attacks,14,[M],upper-case letters,0.1951,0.252,0.0492,0.2136,0.2565,0.0548,-0.0056
+logreg,4,gap: D minus B on base64encode attacks,15,[C],upper-case letters,0.6138,0.094,0.0577,0.7889,0.0682,0.0538,0.0039
+logreg,4,gap: D minus B on base64encode attacks,16,[1],digits,2.1737,0.0183,0.0397,1.937,0.0185,0.0359,0.0038
+logreg,4,gap: D minus B on base64encode attacks,17,[g],lower-case letters,-0.486,0.0848,-0.0412,-0.5034,0.0892,-0.0449,0.0037
+logreg,4,gap: D minus B on base64encode attacks,18,[4],digits,1.3345,0.015,0.0201,1.1115,0.0148,0.0164,0.0036
+logreg,4,gap: D minus B on base64encode attacks,19,[=],other symbols,2.6381,0.0224,0.059,2.5664,0.0243,0.0623,-0.0033
+logreg,4,gap: D minus B on base64encode attacks,20,[B],upper-case letters,0.119,0.1081,0.0129,0.1266,0.0758,0.0096,0.0033
+linsvc,0,rise: charencode normal minus plain normal,1,[%],percent,0.3662,0.6447,0.2361,0.3662,0.0,0.0,0.2361
+linsvc,0,rise: charencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0394,0.0621,1.5751,0.0825,0.13,-0.0679
+linsvc,0,rise: charencode normal minus plain normal,3,[6],digits,0.3573,0.185,0.0661,0.3573,0.0168,0.006,0.0601
+linsvc,0,rise: charencode normal minus plain normal,4,[3],digits,0.4913,0.1378,0.0677,0.4913,0.0178,0.0087,0.059
+linsvc,0,rise: charencode normal minus plain normal,5,[7],digits,0.4168,0.0798,0.0332,0.4168,0.018,0.0075,0.0258
+linsvc,0,rise: charencode normal minus plain normal,6,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,0,rise: charencode normal minus plain normal,7,[1%],percent,0.1878,0.0766,0.0144,0.1878,0.0,0.0,0.0144
+linsvc,0,rise: charencode normal minus plain normal,8,[1],digits,0.6475,0.0381,0.0247,0.6475,0.0183,0.0118,0.0129
+linsvc,0,rise: charencode normal minus plain normal,9,[2],digits,0.3941,0.0479,0.0189,0.3941,0.0175,0.0069,0.012
+linsvc,0,rise: charencode normal minus plain normal,10,[5],digits,0.5424,0.0371,0.0201,0.5424,0.0161,0.0087,0.0114
+linsvc,0,rise: charencode normal minus plain normal,11,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,0,rise: charencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,0,rise: charencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,0,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,0,rise: charencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,0,rise: charencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,0,rise: charencode normal minus plain normal,17,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,0,rise: charencode normal minus plain normal,18,[9],digits,0.4385,0.0309,0.0135,0.4385,0.0197,0.0086,0.0049
+linsvc,0,rise: charencode normal minus plain normal,19,[t],lower-case letters,0.3092,0.0,0.0,0.3092,0.0149,0.0046,-0.0046
+linsvc,0,rise: charencode normal minus plain normal,20,[72],digits,0.1301,0.038,0.0049,0.1301,0.0026,0.0003,0.0046
+linsvc,0,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.3662,0.3363,0.1231,0.3662,0.0,0.0,0.1231
+linsvc,0,rise: chardoubleencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0206,0.0324,1.5751,0.0825,0.13,-0.0976
+linsvc,0,rise: chardoubleencode normal minus plain normal,3,[5],digits,0.5424,0.1929,0.1046,0.5424,0.0161,0.0087,0.0959
+linsvc,0,rise: chardoubleencode normal minus plain normal,4,[2],digits,0.3941,0.2034,0.0802,0.3941,0.0175,0.0069,0.0733
+linsvc,0,rise: chardoubleencode normal minus plain normal,5,[6],digits,0.3573,0.0961,0.0343,0.3573,0.0168,0.006,0.0283
+linsvc,0,rise: chardoubleencode normal minus plain normal,6,[3],digits,0.4913,0.0719,0.0353,0.4913,0.0178,0.0087,0.0266
+linsvc,0,rise: chardoubleencode normal minus plain normal,7,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,0,rise: chardoubleencode normal minus plain normal,8,[256],digits,0.0417,0.2895,0.0121,0.0417,0.0006,0.0,0.0121
+linsvc,0,rise: chardoubleencode normal minus plain normal,9,[57],digits,0.168,0.0704,0.0118,0.168,0.002,0.0003,0.0115
+linsvc,0,rise: chardoubleencode normal minus plain normal,10,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,0,rise: chardoubleencode normal minus plain normal,11,[7],digits,0.4168,0.0422,0.0176,0.4168,0.018,0.0075,0.0101
+linsvc,0,rise: chardoubleencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,0,rise: chardoubleencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,0,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,0,rise: chardoubleencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,0,rise: chardoubleencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,0,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.1878,0.0395,0.0074,0.1878,0.0,0.0,0.0074
+linsvc,0,rise: chardoubleencode normal minus plain normal,18,[56],digits,-0.0405,0.1843,-0.0075,-0.0405,0.0024,-0.0001,-0.0074
+linsvc,0,rise: chardoubleencode normal minus plain normal,19,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,0,rise: chardoubleencode normal minus plain normal,20,[257],digits,0.0588,0.1029,0.0061,0.0588,0.0002,0.0,0.006
+linsvc,0,rise: base64encode normal minus plain normal,1,[=],other symbols,1.4464,0.1819,0.2631,1.4464,0.0,0.0,0.2631
+linsvc,0,rise: base64encode normal minus plain normal,2,[ ],word boundary,1.5751,0.1549,0.244,1.5751,0.0825,0.13,0.114
+linsvc,0,rise: base64encode normal minus plain normal,3,[2],digits,0.3941,0.0598,0.0236,0.3941,0.0175,0.0069,0.0167
+linsvc,0,rise: base64encode normal minus plain normal,4,[w],lower-case letters,0.3737,0.0434,0.0162,0.3737,0.0018,0.0007,0.0156
+linsvc,0,rise: base64encode normal minus plain normal,5,[e],lower-case letters,0.5314,0.0042,0.0022,0.5314,0.0285,0.0151,-0.0129
+linsvc,0,rise: base64encode normal minus plain normal,6,[y],lower-case letters,0.1948,0.0678,0.0132,0.1948,0.006,0.0012,0.012
+linsvc,0,rise: base64encode normal minus plain normal,7,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,0,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.3113,0.0363,0.0113,0.3113,0.0086,0.0027,0.0086
+linsvc,0,rise: base64encode normal minus plain normal,9,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,0,rise: base64encode normal minus plain normal,10,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,0,rise: base64encode normal minus plain normal,11,[7],digits,0.4168,0.0,0.0,0.4168,0.018,0.0075,-0.0075
+linsvc,0,rise: base64encode normal minus plain normal,12,[5],digits,0.5424,0.0285,0.0155,0.5424,0.0161,0.0087,0.0068
+linsvc,0,rise: base64encode normal minus plain normal,13,[k],lower-case letters,0.1658,0.0451,0.0075,0.1658,0.0047,0.0008,0.0067
+linsvc,0,rise: base64encode normal minus plain normal,14,[3],digits,0.4913,0.0298,0.0146,0.4913,0.0178,0.0087,0.0059
+linsvc,0,rise: base64encode normal minus plain normal,15,[x],lower-case letters,0.119,0.0507,0.006,0.119,0.0017,0.0002,0.0058
+linsvc,0,rise: base64encode normal minus plain normal,16,[g],lower-case letters,-0.1476,0.0476,-0.007,-0.1476,0.0113,-0.0017,-0.0054
+linsvc,0,rise: base64encode normal minus plain normal,17,[b],lower-case letters,0.0811,0.072,0.0058,0.0811,0.0108,0.0009,0.005
+linsvc,0,rise: base64encode normal minus plain normal,18,[0],digits,0.4019,0.0302,0.0122,0.4019,0.0179,0.0072,0.0049
+linsvc,0,rise: base64encode normal minus plain normal,19,[c],lower-case letters,0.171,0.0455,0.0078,0.171,0.0171,0.0029,0.0049
+linsvc,0,rise: base64encode normal minus plain normal,20,[6],digits,0.3573,0.0036,0.0013,0.3573,0.0168,0.006,-0.0047
+linsvc,0,rise: percentage normal minus plain normal,1,[%],percent,0.3662,0.9004,0.3297,0.3662,0.0,0.0,0.3297
+linsvc,0,rise: percentage normal minus plain normal,2,[ ],word boundary,1.5751,0.0706,0.1112,1.5751,0.0825,0.13,-0.0187
+linsvc,0,rise: percentage normal minus plain normal,3,[1%],percent,0.1878,0.0318,0.006,0.1878,0.0,0.0,0.006
+linsvc,0,rise: percentage normal minus plain normal,4,[ a],lower-case letters,0.7646,0.0,0.0,0.7646,0.0051,0.0039,-0.0039
+linsvc,0,rise: percentage normal minus plain normal,5,[ c],lower-case letters,-0.3457,0.0,0.0,-0.3457,0.0107,-0.0037,0.0037
+linsvc,0,rise: percentage normal minus plain normal,6,"[,]",other symbols,1.9718,0.0037,0.0073,1.9718,0.0055,0.0108,-0.0035
+linsvc,0,rise: percentage normal minus plain normal,7,[e],lower-case letters,0.5314,0.0229,0.0121,0.5314,0.0285,0.0151,-0.003
+linsvc,0,rise: percentage normal minus plain normal,8,[or],lower-case letters,0.4516,0.0,0.0,0.4516,0.0057,0.0026,-0.0026
+linsvc,0,rise: percentage normal minus plain normal,9,"[, ]",other symbols,-0.8515,0.0063,-0.0054,-0.8515,0.0093,-0.0079,0.0025
+linsvc,0,rise: percentage normal minus plain normal,10,[1],digits,0.6475,0.0148,0.0096,0.6475,0.0183,0.0118,-0.0022
+linsvc,0,rise: percentage normal minus plain normal,11,[0%],percent,0.0485,0.042,0.002,0.0485,0.0,0.0,0.002
+linsvc,0,rise: percentage normal minus plain normal,12,[4%],percent,0.041,0.0496,0.002,0.041,0.0,0.0,0.002
+linsvc,0,rise: percentage normal minus plain normal,13,[9%],percent,0.0444,0.0455,0.002,0.0444,0.0,0.0,0.002
+linsvc,0,rise: percentage normal minus plain normal,14,[8%],percent,0.0475,0.0418,0.002,0.0475,0.0,0.0,0.002
+linsvc,0,rise: percentage normal minus plain normal,15,[ll],lower-case letters,0.2859,0.0,0.0,0.2859,0.0069,0.002,-0.002
+linsvc,0,rise: percentage normal minus plain normal,16,[ ca],lower-case letters,-0.2671,0.0,0.0,-0.2671,0.0074,-0.002,0.002
+linsvc,0,rise: percentage normal minus plain normal,17,[l],lower-case letters,0.4342,0.0184,0.008,0.4342,0.0229,0.01,-0.002
+linsvc,0,rise: percentage normal minus plain normal,18,[9],digits,0.4385,0.0154,0.0067,0.4385,0.0197,0.0086,-0.0019
+linsvc,0,rise: percentage normal minus plain normal,19,[2%],percent,0.0407,0.0462,0.0019,0.0407,0.0,0.0,0.0019
+linsvc,0,rise: percentage normal minus plain normal,20,[5],digits,0.5424,0.0127,0.0069,0.5424,0.0161,0.0087,-0.0018
+linsvc,0,rise: htmlencode normal minus plain normal,1,[#],other symbols,0.7452,0.0595,0.0443,0.7452,0.0,0.0,0.0443
+linsvc,0,rise: htmlencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0616,0.097,1.5751,0.0825,0.13,-0.033
+linsvc,0,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.3857,0.0575,0.0222,0.3857,0.0,0.0,0.0222
+linsvc,0,rise: htmlencode normal minus plain normal,4,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,0,rise: htmlencode normal minus plain normal,5,[3],digits,0.4913,0.0359,0.0176,0.4913,0.0178,0.0087,0.0089
+linsvc,0,rise: htmlencode normal minus plain normal,6,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,0,rise: htmlencode normal minus plain normal,7,[4],digits,0.353,0.0396,0.014,0.353,0.02,0.007,0.0069
+linsvc,0,rise: htmlencode normal minus plain normal,8,[2],digits,0.3941,0.0336,0.0133,0.3941,0.0175,0.0069,0.0064
+linsvc,0,rise: htmlencode normal minus plain normal,9,[-],other symbols,1.762,0.0,0.0,1.762,0.0023,0.004,-0.004
+linsvc,0,rise: htmlencode normal minus plain normal,10,[32],digits,0.101,0.0382,0.0039,0.101,0.0025,0.0003,0.0036
+linsvc,0,rise: htmlencode normal minus plain normal,11,[6],digits,0.3573,0.0261,0.0093,0.3573,0.0168,0.006,0.0033
+linsvc,0,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-0.4335,0.0141,-0.0061,-0.4335,0.0193,-0.0084,0.0023
+linsvc,0,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.35,0.0092,-0.0032,-0.35,0.0124,-0.0043,0.0011
+linsvc,0,rise: htmlencode normal minus plain normal,14,[ c],lower-case letters,-0.3457,0.008,-0.0027,-0.3457,0.0107,-0.0037,0.001
+linsvc,0,rise: htmlencode normal minus plain normal,15,[@],other symbols,-0.1338,0.0,0.0,-0.1338,0.0063,-0.0008,0.0008
+linsvc,0,rise: htmlencode normal minus plain normal,16,[ a],lower-case letters,0.7646,0.004,0.0031,0.7646,0.0051,0.0039,-0.0008
+linsvc,0,rise: htmlencode normal minus plain normal,17,[de ],lower-case letters,-0.2296,0.0003,-0.0001,-0.2296,0.0037,-0.0008,0.0008
+linsvc,0,rise: htmlencode normal minus plain normal,18,[le ],lower-case letters,-0.2467,0.0007,-0.0002,-0.2467,0.0038,-0.0009,0.0008
+linsvc,0,rise: htmlencode normal minus plain normal,19,[5],digits,0.5424,0.0175,0.0095,0.5424,0.0161,0.0087,0.0008
+linsvc,0,rise: htmlencode normal minus plain normal,20,[ de],lower-case letters,-0.1961,0.0015,-0.0003,-0.1961,0.0051,-0.001,0.0007
+linsvc,0,example: ' OR 1=1 --,1,[ ],word boundary,1.5751,0.471,0.7419,,,,0.7419
+linsvc,0,example: ' OR 1=1 --,2,[-],other symbols,1.762,0.2968,0.5229,,,,0.5229
+linsvc,0,example: ' OR 1=1 --,3,[ -],other symbols,1.3069,0.2081,0.272,,,,0.272
+linsvc,0,example: ' OR 1=1 --,4,['],other symbols,1.3308,0.1584,0.2108,,,,0.2108
+linsvc,0,example: ' OR 1=1 --,5,[=],other symbols,1.4464,0.1323,0.1913,,,,0.1913
+linsvc,0,example: ' OR 1=1 --,6,[1],digits,0.6475,0.1974,0.1278,,,,0.1278
+linsvc,0,example: ' OR 1=1 --,7,[- ],other symbols,0.6064,0.172,0.1043,,,,0.1043
+linsvc,0,example: ' OR 1=1 --,8,[-- ],other symbols,0.6064,0.172,0.1043,,,,0.1043
+linsvc,0,example: ' OR 1=1 --,9,[--],other symbols,0.6064,0.172,0.1043,,,,0.1043
+linsvc,0,example: ' OR 1=1 --,10,[' ],other symbols,0.4801,0.2039,0.0979,,,,0.0979
+linsvc,0,example: ' OR 1=1 --,11,[1=],other symbols,0.2554,0.2715,0.0694,,,,0.0694
+linsvc,0,example: ' OR 1=1 --,12,[=1],other symbols,0.2559,0.2656,0.068,,,,0.068
+linsvc,0,example: ' OR 1=1 --,13,[ '],other symbols,0.2849,0.2332,0.0664,,,,0.0664
+linsvc,0,example: ' OR 1=1 --,14,[ 1],digits,0.2279,0.118,0.0269,,,,0.0269
+linsvc,0,example: ' OR 1=1 --,15,[1=1],other symbols,0.0409,0.4265,0.0175,,,,0.0175
+linsvc,0,example: ' OR 1=1 --,16,[1 ],digits,-0.0232,0.2009,-0.0047,,,,-0.0047
+linsvc,0,example: JyBPUiAxPTEgLS0=,1,[=],other symbols,1.4464,0.2886,0.4175,,,,0.4175
+linsvc,0,example: JyBPUiAxPTEgLS0=,2,[ ],word boundary,1.5751,0.2569,0.4047,,,,0.4047
+linsvc,0,example: JyBPUiAxPTEgLS0=,3,[0=],other symbols,0.2113,0.5545,0.1172,,,,0.1172
+linsvc,0,example: JyBPUiAxPTEgLS0=,4,[0],digits,0.4019,0.2651,0.1066,,,,0.1066
+linsvc,0,example: JyBPUiAxPTEgLS0=,5,[y],lower-case letters,0.1948,0.3784,0.0737,,,,0.0737
+linsvc,0,example: JyBPUiAxPTEgLS0=,6,[g],lower-case letters,-0.1476,0.3329,-0.0491,,,,-0.0491
+linsvc,0,example: JyBPUiAxPTEgLS0=,7,[x],lower-case letters,0.119,0.4096,0.0487,,,,0.0487
+linsvc,0,example: JyBPUiAxPTEgLS0=,8,[i],lower-case letters,-0.0279,0.226,-0.0063,,,,-0.0063
+linsvc,0,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.6046,0.1726,0.1043,,0.0,0.0,0.1043
+linsvc,0,gap: B minus A on base64encode attacks,2,[S],upper-case letters,0.447,0.1481,0.0662,,0.0,0.0,0.0662
+linsvc,0,gap: B minus A on base64encode attacks,3,[L],upper-case letters,0.819,0.0604,0.0495,,0.0,0.0,0.0495
+linsvc,0,gap: B minus A on base64encode attacks,4,[I],upper-case letters,0.2154,0.2044,0.044,,0.0,0.0,0.044
+linsvc,0,gap: B minus A on base64encode attacks,5,[ ],word boundary,1.4445,0.0228,0.033,1.5751,0.044,0.0692,-0.0362
+linsvc,0,gap: B minus A on base64encode attacks,6,[=],other symbols,1.4965,0.0241,0.036,1.4464,0.0497,0.0719,-0.0359
+linsvc,0,gap: B minus A on base64encode attacks,7,[T],upper-case letters,0.3502,0.0994,0.0348,,0.0,0.0,0.0348
+linsvc,0,gap: B minus A on base64encode attacks,8,[M],upper-case letters,0.1225,0.2578,0.0316,,0.0,0.0,0.0316
+linsvc,0,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.4683,0.0672,0.0315,,0.0,0.0,0.0315
+linsvc,0,gap: B minus A on base64encode attacks,10,[A],upper-case letters,0.4209,0.0626,0.0264,,0.0,0.0,0.0264
+linsvc,0,gap: B minus A on base64encode attacks,11,[H],upper-case letters,0.3139,0.0807,0.0253,,0.0,0.0,0.0253
+linsvc,0,gap: B minus A on base64encode attacks,12,[E],upper-case letters,0.7899,0.0315,0.0249,,0.0,0.0,0.0249
+linsvc,0,gap: B minus A on base64encode attacks,13,[D],upper-case letters,0.25,0.097,0.0242,,0.0,0.0,0.0242
+linsvc,0,gap: B minus A on base64encode attacks,14,[0],digits,0.3314,0.0347,0.0115,0.4019,0.074,0.0297,-0.0183
+linsvc,0,gap: B minus A on base64encode attacks,15,[w],lower-case letters,0.3462,0.0442,0.0153,0.3737,0.0897,0.0335,-0.0182
+linsvc,0,gap: B minus A on base64encode attacks,16,[O],upper-case letters,0.3593,0.0504,0.0181,,0.0,0.0,0.0181
+linsvc,0,gap: B minus A on base64encode attacks,17,[U],upper-case letters,0.2876,0.0619,0.0178,,0.0,0.0,0.0178
+linsvc,0,gap: B minus A on base64encode attacks,18,[W],upper-case letters,0.1226,0.1267,0.0155,,0.0,0.0,0.0155
+linsvc,0,gap: B minus A on base64encode attacks,19,[1],digits,0.6031,0.0184,0.0111,0.6475,0.038,0.0246,-0.0135
+linsvc,0,gap: B minus A on base64encode attacks,20,[y],lower-case letters,0.1442,0.0558,0.008,0.1948,0.1083,0.0211,-0.0131
+linsvc,0,gap: B minus A on base64encode normal,1,[=],other symbols,1.4965,0.0852,0.1275,1.4464,0.1819,0.2631,-0.1355
+linsvc,0,gap: B minus A on base64encode normal,2,[ ],word boundary,1.4445,0.0792,0.1143,1.5751,0.1549,0.244,-0.1297
+linsvc,0,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.6046,0.1057,0.0639,,0.0,0.0,0.0639
+linsvc,0,gap: B minus A on base64encode normal,4,[E],upper-case letters,0.7899,0.0264,0.0209,,0.0,0.0,0.0209
+linsvc,0,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.3502,0.0589,0.0206,,0.0,0.0,0.0206
+linsvc,0,gap: B minus A on base64encode normal,6,[M],upper-case letters,0.1225,0.1311,0.0161,,0.0,0.0,0.0161
+linsvc,0,gap: B minus A on base64encode normal,7,[A],upper-case letters,0.4209,0.0376,0.0158,,0.0,0.0,0.0158
+linsvc,0,gap: B minus A on base64encode normal,8,[O],upper-case letters,0.3593,0.0421,0.0151,,0.0,0.0,0.0151
+linsvc,0,gap: B minus A on base64encode normal,9,[W],upper-case letters,0.1226,0.1037,0.0127,,0.0,0.0,0.0127
+linsvc,0,gap: B minus A on base64encode normal,10,[R],upper-case letters,0.4804,0.024,0.0115,,0.0,0.0,0.0115
+linsvc,0,gap: B minus A on base64encode normal,11,[D],upper-case letters,0.25,0.0435,0.0109,,0.0,0.0,0.0109
+linsvc,0,gap: B minus A on base64encode normal,12,[U],upper-case letters,0.2876,0.0343,0.0099,,0.0,0.0,0.0099
+linsvc,0,gap: B minus A on base64encode normal,13,[I],upper-case letters,0.2154,0.0429,0.0092,,0.0,0.0,0.0092
+linsvc,0,gap: B minus A on base64encode normal,14,[L],upper-case letters,0.819,0.0111,0.0091,,0.0,0.0,0.0091
+linsvc,0,gap: B minus A on base64encode normal,15,[w],lower-case letters,0.3462,0.0228,0.0079,0.3737,0.0434,0.0162,-0.0084
+linsvc,0,gap: B minus A on base64encode normal,16,[y],lower-case letters,0.1442,0.0364,0.0052,0.1948,0.0678,0.0132,-0.008
+linsvc,0,gap: B minus A on base64encode normal,17,[1],digits,0.6031,0.0095,0.0057,0.6475,0.0208,0.0135,-0.0077
+linsvc,0,gap: B minus A on base64encode normal,18,[0],digits,0.3314,0.0133,0.0044,0.4019,0.0302,0.0122,-0.0077
+linsvc,0,gap: B minus A on base64encode normal,19,[G],upper-case letters,0.0641,0.1134,0.0073,,0.0,0.0,0.0073
+linsvc,0,gap: B minus A on base64encode normal,20,[5],digits,0.5805,0.0142,0.0082,0.5424,0.0285,0.0155,-0.0072
+linsvc,0,gap: D minus B on base64encode attacks,1,[D],upper-case letters,0.2583,0.1409,0.0364,0.25,0.097,0.0242,0.0121
+linsvc,0,gap: D minus B on base64encode attacks,2,[ ],word boundary,1.9734,0.0225,0.0444,1.4445,0.0228,0.033,0.0114
+linsvc,0,gap: D minus B on base64encode attacks,3,[E],upper-case letters,0.8602,0.0408,0.0351,0.7899,0.0315,0.0249,0.0102
+linsvc,0,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.5619,0.1696,0.0953,0.6046,0.1726,0.1043,-0.0091
+linsvc,0,gap: D minus B on base64encode attacks,5,[A],upper-case letters,0.456,0.0737,0.0336,0.4209,0.0626,0.0264,0.0072
+linsvc,0,gap: D minus B on base64encode attacks,6,[S],upper-case letters,0.4085,0.1456,0.0595,0.447,0.1481,0.0662,-0.0067
+linsvc,0,gap: D minus B on base64encode attacks,7,[C],upper-case letters,0.4133,0.0917,0.0379,0.4683,0.0672,0.0315,0.0064
+linsvc,0,gap: D minus B on base64encode attacks,8,[2],digits,0.4053,0.0404,0.0164,0.5625,0.0399,0.0224,-0.0061
+linsvc,0,gap: D minus B on base64encode attacks,9,[I],upper-case letters,0.1978,0.2011,0.0398,0.2154,0.2044,0.044,-0.0043
+linsvc,0,gap: D minus B on base64encode attacks,10,[B],upper-case letters,0.0832,0.1088,0.009,0.0677,0.076,0.0051,0.0039
+linsvc,0,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.3193,0.0977,0.0312,0.3502,0.0994,0.0348,-0.0036
+linsvc,0,gap: D minus B on base64encode attacks,12,[L],upper-case letters,0.7791,0.0594,0.0463,0.819,0.0604,0.0495,-0.0032
+linsvc,0,gap: D minus B on base64encode attacks,13,[M],upper-case letters,0.1126,0.2533,0.0285,0.1225,0.2578,0.0316,-0.0031
+linsvc,0,gap: D minus B on base64encode attacks,14,[=],other symbols,1.5186,0.0222,0.0337,1.4965,0.0241,0.036,-0.0024
+linsvc,0,gap: D minus B on base64encode attacks,15,[W],upper-case letters,0.1068,0.1247,0.0133,0.1226,0.1267,0.0155,-0.0022
+linsvc,0,gap: D minus B on base64encode attacks,16,[O],upper-case letters,0.3267,0.0494,0.0161,0.3593,0.0504,0.0181,-0.002
+linsvc,0,gap: D minus B on base64encode attacks,17,[H],upper-case letters,0.2955,0.0794,0.0235,0.3139,0.0807,0.0253,-0.0019
+linsvc,0,gap: D minus B on base64encode attacks,18,[9],digits,0.447,0.0215,0.0096,0.3854,0.021,0.0081,0.0015
+linsvc,0,gap: D minus B on base64encode attacks,19,[0],digits,0.3708,0.0351,0.013,0.3314,0.0347,0.0115,0.0015
+linsvc,0,gap: D minus B on base64encode attacks,20,[g],lower-case letters,-0.1973,0.0847,-0.0167,-0.2035,0.0889,-0.0181,0.0014
+linsvc,1,rise: charencode normal minus plain normal,1,[%],percent,0.3662,0.6447,0.2361,0.3662,0.0,0.0,0.2361
+linsvc,1,rise: charencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0394,0.0621,1.5751,0.0825,0.13,-0.0679
+linsvc,1,rise: charencode normal minus plain normal,3,[6],digits,0.3573,0.185,0.0661,0.3573,0.0168,0.006,0.0601
+linsvc,1,rise: charencode normal minus plain normal,4,[3],digits,0.4913,0.1378,0.0677,0.4913,0.0178,0.0087,0.059
+linsvc,1,rise: charencode normal minus plain normal,5,[7],digits,0.4168,0.0798,0.0332,0.4168,0.018,0.0075,0.0258
+linsvc,1,rise: charencode normal minus plain normal,6,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,1,rise: charencode normal minus plain normal,7,[1%],percent,0.1878,0.0766,0.0144,0.1878,0.0,0.0,0.0144
+linsvc,1,rise: charencode normal minus plain normal,8,[1],digits,0.6475,0.0381,0.0247,0.6475,0.0183,0.0118,0.0129
+linsvc,1,rise: charencode normal minus plain normal,9,[2],digits,0.3941,0.0479,0.0189,0.3941,0.0175,0.0069,0.012
+linsvc,1,rise: charencode normal minus plain normal,10,[5],digits,0.5424,0.0371,0.0201,0.5424,0.0161,0.0087,0.0114
+linsvc,1,rise: charencode normal minus plain normal,11,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,1,rise: charencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,1,rise: charencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,1,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,1,rise: charencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,1,rise: charencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,1,rise: charencode normal minus plain normal,17,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,1,rise: charencode normal minus plain normal,18,[9],digits,0.4385,0.0309,0.0135,0.4385,0.0197,0.0086,0.0049
+linsvc,1,rise: charencode normal minus plain normal,19,[t],lower-case letters,0.3092,0.0,0.0,0.3092,0.0149,0.0046,-0.0046
+linsvc,1,rise: charencode normal minus plain normal,20,[72],digits,0.1301,0.038,0.0049,0.1301,0.0026,0.0003,0.0046
+linsvc,1,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.3662,0.3363,0.1231,0.3662,0.0,0.0,0.1231
+linsvc,1,rise: chardoubleencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0206,0.0324,1.5751,0.0825,0.13,-0.0976
+linsvc,1,rise: chardoubleencode normal minus plain normal,3,[5],digits,0.5424,0.1929,0.1046,0.5424,0.0161,0.0087,0.0959
+linsvc,1,rise: chardoubleencode normal minus plain normal,4,[2],digits,0.3941,0.2034,0.0802,0.3941,0.0175,0.0069,0.0733
+linsvc,1,rise: chardoubleencode normal minus plain normal,5,[6],digits,0.3573,0.0961,0.0343,0.3573,0.0168,0.006,0.0283
+linsvc,1,rise: chardoubleencode normal minus plain normal,6,[3],digits,0.4913,0.0719,0.0353,0.4913,0.0178,0.0087,0.0266
+linsvc,1,rise: chardoubleencode normal minus plain normal,7,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,1,rise: chardoubleencode normal minus plain normal,8,[256],digits,0.0417,0.2895,0.0121,0.0417,0.0006,0.0,0.0121
+linsvc,1,rise: chardoubleencode normal minus plain normal,9,[57],digits,0.168,0.0704,0.0118,0.168,0.002,0.0003,0.0115
+linsvc,1,rise: chardoubleencode normal minus plain normal,10,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,1,rise: chardoubleencode normal minus plain normal,11,[7],digits,0.4168,0.0422,0.0176,0.4168,0.018,0.0075,0.0101
+linsvc,1,rise: chardoubleencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,1,rise: chardoubleencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,1,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,1,rise: chardoubleencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,1,rise: chardoubleencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,1,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.1878,0.0395,0.0074,0.1878,0.0,0.0,0.0074
+linsvc,1,rise: chardoubleencode normal minus plain normal,18,[56],digits,-0.0405,0.1843,-0.0075,-0.0405,0.0024,-0.0001,-0.0074
+linsvc,1,rise: chardoubleencode normal minus plain normal,19,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,1,rise: chardoubleencode normal minus plain normal,20,[257],digits,0.0588,0.1029,0.0061,0.0588,0.0002,0.0,0.006
+linsvc,1,rise: base64encode normal minus plain normal,1,[=],other symbols,1.4464,0.1819,0.2631,1.4464,0.0,0.0,0.2631
+linsvc,1,rise: base64encode normal minus plain normal,2,[ ],word boundary,1.5751,0.1549,0.244,1.5751,0.0825,0.13,0.114
+linsvc,1,rise: base64encode normal minus plain normal,3,[2],digits,0.3941,0.0598,0.0236,0.3941,0.0175,0.0069,0.0167
+linsvc,1,rise: base64encode normal minus plain normal,4,[w],lower-case letters,0.3737,0.0434,0.0162,0.3737,0.0018,0.0007,0.0156
+linsvc,1,rise: base64encode normal minus plain normal,5,[e],lower-case letters,0.5314,0.0042,0.0022,0.5314,0.0285,0.0151,-0.0129
+linsvc,1,rise: base64encode normal minus plain normal,6,[y],lower-case letters,0.1948,0.0678,0.0132,0.1948,0.006,0.0012,0.012
+linsvc,1,rise: base64encode normal minus plain normal,7,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,1,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.3113,0.0363,0.0113,0.3113,0.0086,0.0027,0.0086
+linsvc,1,rise: base64encode normal minus plain normal,9,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,1,rise: base64encode normal minus plain normal,10,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,1,rise: base64encode normal minus plain normal,11,[7],digits,0.4168,0.0,0.0,0.4168,0.018,0.0075,-0.0075
+linsvc,1,rise: base64encode normal minus plain normal,12,[5],digits,0.5424,0.0285,0.0155,0.5424,0.0161,0.0087,0.0068
+linsvc,1,rise: base64encode normal minus plain normal,13,[k],lower-case letters,0.1658,0.0451,0.0075,0.1658,0.0047,0.0008,0.0067
+linsvc,1,rise: base64encode normal minus plain normal,14,[3],digits,0.4913,0.0298,0.0146,0.4913,0.0178,0.0087,0.0059
+linsvc,1,rise: base64encode normal minus plain normal,15,[x],lower-case letters,0.119,0.0507,0.006,0.119,0.0017,0.0002,0.0058
+linsvc,1,rise: base64encode normal minus plain normal,16,[g],lower-case letters,-0.1476,0.0476,-0.007,-0.1476,0.0113,-0.0017,-0.0054
+linsvc,1,rise: base64encode normal minus plain normal,17,[b],lower-case letters,0.0811,0.072,0.0058,0.0811,0.0108,0.0009,0.005
+linsvc,1,rise: base64encode normal minus plain normal,18,[0],digits,0.4019,0.0302,0.0122,0.4019,0.0179,0.0072,0.0049
+linsvc,1,rise: base64encode normal minus plain normal,19,[c],lower-case letters,0.171,0.0455,0.0078,0.171,0.0171,0.0029,0.0049
+linsvc,1,rise: base64encode normal minus plain normal,20,[6],digits,0.3573,0.0036,0.0013,0.3573,0.0168,0.006,-0.0047
+linsvc,1,rise: percentage normal minus plain normal,1,[%],percent,0.3662,0.9004,0.3297,0.3662,0.0,0.0,0.3297
+linsvc,1,rise: percentage normal minus plain normal,2,[ ],word boundary,1.5751,0.0706,0.1112,1.5751,0.0825,0.13,-0.0187
+linsvc,1,rise: percentage normal minus plain normal,3,[1%],percent,0.1878,0.0318,0.006,0.1878,0.0,0.0,0.006
+linsvc,1,rise: percentage normal minus plain normal,4,[ a],lower-case letters,0.7646,0.0,0.0,0.7646,0.0051,0.0039,-0.0039
+linsvc,1,rise: percentage normal minus plain normal,5,[ c],lower-case letters,-0.3457,0.0,0.0,-0.3457,0.0107,-0.0037,0.0037
+linsvc,1,rise: percentage normal minus plain normal,6,"[,]",other symbols,1.9718,0.0037,0.0073,1.9718,0.0055,0.0108,-0.0035
+linsvc,1,rise: percentage normal minus plain normal,7,[e],lower-case letters,0.5314,0.0229,0.0121,0.5314,0.0285,0.0151,-0.003
+linsvc,1,rise: percentage normal minus plain normal,8,[or],lower-case letters,0.4516,0.0,0.0,0.4516,0.0057,0.0026,-0.0026
+linsvc,1,rise: percentage normal minus plain normal,9,"[, ]",other symbols,-0.8515,0.0063,-0.0054,-0.8515,0.0093,-0.0079,0.0025
+linsvc,1,rise: percentage normal minus plain normal,10,[1],digits,0.6475,0.0148,0.0096,0.6475,0.0183,0.0118,-0.0022
+linsvc,1,rise: percentage normal minus plain normal,11,[0%],percent,0.0485,0.042,0.002,0.0485,0.0,0.0,0.002
+linsvc,1,rise: percentage normal minus plain normal,12,[4%],percent,0.041,0.0496,0.002,0.041,0.0,0.0,0.002
+linsvc,1,rise: percentage normal minus plain normal,13,[9%],percent,0.0444,0.0455,0.002,0.0444,0.0,0.0,0.002
+linsvc,1,rise: percentage normal minus plain normal,14,[8%],percent,0.0475,0.0418,0.002,0.0475,0.0,0.0,0.002
+linsvc,1,rise: percentage normal minus plain normal,15,[ll],lower-case letters,0.2859,0.0,0.0,0.2859,0.0069,0.002,-0.002
+linsvc,1,rise: percentage normal minus plain normal,16,[ ca],lower-case letters,-0.2671,0.0,0.0,-0.2671,0.0074,-0.002,0.002
+linsvc,1,rise: percentage normal minus plain normal,17,[l],lower-case letters,0.4342,0.0184,0.008,0.4342,0.0229,0.01,-0.002
+linsvc,1,rise: percentage normal minus plain normal,18,[9],digits,0.4385,0.0154,0.0067,0.4385,0.0197,0.0086,-0.0019
+linsvc,1,rise: percentage normal minus plain normal,19,[2%],percent,0.0407,0.0462,0.0019,0.0407,0.0,0.0,0.0019
+linsvc,1,rise: percentage normal minus plain normal,20,[5],digits,0.5424,0.0127,0.0069,0.5424,0.0161,0.0087,-0.0018
+linsvc,1,rise: htmlencode normal minus plain normal,1,[#],other symbols,0.7452,0.0595,0.0443,0.7452,0.0,0.0,0.0443
+linsvc,1,rise: htmlencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0616,0.097,1.5751,0.0825,0.13,-0.033
+linsvc,1,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.3857,0.0575,0.0222,0.3857,0.0,0.0,0.0222
+linsvc,1,rise: htmlencode normal minus plain normal,4,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,1,rise: htmlencode normal minus plain normal,5,[3],digits,0.4913,0.0359,0.0176,0.4913,0.0178,0.0087,0.0089
+linsvc,1,rise: htmlencode normal minus plain normal,6,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,1,rise: htmlencode normal minus plain normal,7,[4],digits,0.353,0.0396,0.014,0.353,0.02,0.007,0.0069
+linsvc,1,rise: htmlencode normal minus plain normal,8,[2],digits,0.3941,0.0336,0.0133,0.3941,0.0175,0.0069,0.0064
+linsvc,1,rise: htmlencode normal minus plain normal,9,[-],other symbols,1.762,0.0,0.0,1.762,0.0023,0.004,-0.004
+linsvc,1,rise: htmlencode normal minus plain normal,10,[32],digits,0.101,0.0382,0.0039,0.101,0.0025,0.0003,0.0036
+linsvc,1,rise: htmlencode normal minus plain normal,11,[6],digits,0.3573,0.0261,0.0093,0.3573,0.0168,0.006,0.0033
+linsvc,1,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-0.4335,0.0141,-0.0061,-0.4335,0.0193,-0.0084,0.0023
+linsvc,1,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.35,0.0092,-0.0032,-0.35,0.0124,-0.0043,0.0011
+linsvc,1,rise: htmlencode normal minus plain normal,14,[ c],lower-case letters,-0.3457,0.008,-0.0027,-0.3457,0.0107,-0.0037,0.001
+linsvc,1,rise: htmlencode normal minus plain normal,15,[@],other symbols,-0.1338,0.0,0.0,-0.1338,0.0063,-0.0008,0.0008
+linsvc,1,rise: htmlencode normal minus plain normal,16,[ a],lower-case letters,0.7646,0.004,0.0031,0.7646,0.0051,0.0039,-0.0008
+linsvc,1,rise: htmlencode normal minus plain normal,17,[de ],lower-case letters,-0.2296,0.0003,-0.0001,-0.2296,0.0037,-0.0008,0.0008
+linsvc,1,rise: htmlencode normal minus plain normal,18,[le ],lower-case letters,-0.2467,0.0007,-0.0002,-0.2467,0.0038,-0.0009,0.0008
+linsvc,1,rise: htmlencode normal minus plain normal,19,[5],digits,0.5424,0.0175,0.0095,0.5424,0.0161,0.0087,0.0008
+linsvc,1,rise: htmlencode normal minus plain normal,20,[ de],lower-case letters,-0.1961,0.0015,-0.0003,-0.1961,0.0051,-0.001,0.0007
+linsvc,1,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.6547,0.1732,0.1134,,0.0,0.0,0.1134
+linsvc,1,gap: B minus A on base64encode attacks,2,[S],upper-case letters,0.4387,0.149,0.0654,,0.0,0.0,0.0654
+linsvc,1,gap: B minus A on base64encode attacks,3,[L],upper-case letters,0.7685,0.0611,0.0469,,0.0,0.0,0.0469
+linsvc,1,gap: B minus A on base64encode attacks,4,[I],upper-case letters,0.2174,0.2109,0.0459,,0.0,0.0,0.0459
+linsvc,1,gap: B minus A on base64encode attacks,5,[ ],word boundary,1.4413,0.0231,0.0332,1.5751,0.044,0.0692,-0.036
+linsvc,1,gap: B minus A on base64encode attacks,6,[=],other symbols,1.4999,0.0243,0.0364,1.4464,0.0497,0.0719,-0.0355
+linsvc,1,gap: B minus A on base64encode attacks,7,[M],upper-case letters,0.1387,0.2522,0.035,,0.0,0.0,0.035
+linsvc,1,gap: B minus A on base64encode attacks,8,[T],upper-case letters,0.3109,0.1008,0.0313,,0.0,0.0,0.0313
+linsvc,1,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.4555,0.068,0.031,,0.0,0.0,0.031
+linsvc,1,gap: B minus A on base64encode attacks,10,[A],upper-case letters,0.4211,0.0627,0.0264,,0.0,0.0,0.0264
+linsvc,1,gap: B minus A on base64encode attacks,11,[H],upper-case letters,0.3255,0.0808,0.0263,,0.0,0.0,0.0263
+linsvc,1,gap: B minus A on base64encode attacks,12,[E],upper-case letters,0.7972,0.0316,0.0252,,0.0,0.0,0.0252
+linsvc,1,gap: B minus A on base64encode attacks,13,[D],upper-case letters,0.2527,0.0975,0.0246,,0.0,0.0,0.0246
+linsvc,1,gap: B minus A on base64encode attacks,14,[U],upper-case letters,0.305,0.0631,0.0192,,0.0,0.0,0.0192
+linsvc,1,gap: B minus A on base64encode attacks,15,[0],digits,0.322,0.0349,0.0112,0.4019,0.074,0.0297,-0.0185
+linsvc,1,gap: B minus A on base64encode attacks,16,[w],lower-case letters,0.3487,0.0446,0.0156,0.3737,0.0897,0.0335,-0.018
+linsvc,1,gap: B minus A on base64encode attacks,17,[W],upper-case letters,0.1332,0.1288,0.0172,,0.0,0.0,0.0172
+linsvc,1,gap: B minus A on base64encode attacks,18,[O],upper-case letters,0.3226,0.0509,0.0164,,0.0,0.0,0.0164
+linsvc,1,gap: B minus A on base64encode attacks,19,[3],digits,0.5645,0.0304,0.0171,0.4913,0.0622,0.0306,-0.0134
+linsvc,1,gap: B minus A on base64encode attacks,20,[l],lower-case letters,0.4669,0.0385,0.018,0.4342,0.0713,0.031,-0.013
+linsvc,1,gap: B minus A on base64encode normal,1,[=],other symbols,1.4999,0.0856,0.1284,1.4464,0.1819,0.2631,-0.1347
+linsvc,1,gap: B minus A on base64encode normal,2,[ ],word boundary,1.4413,0.0796,0.1147,1.5751,0.1549,0.244,-0.1293
+linsvc,1,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.6547,0.1059,0.0693,,0.0,0.0,0.0693
+linsvc,1,gap: B minus A on base64encode normal,4,[E],upper-case letters,0.7972,0.0266,0.0212,,0.0,0.0,0.0212
+linsvc,1,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.3109,0.06,0.0187,,0.0,0.0,0.0187
+linsvc,1,gap: B minus A on base64encode normal,6,[M],upper-case letters,0.1387,0.1285,0.0178,,0.0,0.0,0.0178
+linsvc,1,gap: B minus A on base64encode normal,7,[A],upper-case letters,0.4211,0.0378,0.0159,,0.0,0.0,0.0159
+linsvc,1,gap: B minus A on base64encode normal,8,[W],upper-case letters,0.1332,0.105,0.014,,0.0,0.0,0.014
+linsvc,1,gap: B minus A on base64encode normal,9,[O],upper-case letters,0.3226,0.0423,0.0137,,0.0,0.0,0.0137
+linsvc,1,gap: B minus A on base64encode normal,10,[D],upper-case letters,0.2527,0.0439,0.0111,,0.0,0.0,0.0111
+linsvc,1,gap: B minus A on base64encode normal,11,[R],upper-case letters,0.464,0.0238,0.0111,,0.0,0.0,0.0111
+linsvc,1,gap: B minus A on base64encode normal,12,[U],upper-case letters,0.305,0.0353,0.0108,,0.0,0.0,0.0108
+linsvc,1,gap: B minus A on base64encode normal,13,[I],upper-case letters,0.2174,0.0449,0.0098,,0.0,0.0,0.0098
+linsvc,1,gap: B minus A on base64encode normal,14,[L],upper-case letters,0.7685,0.0112,0.0086,,0.0,0.0,0.0086
+linsvc,1,gap: B minus A on base64encode normal,15,[w],lower-case letters,0.3487,0.023,0.008,0.3737,0.0434,0.0162,-0.0082
+linsvc,1,gap: B minus A on base64encode normal,16,[Y],upper-case letters,0.0453,0.1773,0.008,,0.0,0.0,0.008
+linsvc,1,gap: B minus A on base64encode normal,17,[0],digits,0.322,0.0134,0.0043,0.4019,0.0302,0.0122,-0.0078
+linsvc,1,gap: B minus A on base64encode normal,18,[G],upper-case letters,0.0682,0.1128,0.0077,,0.0,0.0,0.0077
+linsvc,1,gap: B minus A on base64encode normal,19,[y],lower-case letters,0.1564,0.0367,0.0057,0.1948,0.0678,0.0132,-0.0075
+linsvc,1,gap: B minus A on base64encode normal,20,[1],digits,0.6389,0.0096,0.0061,0.6475,0.0208,0.0135,-0.0074
+linsvc,1,gap: D minus B on base64encode attacks,1,[D],upper-case letters,0.2613,0.1411,0.0369,0.2527,0.0975,0.0246,0.0122
+linsvc,1,gap: D minus B on base64encode attacks,2,[ ],word boundary,1.975,0.0227,0.0448,1.4413,0.0231,0.0332,0.0116
+linsvc,1,gap: D minus B on base64encode attacks,3,[E],upper-case letters,0.8694,0.041,0.0357,0.7972,0.0316,0.0252,0.0105
+linsvc,1,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.6065,0.1701,0.1032,0.6547,0.1732,0.1134,-0.0102
+linsvc,1,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.3977,0.1465,0.0582,0.4387,0.149,0.0654,-0.0071
+linsvc,1,gap: D minus B on base64encode attacks,6,[A],upper-case letters,0.4511,0.074,0.0334,0.4211,0.0627,0.0264,0.0069
+linsvc,1,gap: D minus B on base64encode attacks,7,[C],upper-case letters,0.4009,0.0938,0.0376,0.4555,0.068,0.031,0.0066
+linsvc,1,gap: D minus B on base64encode attacks,8,[2],digits,0.4216,0.0405,0.0171,0.5667,0.0401,0.0227,-0.0056
+linsvc,1,gap: D minus B on base64encode attacks,9,[I],upper-case letters,0.2,0.2074,0.0415,0.2174,0.2109,0.0459,-0.0044
+linsvc,1,gap: D minus B on base64encode attacks,10,[M],upper-case letters,0.1259,0.2477,0.0312,0.1387,0.2522,0.035,-0.0038
+linsvc,1,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.278,0.0991,0.0275,0.3109,0.1008,0.0313,-0.0038
+linsvc,1,gap: D minus B on base64encode attacks,12,[L],upper-case letters,0.729,0.06,0.0437,0.7685,0.0611,0.0469,-0.0032
+linsvc,1,gap: D minus B on base64encode attacks,13,[B],upper-case letters,0.0666,0.1103,0.0073,0.0561,0.0764,0.0043,0.0031
+linsvc,1,gap: D minus B on base64encode attacks,14,[W],upper-case letters,0.1162,0.1268,0.0147,0.1332,0.1288,0.0172,-0.0024
+linsvc,1,gap: D minus B on base64encode attacks,15,[=],other symbols,1.5226,0.0223,0.034,1.4999,0.0243,0.0364,-0.0024
+linsvc,1,gap: D minus B on base64encode attacks,16,[H],upper-case letters,0.3078,0.0795,0.0245,0.3255,0.0808,0.0263,-0.0018
+linsvc,1,gap: D minus B on base64encode attacks,17,[O],upper-case letters,0.2942,0.0498,0.0147,0.3226,0.0509,0.0164,-0.0018
+linsvc,1,gap: D minus B on base64encode attacks,18,[9],digits,0.4677,0.0216,0.0101,0.3976,0.0211,0.0084,0.0017
+linsvc,1,gap: D minus B on base64encode attacks,19,[0],digits,0.3579,0.0353,0.0126,0.322,0.0349,0.0112,0.0014
+linsvc,1,gap: D minus B on base64encode attacks,20,[4],digits,0.5172,0.0149,0.0077,0.4306,0.0146,0.0063,0.0014
+linsvc,2,rise: charencode normal minus plain normal,1,[%],percent,0.3662,0.6447,0.2361,0.3662,0.0,0.0,0.2361
+linsvc,2,rise: charencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0394,0.0621,1.5751,0.0825,0.13,-0.0679
+linsvc,2,rise: charencode normal minus plain normal,3,[6],digits,0.3573,0.185,0.0661,0.3573,0.0168,0.006,0.0601
+linsvc,2,rise: charencode normal minus plain normal,4,[3],digits,0.4913,0.1378,0.0677,0.4913,0.0178,0.0087,0.059
+linsvc,2,rise: charencode normal minus plain normal,5,[7],digits,0.4168,0.0798,0.0332,0.4168,0.018,0.0075,0.0258
+linsvc,2,rise: charencode normal minus plain normal,6,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,2,rise: charencode normal minus plain normal,7,[1%],percent,0.1878,0.0766,0.0144,0.1878,0.0,0.0,0.0144
+linsvc,2,rise: charencode normal minus plain normal,8,[1],digits,0.6475,0.0381,0.0247,0.6475,0.0183,0.0118,0.0129
+linsvc,2,rise: charencode normal minus plain normal,9,[2],digits,0.3941,0.0479,0.0189,0.3941,0.0175,0.0069,0.012
+linsvc,2,rise: charencode normal minus plain normal,10,[5],digits,0.5424,0.0371,0.0201,0.5424,0.0161,0.0087,0.0114
+linsvc,2,rise: charencode normal minus plain normal,11,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,2,rise: charencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,2,rise: charencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,2,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,2,rise: charencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,2,rise: charencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,2,rise: charencode normal minus plain normal,17,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,2,rise: charencode normal minus plain normal,18,[9],digits,0.4385,0.0309,0.0135,0.4385,0.0197,0.0086,0.0049
+linsvc,2,rise: charencode normal minus plain normal,19,[t],lower-case letters,0.3092,0.0,0.0,0.3092,0.0149,0.0046,-0.0046
+linsvc,2,rise: charencode normal minus plain normal,20,[72],digits,0.1301,0.038,0.0049,0.1301,0.0026,0.0003,0.0046
+linsvc,2,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.3662,0.3363,0.1231,0.3662,0.0,0.0,0.1231
+linsvc,2,rise: chardoubleencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0206,0.0324,1.5751,0.0825,0.13,-0.0976
+linsvc,2,rise: chardoubleencode normal minus plain normal,3,[5],digits,0.5424,0.1929,0.1046,0.5424,0.0161,0.0087,0.0959
+linsvc,2,rise: chardoubleencode normal minus plain normal,4,[2],digits,0.3941,0.2034,0.0802,0.3941,0.0175,0.0069,0.0733
+linsvc,2,rise: chardoubleencode normal minus plain normal,5,[6],digits,0.3573,0.0961,0.0343,0.3573,0.0168,0.006,0.0283
+linsvc,2,rise: chardoubleencode normal minus plain normal,6,[3],digits,0.4913,0.0719,0.0353,0.4913,0.0178,0.0087,0.0266
+linsvc,2,rise: chardoubleencode normal minus plain normal,7,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,2,rise: chardoubleencode normal minus plain normal,8,[256],digits,0.0417,0.2895,0.0121,0.0417,0.0006,0.0,0.0121
+linsvc,2,rise: chardoubleencode normal minus plain normal,9,[57],digits,0.168,0.0704,0.0118,0.168,0.002,0.0003,0.0115
+linsvc,2,rise: chardoubleencode normal minus plain normal,10,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,2,rise: chardoubleencode normal minus plain normal,11,[7],digits,0.4168,0.0422,0.0176,0.4168,0.018,0.0075,0.0101
+linsvc,2,rise: chardoubleencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,2,rise: chardoubleencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,2,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,2,rise: chardoubleencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,2,rise: chardoubleencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,2,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.1878,0.0395,0.0074,0.1878,0.0,0.0,0.0074
+linsvc,2,rise: chardoubleencode normal minus plain normal,18,[56],digits,-0.0405,0.1843,-0.0075,-0.0405,0.0024,-0.0001,-0.0074
+linsvc,2,rise: chardoubleencode normal minus plain normal,19,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,2,rise: chardoubleencode normal minus plain normal,20,[257],digits,0.0588,0.1029,0.0061,0.0588,0.0002,0.0,0.006
+linsvc,2,rise: base64encode normal minus plain normal,1,[=],other symbols,1.4464,0.1819,0.2631,1.4464,0.0,0.0,0.2631
+linsvc,2,rise: base64encode normal minus plain normal,2,[ ],word boundary,1.5751,0.1549,0.244,1.5751,0.0825,0.13,0.114
+linsvc,2,rise: base64encode normal minus plain normal,3,[2],digits,0.3941,0.0598,0.0236,0.3941,0.0175,0.0069,0.0167
+linsvc,2,rise: base64encode normal minus plain normal,4,[w],lower-case letters,0.3737,0.0434,0.0162,0.3737,0.0018,0.0007,0.0156
+linsvc,2,rise: base64encode normal minus plain normal,5,[e],lower-case letters,0.5314,0.0042,0.0022,0.5314,0.0285,0.0151,-0.0129
+linsvc,2,rise: base64encode normal minus plain normal,6,[y],lower-case letters,0.1948,0.0678,0.0132,0.1948,0.006,0.0012,0.012
+linsvc,2,rise: base64encode normal minus plain normal,7,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,2,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.3113,0.0363,0.0113,0.3113,0.0086,0.0027,0.0086
+linsvc,2,rise: base64encode normal minus plain normal,9,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,2,rise: base64encode normal minus plain normal,10,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,2,rise: base64encode normal minus plain normal,11,[7],digits,0.4168,0.0,0.0,0.4168,0.018,0.0075,-0.0075
+linsvc,2,rise: base64encode normal minus plain normal,12,[5],digits,0.5424,0.0285,0.0155,0.5424,0.0161,0.0087,0.0068
+linsvc,2,rise: base64encode normal minus plain normal,13,[k],lower-case letters,0.1658,0.0451,0.0075,0.1658,0.0047,0.0008,0.0067
+linsvc,2,rise: base64encode normal minus plain normal,14,[3],digits,0.4913,0.0298,0.0146,0.4913,0.0178,0.0087,0.0059
+linsvc,2,rise: base64encode normal minus plain normal,15,[x],lower-case letters,0.119,0.0507,0.006,0.119,0.0017,0.0002,0.0058
+linsvc,2,rise: base64encode normal minus plain normal,16,[g],lower-case letters,-0.1476,0.0476,-0.007,-0.1476,0.0113,-0.0017,-0.0054
+linsvc,2,rise: base64encode normal minus plain normal,17,[b],lower-case letters,0.0811,0.072,0.0058,0.0811,0.0108,0.0009,0.005
+linsvc,2,rise: base64encode normal minus plain normal,18,[0],digits,0.4019,0.0302,0.0122,0.4019,0.0179,0.0072,0.0049
+linsvc,2,rise: base64encode normal minus plain normal,19,[c],lower-case letters,0.171,0.0455,0.0078,0.171,0.0171,0.0029,0.0049
+linsvc,2,rise: base64encode normal minus plain normal,20,[6],digits,0.3573,0.0036,0.0013,0.3573,0.0168,0.006,-0.0047
+linsvc,2,rise: percentage normal minus plain normal,1,[%],percent,0.3662,0.9004,0.3297,0.3662,0.0,0.0,0.3297
+linsvc,2,rise: percentage normal minus plain normal,2,[ ],word boundary,1.5751,0.0706,0.1112,1.5751,0.0825,0.13,-0.0187
+linsvc,2,rise: percentage normal minus plain normal,3,[1%],percent,0.1878,0.0318,0.006,0.1878,0.0,0.0,0.006
+linsvc,2,rise: percentage normal minus plain normal,4,[ a],lower-case letters,0.7646,0.0,0.0,0.7646,0.0051,0.0039,-0.0039
+linsvc,2,rise: percentage normal minus plain normal,5,[ c],lower-case letters,-0.3457,0.0,0.0,-0.3457,0.0107,-0.0037,0.0037
+linsvc,2,rise: percentage normal minus plain normal,6,"[,]",other symbols,1.9718,0.0037,0.0073,1.9718,0.0055,0.0108,-0.0035
+linsvc,2,rise: percentage normal minus plain normal,7,[e],lower-case letters,0.5314,0.0229,0.0121,0.5314,0.0285,0.0151,-0.003
+linsvc,2,rise: percentage normal minus plain normal,8,[or],lower-case letters,0.4516,0.0,0.0,0.4516,0.0057,0.0026,-0.0026
+linsvc,2,rise: percentage normal minus plain normal,9,"[, ]",other symbols,-0.8515,0.0063,-0.0054,-0.8515,0.0093,-0.0079,0.0025
+linsvc,2,rise: percentage normal minus plain normal,10,[1],digits,0.6475,0.0148,0.0096,0.6475,0.0183,0.0118,-0.0022
+linsvc,2,rise: percentage normal minus plain normal,11,[0%],percent,0.0485,0.042,0.002,0.0485,0.0,0.0,0.002
+linsvc,2,rise: percentage normal minus plain normal,12,[4%],percent,0.041,0.0496,0.002,0.041,0.0,0.0,0.002
+linsvc,2,rise: percentage normal minus plain normal,13,[9%],percent,0.0444,0.0455,0.002,0.0444,0.0,0.0,0.002
+linsvc,2,rise: percentage normal minus plain normal,14,[8%],percent,0.0475,0.0418,0.002,0.0475,0.0,0.0,0.002
+linsvc,2,rise: percentage normal minus plain normal,15,[ll],lower-case letters,0.2859,0.0,0.0,0.2859,0.0069,0.002,-0.002
+linsvc,2,rise: percentage normal minus plain normal,16,[ ca],lower-case letters,-0.2671,0.0,0.0,-0.2671,0.0074,-0.002,0.002
+linsvc,2,rise: percentage normal minus plain normal,17,[l],lower-case letters,0.4342,0.0184,0.008,0.4342,0.0229,0.01,-0.002
+linsvc,2,rise: percentage normal minus plain normal,18,[9],digits,0.4385,0.0154,0.0067,0.4385,0.0197,0.0086,-0.0019
+linsvc,2,rise: percentage normal minus plain normal,19,[2%],percent,0.0407,0.0462,0.0019,0.0407,0.0,0.0,0.0019
+linsvc,2,rise: percentage normal minus plain normal,20,[5],digits,0.5424,0.0127,0.0069,0.5424,0.0161,0.0087,-0.0018
+linsvc,2,rise: htmlencode normal minus plain normal,1,[#],other symbols,0.7452,0.0595,0.0443,0.7452,0.0,0.0,0.0443
+linsvc,2,rise: htmlencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0616,0.097,1.5751,0.0825,0.13,-0.033
+linsvc,2,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.3857,0.0575,0.0222,0.3857,0.0,0.0,0.0222
+linsvc,2,rise: htmlencode normal minus plain normal,4,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,2,rise: htmlencode normal minus plain normal,5,[3],digits,0.4913,0.0359,0.0176,0.4913,0.0178,0.0087,0.0089
+linsvc,2,rise: htmlencode normal minus plain normal,6,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,2,rise: htmlencode normal minus plain normal,7,[4],digits,0.353,0.0396,0.014,0.353,0.02,0.007,0.0069
+linsvc,2,rise: htmlencode normal minus plain normal,8,[2],digits,0.3941,0.0336,0.0133,0.3941,0.0175,0.0069,0.0064
+linsvc,2,rise: htmlencode normal minus plain normal,9,[-],other symbols,1.762,0.0,0.0,1.762,0.0023,0.004,-0.004
+linsvc,2,rise: htmlencode normal minus plain normal,10,[32],digits,0.101,0.0382,0.0039,0.101,0.0025,0.0003,0.0036
+linsvc,2,rise: htmlencode normal minus plain normal,11,[6],digits,0.3573,0.0261,0.0093,0.3573,0.0168,0.006,0.0033
+linsvc,2,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-0.4335,0.0141,-0.0061,-0.4335,0.0193,-0.0084,0.0023
+linsvc,2,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.35,0.0092,-0.0032,-0.35,0.0124,-0.0043,0.0011
+linsvc,2,rise: htmlencode normal minus plain normal,14,[ c],lower-case letters,-0.3457,0.008,-0.0027,-0.3457,0.0107,-0.0037,0.001
+linsvc,2,rise: htmlencode normal minus plain normal,15,[@],other symbols,-0.1338,0.0,0.0,-0.1338,0.0063,-0.0008,0.0008
+linsvc,2,rise: htmlencode normal minus plain normal,16,[ a],lower-case letters,0.7646,0.004,0.0031,0.7646,0.0051,0.0039,-0.0008
+linsvc,2,rise: htmlencode normal minus plain normal,17,[de ],lower-case letters,-0.2296,0.0003,-0.0001,-0.2296,0.0037,-0.0008,0.0008
+linsvc,2,rise: htmlencode normal minus plain normal,18,[le ],lower-case letters,-0.2467,0.0007,-0.0002,-0.2467,0.0038,-0.0009,0.0008
+linsvc,2,rise: htmlencode normal minus plain normal,19,[5],digits,0.5424,0.0175,0.0095,0.5424,0.0161,0.0087,0.0008
+linsvc,2,rise: htmlencode normal minus plain normal,20,[ de],lower-case letters,-0.1961,0.0015,-0.0003,-0.1961,0.0051,-0.001,0.0007
+linsvc,2,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.6135,0.1737,0.1066,,0.0,0.0,0.1066
+linsvc,2,gap: B minus A on base64encode attacks,2,[S],upper-case letters,0.4554,0.1479,0.0673,,0.0,0.0,0.0673
+linsvc,2,gap: B minus A on base64encode attacks,3,[L],upper-case letters,0.8287,0.0607,0.0503,,0.0,0.0,0.0503
+linsvc,2,gap: B minus A on base64encode attacks,4,[I],upper-case letters,0.2263,0.2093,0.0474,,0.0,0.0,0.0474
+linsvc,2,gap: B minus A on base64encode attacks,5,[ ],word boundary,1.4652,0.023,0.0337,1.5751,0.044,0.0692,-0.0355
+linsvc,2,gap: B minus A on base64encode attacks,6,[=],other symbols,1.5082,0.0242,0.0366,1.4464,0.0497,0.0719,-0.0354
+linsvc,2,gap: B minus A on base64encode attacks,7,[T],upper-case letters,0.3393,0.1003,0.034,,0.0,0.0,0.034
+linsvc,2,gap: B minus A on base64encode attacks,8,[M],upper-case letters,0.1249,0.2581,0.0322,,0.0,0.0,0.0322
+linsvc,2,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.4679,0.068,0.0318,,0.0,0.0,0.0318
+linsvc,2,gap: B minus A on base64encode attacks,10,[A],upper-case letters,0.4319,0.0642,0.0277,,0.0,0.0,0.0277
+linsvc,2,gap: B minus A on base64encode attacks,11,[H],upper-case letters,0.3443,0.0803,0.0276,,0.0,0.0,0.0276
+linsvc,2,gap: B minus A on base64encode attacks,12,[D],upper-case letters,0.2752,0.0973,0.0268,,0.0,0.0,0.0268
+linsvc,2,gap: B minus A on base64encode attacks,13,[E],upper-case letters,0.7865,0.0317,0.0249,,0.0,0.0,0.0249
+linsvc,2,gap: B minus A on base64encode attacks,14,[0],digits,0.3187,0.0349,0.0111,0.4019,0.074,0.0297,-0.0186
+linsvc,2,gap: B minus A on base64encode attacks,15,[W],upper-case letters,0.141,0.1283,0.0181,,0.0,0.0,0.0181
+linsvc,2,gap: B minus A on base64encode attacks,16,[w],lower-case letters,0.3537,0.0444,0.0157,0.3737,0.0897,0.0335,-0.0178
+linsvc,2,gap: B minus A on base64encode attacks,17,[O],upper-case letters,0.3448,0.0515,0.0178,,0.0,0.0,0.0178
+linsvc,2,gap: B minus A on base64encode attacks,18,[U],upper-case letters,0.2829,0.0627,0.0177,,0.0,0.0,0.0177
+linsvc,2,gap: B minus A on base64encode attacks,19,[3],digits,0.5575,0.0303,0.0169,0.4913,0.0622,0.0306,-0.0137
+linsvc,2,gap: B minus A on base64encode attacks,20,[l],lower-case letters,0.4602,0.0386,0.0178,0.4342,0.0713,0.031,-0.0132
+linsvc,2,gap: B minus A on base64encode normal,1,[=],other symbols,1.5082,0.0858,0.1295,1.4464,0.1819,0.2631,-0.1336
+linsvc,2,gap: B minus A on base64encode normal,2,[ ],word boundary,1.4652,0.0798,0.1169,1.5751,0.1549,0.244,-0.1271
+linsvc,2,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.6135,0.1061,0.0651,,0.0,0.0,0.0651
+linsvc,2,gap: B minus A on base64encode normal,4,[E],upper-case letters,0.7865,0.0267,0.021,,0.0,0.0,0.021
+linsvc,2,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.3393,0.0592,0.0201,,0.0,0.0,0.0201
+linsvc,2,gap: B minus A on base64encode normal,6,[A],upper-case letters,0.4319,0.0388,0.0168,,0.0,0.0,0.0168
+linsvc,2,gap: B minus A on base64encode normal,7,[M],upper-case letters,0.1249,0.1309,0.0164,,0.0,0.0,0.0164
+linsvc,2,gap: B minus A on base64encode normal,8,[W],upper-case letters,0.141,0.1056,0.0149,,0.0,0.0,0.0149
+linsvc,2,gap: B minus A on base64encode normal,9,[O],upper-case letters,0.3448,0.0427,0.0147,,0.0,0.0,0.0147
+linsvc,2,gap: B minus A on base64encode normal,10,[D],upper-case letters,0.2752,0.0438,0.0121,,0.0,0.0,0.0121
+linsvc,2,gap: B minus A on base64encode normal,11,[R],upper-case letters,0.4976,0.0241,0.012,,0.0,0.0,0.012
+linsvc,2,gap: B minus A on base64encode normal,12,[I],upper-case letters,0.2263,0.0443,0.01,,0.0,0.0,0.01
+linsvc,2,gap: B minus A on base64encode normal,13,[U],upper-case letters,0.2829,0.0348,0.0098,,0.0,0.0,0.0098
+linsvc,2,gap: B minus A on base64encode normal,14,[Y],upper-case letters,0.057,0.1708,0.0097,,0.0,0.0,0.0097
+linsvc,2,gap: B minus A on base64encode normal,15,[L],upper-case letters,0.8287,0.0112,0.0093,,0.0,0.0,0.0093
+linsvc,2,gap: B minus A on base64encode normal,16,[w],lower-case letters,0.3537,0.023,0.0081,0.3737,0.0434,0.0162,-0.0081
+linsvc,2,gap: B minus A on base64encode normal,17,[0],digits,0.3187,0.0134,0.0043,0.4019,0.0302,0.0122,-0.0079
+linsvc,2,gap: B minus A on base64encode normal,18,[G],upper-case letters,0.0657,0.1145,0.0075,,0.0,0.0,0.0075
+linsvc,2,gap: B minus A on base64encode normal,19,[y],lower-case letters,0.1551,0.0367,0.0057,0.1948,0.0678,0.0132,-0.0075
+linsvc,2,gap: B minus A on base64encode normal,20,[1],digits,0.6525,0.0096,0.0063,0.6475,0.0208,0.0135,-0.0072
+linsvc,2,gap: D minus B on base64encode attacks,1,[D],upper-case letters,0.2832,0.14,0.0396,0.2752,0.0973,0.0268,0.0129
+linsvc,2,gap: D minus B on base64encode attacks,2,[ ],word boundary,2.0323,0.0226,0.046,1.4652,0.023,0.0337,0.0123
+linsvc,2,gap: D minus B on base64encode attacks,3,[E],upper-case letters,0.8576,0.041,0.0352,0.7865,0.0317,0.0249,0.0103
+linsvc,2,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.5669,0.1707,0.0967,0.6135,0.1737,0.1066,-0.0098
+linsvc,2,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.4118,0.1453,0.0598,0.4554,0.1479,0.0673,-0.0075
+linsvc,2,gap: D minus B on base64encode attacks,6,[A],upper-case letters,0.4631,0.0749,0.0347,0.4319,0.0642,0.0277,0.007
+linsvc,2,gap: D minus B on base64encode attacks,7,[C],upper-case letters,0.4136,0.0935,0.0387,0.4679,0.068,0.0318,0.0069
+linsvc,2,gap: D minus B on base64encode attacks,8,[2],digits,0.459,0.0404,0.0186,0.5898,0.04,0.0236,-0.005
+linsvc,2,gap: D minus B on base64encode attacks,9,[I],upper-case letters,0.2093,0.2058,0.0431,0.2263,0.2093,0.0474,-0.0043
+linsvc,2,gap: D minus B on base64encode attacks,10,[T],upper-case letters,0.3074,0.0986,0.0303,0.3393,0.1003,0.034,-0.0037
+linsvc,2,gap: D minus B on base64encode attacks,11,[M],upper-case letters,0.113,0.2536,0.0286,0.1249,0.2581,0.0322,-0.0036
+linsvc,2,gap: D minus B on base64encode attacks,12,[L],upper-case letters,0.7841,0.0596,0.0467,0.8287,0.0607,0.0503,-0.0035
+linsvc,2,gap: D minus B on base64encode attacks,13,[B],upper-case letters,0.0665,0.1106,0.0073,0.0554,0.0754,0.0042,0.0032
+linsvc,2,gap: D minus B on base64encode attacks,14,[W],upper-case letters,0.1226,0.1263,0.0155,0.141,0.1283,0.0181,-0.0026
+linsvc,2,gap: D minus B on base64encode attacks,15,[=],other symbols,1.54,0.0223,0.0343,1.5082,0.0242,0.0366,-0.0022
+linsvc,2,gap: D minus B on base64encode attacks,16,[O],upper-case letters,0.3107,0.0505,0.0157,0.3448,0.0515,0.0178,-0.0021
+linsvc,2,gap: D minus B on base64encode attacks,17,[H],upper-case letters,0.3278,0.079,0.0259,0.3443,0.0803,0.0276,-0.0018
+linsvc,2,gap: D minus B on base64encode attacks,18,[9],digits,0.4464,0.0216,0.0097,0.3793,0.0211,0.008,0.0017
+linsvc,2,gap: D minus B on base64encode attacks,19,[F],upper-case letters,0.0805,0.0569,0.0046,0.0849,0.0369,0.0031,0.0015
+linsvc,2,gap: D minus B on base64encode attacks,20,[3],digits,0.5034,0.0309,0.0155,0.5575,0.0303,0.0169,-0.0014
+linsvc,3,rise: charencode normal minus plain normal,1,[%],percent,0.3662,0.6447,0.2361,0.3662,0.0,0.0,0.2361
+linsvc,3,rise: charencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0394,0.0621,1.5751,0.0825,0.13,-0.0679
+linsvc,3,rise: charencode normal minus plain normal,3,[6],digits,0.3573,0.185,0.0661,0.3573,0.0168,0.006,0.0601
+linsvc,3,rise: charencode normal minus plain normal,4,[3],digits,0.4913,0.1378,0.0677,0.4913,0.0178,0.0087,0.059
+linsvc,3,rise: charencode normal minus plain normal,5,[7],digits,0.4168,0.0798,0.0332,0.4168,0.018,0.0075,0.0258
+linsvc,3,rise: charencode normal minus plain normal,6,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,3,rise: charencode normal minus plain normal,7,[1%],percent,0.1878,0.0766,0.0144,0.1878,0.0,0.0,0.0144
+linsvc,3,rise: charencode normal minus plain normal,8,[1],digits,0.6475,0.0381,0.0247,0.6475,0.0183,0.0118,0.0129
+linsvc,3,rise: charencode normal minus plain normal,9,[2],digits,0.3941,0.0479,0.0189,0.3941,0.0175,0.0069,0.012
+linsvc,3,rise: charencode normal minus plain normal,10,[5],digits,0.5424,0.0371,0.0201,0.5424,0.0161,0.0087,0.0114
+linsvc,3,rise: charencode normal minus plain normal,11,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,3,rise: charencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,3,rise: charencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,3,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,3,rise: charencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,3,rise: charencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,3,rise: charencode normal minus plain normal,17,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,3,rise: charencode normal minus plain normal,18,[9],digits,0.4385,0.0309,0.0135,0.4385,0.0197,0.0086,0.0049
+linsvc,3,rise: charencode normal minus plain normal,19,[t],lower-case letters,0.3092,0.0,0.0,0.3092,0.0149,0.0046,-0.0046
+linsvc,3,rise: charencode normal minus plain normal,20,[72],digits,0.1301,0.038,0.0049,0.1301,0.0026,0.0003,0.0046
+linsvc,3,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.3662,0.3363,0.1231,0.3662,0.0,0.0,0.1231
+linsvc,3,rise: chardoubleencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0206,0.0324,1.5751,0.0825,0.13,-0.0976
+linsvc,3,rise: chardoubleencode normal minus plain normal,3,[5],digits,0.5424,0.1929,0.1046,0.5424,0.0161,0.0087,0.0959
+linsvc,3,rise: chardoubleencode normal minus plain normal,4,[2],digits,0.3941,0.2034,0.0802,0.3941,0.0175,0.0069,0.0733
+linsvc,3,rise: chardoubleencode normal minus plain normal,5,[6],digits,0.3573,0.0961,0.0343,0.3573,0.0168,0.006,0.0283
+linsvc,3,rise: chardoubleencode normal minus plain normal,6,[3],digits,0.4913,0.0719,0.0353,0.4913,0.0178,0.0087,0.0266
+linsvc,3,rise: chardoubleencode normal minus plain normal,7,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,3,rise: chardoubleencode normal minus plain normal,8,[256],digits,0.0417,0.2895,0.0121,0.0417,0.0006,0.0,0.0121
+linsvc,3,rise: chardoubleencode normal minus plain normal,9,[57],digits,0.168,0.0704,0.0118,0.168,0.002,0.0003,0.0115
+linsvc,3,rise: chardoubleencode normal minus plain normal,10,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,3,rise: chardoubleencode normal minus plain normal,11,[7],digits,0.4168,0.0422,0.0176,0.4168,0.018,0.0075,0.0101
+linsvc,3,rise: chardoubleencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,3,rise: chardoubleencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,3,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,3,rise: chardoubleencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,3,rise: chardoubleencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,3,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.1878,0.0395,0.0074,0.1878,0.0,0.0,0.0074
+linsvc,3,rise: chardoubleencode normal minus plain normal,18,[56],digits,-0.0405,0.1843,-0.0075,-0.0405,0.0024,-0.0001,-0.0074
+linsvc,3,rise: chardoubleencode normal minus plain normal,19,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,3,rise: chardoubleencode normal minus plain normal,20,[257],digits,0.0588,0.1029,0.0061,0.0588,0.0002,0.0,0.006
+linsvc,3,rise: base64encode normal minus plain normal,1,[=],other symbols,1.4464,0.1819,0.2631,1.4464,0.0,0.0,0.2631
+linsvc,3,rise: base64encode normal minus plain normal,2,[ ],word boundary,1.5751,0.1549,0.244,1.5751,0.0825,0.13,0.114
+linsvc,3,rise: base64encode normal minus plain normal,3,[2],digits,0.3941,0.0598,0.0236,0.3941,0.0175,0.0069,0.0167
+linsvc,3,rise: base64encode normal minus plain normal,4,[w],lower-case letters,0.3737,0.0434,0.0162,0.3737,0.0018,0.0007,0.0156
+linsvc,3,rise: base64encode normal minus plain normal,5,[e],lower-case letters,0.5314,0.0042,0.0022,0.5314,0.0285,0.0151,-0.0129
+linsvc,3,rise: base64encode normal minus plain normal,6,[y],lower-case letters,0.1948,0.0678,0.0132,0.1948,0.006,0.0012,0.012
+linsvc,3,rise: base64encode normal minus plain normal,7,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,3,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.3113,0.0363,0.0113,0.3113,0.0086,0.0027,0.0086
+linsvc,3,rise: base64encode normal minus plain normal,9,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,3,rise: base64encode normal minus plain normal,10,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,3,rise: base64encode normal minus plain normal,11,[7],digits,0.4168,0.0,0.0,0.4168,0.018,0.0075,-0.0075
+linsvc,3,rise: base64encode normal minus plain normal,12,[5],digits,0.5424,0.0285,0.0155,0.5424,0.0161,0.0087,0.0068
+linsvc,3,rise: base64encode normal minus plain normal,13,[k],lower-case letters,0.1658,0.0451,0.0075,0.1658,0.0047,0.0008,0.0067
+linsvc,3,rise: base64encode normal minus plain normal,14,[3],digits,0.4913,0.0298,0.0146,0.4913,0.0178,0.0087,0.0059
+linsvc,3,rise: base64encode normal minus plain normal,15,[x],lower-case letters,0.119,0.0507,0.006,0.119,0.0017,0.0002,0.0058
+linsvc,3,rise: base64encode normal minus plain normal,16,[g],lower-case letters,-0.1476,0.0476,-0.007,-0.1476,0.0113,-0.0017,-0.0054
+linsvc,3,rise: base64encode normal minus plain normal,17,[b],lower-case letters,0.0811,0.072,0.0058,0.0811,0.0108,0.0009,0.005
+linsvc,3,rise: base64encode normal minus plain normal,18,[0],digits,0.4019,0.0302,0.0122,0.4019,0.0179,0.0072,0.0049
+linsvc,3,rise: base64encode normal minus plain normal,19,[c],lower-case letters,0.171,0.0455,0.0078,0.171,0.0171,0.0029,0.0049
+linsvc,3,rise: base64encode normal minus plain normal,20,[6],digits,0.3573,0.0036,0.0013,0.3573,0.0168,0.006,-0.0047
+linsvc,3,rise: percentage normal minus plain normal,1,[%],percent,0.3662,0.9004,0.3297,0.3662,0.0,0.0,0.3297
+linsvc,3,rise: percentage normal minus plain normal,2,[ ],word boundary,1.5751,0.0706,0.1112,1.5751,0.0825,0.13,-0.0187
+linsvc,3,rise: percentage normal minus plain normal,3,[1%],percent,0.1878,0.0318,0.006,0.1878,0.0,0.0,0.006
+linsvc,3,rise: percentage normal minus plain normal,4,[ a],lower-case letters,0.7646,0.0,0.0,0.7646,0.0051,0.0039,-0.0039
+linsvc,3,rise: percentage normal minus plain normal,5,[ c],lower-case letters,-0.3457,0.0,0.0,-0.3457,0.0107,-0.0037,0.0037
+linsvc,3,rise: percentage normal minus plain normal,6,"[,]",other symbols,1.9718,0.0037,0.0073,1.9718,0.0055,0.0108,-0.0035
+linsvc,3,rise: percentage normal minus plain normal,7,[e],lower-case letters,0.5314,0.0229,0.0121,0.5314,0.0285,0.0151,-0.003
+linsvc,3,rise: percentage normal minus plain normal,8,[or],lower-case letters,0.4516,0.0,0.0,0.4516,0.0057,0.0026,-0.0026
+linsvc,3,rise: percentage normal minus plain normal,9,"[, ]",other symbols,-0.8515,0.0063,-0.0054,-0.8515,0.0093,-0.0079,0.0025
+linsvc,3,rise: percentage normal minus plain normal,10,[1],digits,0.6475,0.0148,0.0096,0.6475,0.0183,0.0118,-0.0022
+linsvc,3,rise: percentage normal minus plain normal,11,[0%],percent,0.0485,0.042,0.002,0.0485,0.0,0.0,0.002
+linsvc,3,rise: percentage normal minus plain normal,12,[4%],percent,0.041,0.0496,0.002,0.041,0.0,0.0,0.002
+linsvc,3,rise: percentage normal minus plain normal,13,[9%],percent,0.0444,0.0455,0.002,0.0444,0.0,0.0,0.002
+linsvc,3,rise: percentage normal minus plain normal,14,[8%],percent,0.0475,0.0418,0.002,0.0475,0.0,0.0,0.002
+linsvc,3,rise: percentage normal minus plain normal,15,[ll],lower-case letters,0.2859,0.0,0.0,0.2859,0.0069,0.002,-0.002
+linsvc,3,rise: percentage normal minus plain normal,16,[ ca],lower-case letters,-0.2671,0.0,0.0,-0.2671,0.0074,-0.002,0.002
+linsvc,3,rise: percentage normal minus plain normal,17,[l],lower-case letters,0.4342,0.0184,0.008,0.4342,0.0229,0.01,-0.002
+linsvc,3,rise: percentage normal minus plain normal,18,[9],digits,0.4385,0.0154,0.0067,0.4385,0.0197,0.0086,-0.0019
+linsvc,3,rise: percentage normal minus plain normal,19,[2%],percent,0.0407,0.0462,0.0019,0.0407,0.0,0.0,0.0019
+linsvc,3,rise: percentage normal minus plain normal,20,[5],digits,0.5424,0.0127,0.0069,0.5424,0.0161,0.0087,-0.0018
+linsvc,3,rise: htmlencode normal minus plain normal,1,[#],other symbols,0.7452,0.0595,0.0443,0.7452,0.0,0.0,0.0443
+linsvc,3,rise: htmlencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0616,0.097,1.5751,0.0825,0.13,-0.033
+linsvc,3,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.3857,0.0575,0.0222,0.3857,0.0,0.0,0.0222
+linsvc,3,rise: htmlencode normal minus plain normal,4,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,3,rise: htmlencode normal minus plain normal,5,[3],digits,0.4913,0.0359,0.0176,0.4913,0.0178,0.0087,0.0089
+linsvc,3,rise: htmlencode normal minus plain normal,6,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,3,rise: htmlencode normal minus plain normal,7,[4],digits,0.353,0.0396,0.014,0.353,0.02,0.007,0.0069
+linsvc,3,rise: htmlencode normal minus plain normal,8,[2],digits,0.3941,0.0336,0.0133,0.3941,0.0175,0.0069,0.0064
+linsvc,3,rise: htmlencode normal minus plain normal,9,[-],other symbols,1.762,0.0,0.0,1.762,0.0023,0.004,-0.004
+linsvc,3,rise: htmlencode normal minus plain normal,10,[32],digits,0.101,0.0382,0.0039,0.101,0.0025,0.0003,0.0036
+linsvc,3,rise: htmlencode normal minus plain normal,11,[6],digits,0.3573,0.0261,0.0093,0.3573,0.0168,0.006,0.0033
+linsvc,3,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-0.4335,0.0141,-0.0061,-0.4335,0.0193,-0.0084,0.0023
+linsvc,3,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.35,0.0092,-0.0032,-0.35,0.0124,-0.0043,0.0011
+linsvc,3,rise: htmlencode normal minus plain normal,14,[ c],lower-case letters,-0.3457,0.008,-0.0027,-0.3457,0.0107,-0.0037,0.001
+linsvc,3,rise: htmlencode normal minus plain normal,15,[@],other symbols,-0.1338,0.0,0.0,-0.1338,0.0063,-0.0008,0.0008
+linsvc,3,rise: htmlencode normal minus plain normal,16,[ a],lower-case letters,0.7646,0.004,0.0031,0.7646,0.0051,0.0039,-0.0008
+linsvc,3,rise: htmlencode normal minus plain normal,17,[de ],lower-case letters,-0.2296,0.0003,-0.0001,-0.2296,0.0037,-0.0008,0.0008
+linsvc,3,rise: htmlencode normal minus plain normal,18,[le ],lower-case letters,-0.2467,0.0007,-0.0002,-0.2467,0.0038,-0.0009,0.0008
+linsvc,3,rise: htmlencode normal minus plain normal,19,[5],digits,0.5424,0.0175,0.0095,0.5424,0.0161,0.0087,0.0008
+linsvc,3,rise: htmlencode normal minus plain normal,20,[ de],lower-case letters,-0.1961,0.0015,-0.0003,-0.1961,0.0051,-0.001,0.0007
+linsvc,3,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.6386,0.1743,0.1113,,0.0,0.0,0.1113
+linsvc,3,gap: B minus A on base64encode attacks,2,[S],upper-case letters,0.4541,0.1468,0.0667,,0.0,0.0,0.0667
+linsvc,3,gap: B minus A on base64encode attacks,3,[L],upper-case letters,0.78,0.0608,0.0475,,0.0,0.0,0.0475
+linsvc,3,gap: B minus A on base64encode attacks,4,[I],upper-case letters,0.2159,0.2106,0.0455,,0.0,0.0,0.0455
+linsvc,3,gap: B minus A on base64encode attacks,5,[M],upper-case letters,0.1591,0.253,0.0403,,0.0,0.0,0.0403
+linsvc,3,gap: B minus A on base64encode attacks,6,[=],other symbols,1.5088,0.0242,0.0365,1.4464,0.0497,0.0719,-0.0354
+linsvc,3,gap: B minus A on base64encode attacks,7,[ ],word boundary,1.4938,0.023,0.0344,1.5751,0.044,0.0692,-0.0349
+linsvc,3,gap: B minus A on base64encode attacks,8,[T],upper-case letters,0.3462,0.0999,0.0346,,0.0,0.0,0.0346
+linsvc,3,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.4446,0.0676,0.0301,,0.0,0.0,0.0301
+linsvc,3,gap: B minus A on base64encode attacks,10,[A],upper-case letters,0.426,0.0618,0.0263,,0.0,0.0,0.0263
+linsvc,3,gap: B minus A on base64encode attacks,11,[H],upper-case letters,0.323,0.0803,0.0259,,0.0,0.0,0.0259
+linsvc,3,gap: B minus A on base64encode attacks,12,[E],upper-case letters,0.818,0.0316,0.0258,,0.0,0.0,0.0258
+linsvc,3,gap: B minus A on base64encode attacks,13,[D],upper-case letters,0.2446,0.0977,0.0239,,0.0,0.0,0.0239
+linsvc,3,gap: B minus A on base64encode attacks,14,[U],upper-case letters,0.3653,0.0613,0.0224,,0.0,0.0,0.0224
+linsvc,3,gap: B minus A on base64encode attacks,15,[W],upper-case letters,0.1451,0.1261,0.0183,,0.0,0.0,0.0183
+linsvc,3,gap: B minus A on base64encode attacks,16,[0],digits,0.3311,0.0349,0.0116,0.4019,0.074,0.0297,-0.0182
+linsvc,3,gap: B minus A on base64encode attacks,17,[w],lower-case letters,0.3511,0.0441,0.0155,0.3737,0.0897,0.0335,-0.018
+linsvc,3,gap: B minus A on base64encode attacks,18,[O],upper-case letters,0.3308,0.0509,0.0168,,0.0,0.0,0.0168
+linsvc,3,gap: B minus A on base64encode attacks,19,[K],upper-case letters,0.0919,0.1535,0.0141,,0.0,0.0,0.0141
+linsvc,3,gap: B minus A on base64encode attacks,20,[1],digits,0.6026,0.0186,0.0112,0.6475,0.038,0.0246,-0.0134
+linsvc,3,gap: B minus A on base64encode normal,1,[=],other symbols,1.5088,0.0852,0.1286,1.4464,0.1819,0.2631,-0.1345
+linsvc,3,gap: B minus A on base64encode normal,2,[ ],word boundary,1.4938,0.0793,0.1184,1.5751,0.1549,0.244,-0.1256
+linsvc,3,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.6386,0.106,0.0677,,0.0,0.0,0.0677
+linsvc,3,gap: B minus A on base64encode normal,4,[E],upper-case letters,0.818,0.0266,0.0218,,0.0,0.0,0.0218
+linsvc,3,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.3462,0.0588,0.0203,,0.0,0.0,0.0203
+linsvc,3,gap: B minus A on base64encode normal,6,[M],upper-case letters,0.1591,0.1276,0.0203,,0.0,0.0,0.0203
+linsvc,3,gap: B minus A on base64encode normal,7,[A],upper-case letters,0.426,0.0371,0.0158,,0.0,0.0,0.0158
+linsvc,3,gap: B minus A on base64encode normal,8,[W],upper-case letters,0.1451,0.1031,0.015,,0.0,0.0,0.015
+linsvc,3,gap: B minus A on base64encode normal,9,[O],upper-case letters,0.3308,0.0421,0.0139,,0.0,0.0,0.0139
+linsvc,3,gap: B minus A on base64encode normal,10,[R],upper-case letters,0.5184,0.0238,0.0123,,0.0,0.0,0.0123
+linsvc,3,gap: B minus A on base64encode normal,11,[U],upper-case letters,0.3653,0.0335,0.0122,,0.0,0.0,0.0122
+linsvc,3,gap: B minus A on base64encode normal,12,[D],upper-case letters,0.2446,0.0438,0.0107,,0.0,0.0,0.0107
+linsvc,3,gap: B minus A on base64encode normal,13,[I],upper-case letters,0.2159,0.0442,0.0095,,0.0,0.0,0.0095
+linsvc,3,gap: B minus A on base64encode normal,14,[L],upper-case letters,0.78,0.0111,0.0087,,0.0,0.0,0.0087
+linsvc,3,gap: B minus A on base64encode normal,15,[w],lower-case letters,0.3511,0.0227,0.008,0.3737,0.0434,0.0162,-0.0083
+linsvc,3,gap: B minus A on base64encode normal,16,[1],digits,0.6026,0.0096,0.0058,0.6475,0.0208,0.0135,-0.0077
+linsvc,3,gap: B minus A on base64encode normal,17,[0],digits,0.3311,0.0134,0.0044,0.4019,0.0302,0.0122,-0.0077
+linsvc,3,gap: B minus A on base64encode normal,18,[y],lower-case letters,0.1565,0.0363,0.0057,0.1948,0.0678,0.0132,-0.0075
+linsvc,3,gap: B minus A on base64encode normal,19,[5],digits,0.5848,0.0142,0.0083,0.5424,0.0285,0.0155,-0.0072
+linsvc,3,gap: B minus A on base64encode normal,20,[3],digits,0.5737,0.0141,0.0081,0.4913,0.0298,0.0146,-0.0066
+linsvc,3,gap: D minus B on base64encode attacks,1,[ ],word boundary,2.0656,0.0226,0.0467,1.4938,0.023,0.0344,0.0124
+linsvc,3,gap: D minus B on base64encode attacks,2,[D],upper-case letters,0.2462,0.1433,0.0353,0.2446,0.0977,0.0239,0.0114
+linsvc,3,gap: D minus B on base64encode attacks,3,[E],upper-case letters,0.8826,0.0407,0.0359,0.818,0.0316,0.0258,0.0101
+linsvc,3,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.5963,0.1712,0.1021,0.6386,0.1743,0.1113,-0.0092
+linsvc,3,gap: D minus B on base64encode attacks,5,[A],upper-case letters,0.4632,0.0735,0.0341,0.426,0.0618,0.0263,0.0077
+linsvc,3,gap: D minus B on base64encode attacks,6,[S],upper-case letters,0.4152,0.1443,0.0599,0.4541,0.1468,0.0667,-0.0068
+linsvc,3,gap: D minus B on base64encode attacks,7,[C],upper-case letters,0.3854,0.0932,0.0359,0.4446,0.0676,0.0301,0.0058
+linsvc,3,gap: D minus B on base64encode attacks,8,[2],digits,0.4257,0.0406,0.0173,0.5711,0.0401,0.0229,-0.0056
+linsvc,3,gap: D minus B on base64encode attacks,9,[I],upper-case letters,0.2015,0.2071,0.0417,0.2159,0.2106,0.0455,-0.0037
+linsvc,3,gap: D minus B on base64encode attacks,10,[M],upper-case letters,0.1473,0.2485,0.0366,0.1591,0.253,0.0403,-0.0037
+linsvc,3,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.3164,0.0982,0.0311,0.3462,0.0999,0.0346,-0.0035
+linsvc,3,gap: D minus B on base64encode attacks,12,[L],upper-case letters,0.739,0.0597,0.0442,0.78,0.0608,0.0475,-0.0033
+linsvc,3,gap: D minus B on base64encode attacks,13,[B],upper-case letters,0.0659,0.1107,0.0073,0.0552,0.0757,0.0042,0.0031
+linsvc,3,gap: D minus B on base64encode attacks,14,[W],upper-case letters,0.1239,0.1241,0.0154,0.1451,0.1261,0.0183,-0.0029
+linsvc,3,gap: D minus B on base64encode attacks,15,[=],other symbols,1.5328,0.0222,0.0341,1.5088,0.0242,0.0365,-0.0024
+linsvc,3,gap: D minus B on base64encode attacks,16,[H],upper-case letters,0.3034,0.079,0.024,0.323,0.0803,0.0259,-0.002
+linsvc,3,gap: D minus B on base64encode attacks,17,[O],upper-case letters,0.2991,0.0498,0.0149,0.3308,0.0509,0.0168,-0.0019
+linsvc,3,gap: D minus B on base64encode attacks,18,[9],digits,0.469,0.0217,0.0102,0.3952,0.0211,0.0083,0.0018
+linsvc,3,gap: D minus B on base64encode attacks,19,[F],upper-case letters,0.1029,0.0541,0.0056,0.1053,0.0362,0.0038,0.0018
+linsvc,3,gap: D minus B on base64encode attacks,20,[k],lower-case letters,0.173,0.0556,0.0096,0.1349,0.0586,0.0079,0.0017
+linsvc,4,rise: charencode normal minus plain normal,1,[%],percent,0.3662,0.6447,0.2361,0.3662,0.0,0.0,0.2361
+linsvc,4,rise: charencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0394,0.0621,1.5751,0.0825,0.13,-0.0679
+linsvc,4,rise: charencode normal minus plain normal,3,[6],digits,0.3573,0.185,0.0661,0.3573,0.0168,0.006,0.0601
+linsvc,4,rise: charencode normal minus plain normal,4,[3],digits,0.4913,0.1378,0.0677,0.4913,0.0178,0.0087,0.059
+linsvc,4,rise: charencode normal minus plain normal,5,[7],digits,0.4168,0.0798,0.0332,0.4168,0.018,0.0075,0.0258
+linsvc,4,rise: charencode normal minus plain normal,6,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,4,rise: charencode normal minus plain normal,7,[1%],percent,0.1878,0.0766,0.0144,0.1878,0.0,0.0,0.0144
+linsvc,4,rise: charencode normal minus plain normal,8,[1],digits,0.6475,0.0381,0.0247,0.6475,0.0183,0.0118,0.0129
+linsvc,4,rise: charencode normal minus plain normal,9,[2],digits,0.3941,0.0479,0.0189,0.3941,0.0175,0.0069,0.012
+linsvc,4,rise: charencode normal minus plain normal,10,[5],digits,0.5424,0.0371,0.0201,0.5424,0.0161,0.0087,0.0114
+linsvc,4,rise: charencode normal minus plain normal,11,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,4,rise: charencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,4,rise: charencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,4,rise: charencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,4,rise: charencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,4,rise: charencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,4,rise: charencode normal minus plain normal,17,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,4,rise: charencode normal minus plain normal,18,[9],digits,0.4385,0.0309,0.0135,0.4385,0.0197,0.0086,0.0049
+linsvc,4,rise: charencode normal minus plain normal,19,[t],lower-case letters,0.3092,0.0,0.0,0.3092,0.0149,0.0046,-0.0046
+linsvc,4,rise: charencode normal minus plain normal,20,[72],digits,0.1301,0.038,0.0049,0.1301,0.0026,0.0003,0.0046
+linsvc,4,rise: chardoubleencode normal minus plain normal,1,[%],percent,0.3662,0.3363,0.1231,0.3662,0.0,0.0,0.1231
+linsvc,4,rise: chardoubleencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0206,0.0324,1.5751,0.0825,0.13,-0.0976
+linsvc,4,rise: chardoubleencode normal minus plain normal,3,[5],digits,0.5424,0.1929,0.1046,0.5424,0.0161,0.0087,0.0959
+linsvc,4,rise: chardoubleencode normal minus plain normal,4,[2],digits,0.3941,0.2034,0.0802,0.3941,0.0175,0.0069,0.0733
+linsvc,4,rise: chardoubleencode normal minus plain normal,5,[6],digits,0.3573,0.0961,0.0343,0.3573,0.0168,0.006,0.0283
+linsvc,4,rise: chardoubleencode normal minus plain normal,6,[3],digits,0.4913,0.0719,0.0353,0.4913,0.0178,0.0087,0.0266
+linsvc,4,rise: chardoubleencode normal minus plain normal,7,[e],lower-case letters,0.5314,0.0,0.0,0.5314,0.0285,0.0151,-0.0151
+linsvc,4,rise: chardoubleencode normal minus plain normal,8,[256],digits,0.0417,0.2895,0.0121,0.0417,0.0006,0.0,0.0121
+linsvc,4,rise: chardoubleencode normal minus plain normal,9,[57],digits,0.168,0.0704,0.0118,0.168,0.002,0.0003,0.0115
+linsvc,4,rise: chardoubleencode normal minus plain normal,10,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,4,rise: chardoubleencode normal minus plain normal,11,[7],digits,0.4168,0.0422,0.0176,0.4168,0.018,0.0075,0.0101
+linsvc,4,rise: chardoubleencode normal minus plain normal,12,[l],lower-case letters,0.4342,0.0,0.0,0.4342,0.0229,0.01,-0.01
+linsvc,4,rise: chardoubleencode normal minus plain normal,13,[n],lower-case letters,0.4282,0.0,0.0,0.4282,0.0206,0.0088,-0.0088
+linsvc,4,rise: chardoubleencode normal minus plain normal,14,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,4,rise: chardoubleencode normal minus plain normal,15,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,4,rise: chardoubleencode normal minus plain normal,16,[s],lower-case letters,0.4301,0.0,0.0,0.4301,0.018,0.0078,-0.0078
+linsvc,4,rise: chardoubleencode normal minus plain normal,17,[1%],percent,0.1878,0.0395,0.0074,0.1878,0.0,0.0,0.0074
+linsvc,4,rise: chardoubleencode normal minus plain normal,18,[56],digits,-0.0405,0.1843,-0.0075,-0.0405,0.0024,-0.0001,-0.0074
+linsvc,4,rise: chardoubleencode normal minus plain normal,19,[a],lower-case letters,-0.1727,0.0,0.0,-0.1727,0.0401,-0.0069,0.0069
+linsvc,4,rise: chardoubleencode normal minus plain normal,20,[257],digits,0.0588,0.1029,0.0061,0.0588,0.0002,0.0,0.006
+linsvc,4,rise: base64encode normal minus plain normal,1,[=],other symbols,1.4464,0.1819,0.2631,1.4464,0.0,0.0,0.2631
+linsvc,4,rise: base64encode normal minus plain normal,2,[ ],word boundary,1.5751,0.1549,0.244,1.5751,0.0825,0.13,0.114
+linsvc,4,rise: base64encode normal minus plain normal,3,[2],digits,0.3941,0.0598,0.0236,0.3941,0.0175,0.0069,0.0167
+linsvc,4,rise: base64encode normal minus plain normal,4,[w],lower-case letters,0.3737,0.0434,0.0162,0.3737,0.0018,0.0007,0.0156
+linsvc,4,rise: base64encode normal minus plain normal,5,[e],lower-case letters,0.5314,0.0042,0.0022,0.5314,0.0285,0.0151,-0.0129
+linsvc,4,rise: base64encode normal minus plain normal,6,[y],lower-case letters,0.1948,0.0678,0.0132,0.1948,0.006,0.0012,0.012
+linsvc,4,rise: base64encode normal minus plain normal,7,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,4,rise: base64encode normal minus plain normal,8,[h],lower-case letters,0.3113,0.0363,0.0113,0.3113,0.0086,0.0027,0.0086
+linsvc,4,rise: base64encode normal minus plain normal,9,[a ],lower-case letters,-0.4335,0.0,0.0,-0.4335,0.0193,-0.0084,0.0084
+linsvc,4,rise: base64encode normal minus plain normal,10,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,4,rise: base64encode normal minus plain normal,11,[7],digits,0.4168,0.0,0.0,0.4168,0.018,0.0075,-0.0075
+linsvc,4,rise: base64encode normal minus plain normal,12,[5],digits,0.5424,0.0285,0.0155,0.5424,0.0161,0.0087,0.0068
+linsvc,4,rise: base64encode normal minus plain normal,13,[k],lower-case letters,0.1658,0.0451,0.0075,0.1658,0.0047,0.0008,0.0067
+linsvc,4,rise: base64encode normal minus plain normal,14,[3],digits,0.4913,0.0298,0.0146,0.4913,0.0178,0.0087,0.0059
+linsvc,4,rise: base64encode normal minus plain normal,15,[x],lower-case letters,0.119,0.0507,0.006,0.119,0.0017,0.0002,0.0058
+linsvc,4,rise: base64encode normal minus plain normal,16,[g],lower-case letters,-0.1476,0.0476,-0.007,-0.1476,0.0113,-0.0017,-0.0054
+linsvc,4,rise: base64encode normal minus plain normal,17,[b],lower-case letters,0.0811,0.072,0.0058,0.0811,0.0108,0.0009,0.005
+linsvc,4,rise: base64encode normal minus plain normal,18,[0],digits,0.4019,0.0302,0.0122,0.4019,0.0179,0.0072,0.0049
+linsvc,4,rise: base64encode normal minus plain normal,19,[c],lower-case letters,0.171,0.0455,0.0078,0.171,0.0171,0.0029,0.0049
+linsvc,4,rise: base64encode normal minus plain normal,20,[6],digits,0.3573,0.0036,0.0013,0.3573,0.0168,0.006,-0.0047
+linsvc,4,rise: percentage normal minus plain normal,1,[%],percent,0.3662,0.9004,0.3297,0.3662,0.0,0.0,0.3297
+linsvc,4,rise: percentage normal minus plain normal,2,[ ],word boundary,1.5751,0.0706,0.1112,1.5751,0.0825,0.13,-0.0187
+linsvc,4,rise: percentage normal minus plain normal,3,[1%],percent,0.1878,0.0318,0.006,0.1878,0.0,0.0,0.006
+linsvc,4,rise: percentage normal minus plain normal,4,[ a],lower-case letters,0.7646,0.0,0.0,0.7646,0.0051,0.0039,-0.0039
+linsvc,4,rise: percentage normal minus plain normal,5,[ c],lower-case letters,-0.3457,0.0,0.0,-0.3457,0.0107,-0.0037,0.0037
+linsvc,4,rise: percentage normal minus plain normal,6,"[,]",other symbols,1.9718,0.0037,0.0073,1.9718,0.0055,0.0108,-0.0035
+linsvc,4,rise: percentage normal minus plain normal,7,[e],lower-case letters,0.5314,0.0229,0.0121,0.5314,0.0285,0.0151,-0.003
+linsvc,4,rise: percentage normal minus plain normal,8,[or],lower-case letters,0.4516,0.0,0.0,0.4516,0.0057,0.0026,-0.0026
+linsvc,4,rise: percentage normal minus plain normal,9,"[, ]",other symbols,-0.8515,0.0063,-0.0054,-0.8515,0.0093,-0.0079,0.0025
+linsvc,4,rise: percentage normal minus plain normal,10,[1],digits,0.6475,0.0148,0.0096,0.6475,0.0183,0.0118,-0.0022
+linsvc,4,rise: percentage normal minus plain normal,11,[0%],percent,0.0485,0.042,0.002,0.0485,0.0,0.0,0.002
+linsvc,4,rise: percentage normal minus plain normal,12,[4%],percent,0.041,0.0496,0.002,0.041,0.0,0.0,0.002
+linsvc,4,rise: percentage normal minus plain normal,13,[9%],percent,0.0444,0.0455,0.002,0.0444,0.0,0.0,0.002
+linsvc,4,rise: percentage normal minus plain normal,14,[8%],percent,0.0475,0.0418,0.002,0.0475,0.0,0.0,0.002
+linsvc,4,rise: percentage normal minus plain normal,15,[ll],lower-case letters,0.2859,0.0,0.0,0.2859,0.0069,0.002,-0.002
+linsvc,4,rise: percentage normal minus plain normal,16,[ ca],lower-case letters,-0.2671,0.0,0.0,-0.2671,0.0074,-0.002,0.002
+linsvc,4,rise: percentage normal minus plain normal,17,[l],lower-case letters,0.4342,0.0184,0.008,0.4342,0.0229,0.01,-0.002
+linsvc,4,rise: percentage normal minus plain normal,18,[9],digits,0.4385,0.0154,0.0067,0.4385,0.0197,0.0086,-0.0019
+linsvc,4,rise: percentage normal minus plain normal,19,[2%],percent,0.0407,0.0462,0.0019,0.0407,0.0,0.0,0.0019
+linsvc,4,rise: percentage normal minus plain normal,20,[5],digits,0.5424,0.0127,0.0069,0.5424,0.0161,0.0087,-0.0018
+linsvc,4,rise: htmlencode normal minus plain normal,1,[#],other symbols,0.7452,0.0595,0.0443,0.7452,0.0,0.0,0.0443
+linsvc,4,rise: htmlencode normal minus plain normal,2,[ ],word boundary,1.5751,0.0616,0.097,1.5751,0.0825,0.13,-0.033
+linsvc,4,rise: htmlencode normal minus plain normal,3,[;],other symbols,0.3857,0.0575,0.0222,0.3857,0.0,0.0,0.0222
+linsvc,4,rise: htmlencode normal minus plain normal,4,"[,]",other symbols,1.9718,0.0,0.0,1.9718,0.0055,0.0108,-0.0108
+linsvc,4,rise: htmlencode normal minus plain normal,5,[3],digits,0.4913,0.0359,0.0176,0.4913,0.0178,0.0087,0.0089
+linsvc,4,rise: htmlencode normal minus plain normal,6,"[, ]",other symbols,-0.8515,0.0,0.0,-0.8515,0.0093,-0.0079,0.0079
+linsvc,4,rise: htmlencode normal minus plain normal,7,[4],digits,0.353,0.0396,0.014,0.353,0.02,0.007,0.0069
+linsvc,4,rise: htmlencode normal minus plain normal,8,[2],digits,0.3941,0.0336,0.0133,0.3941,0.0175,0.0069,0.0064
+linsvc,4,rise: htmlencode normal minus plain normal,9,[-],other symbols,1.762,0.0,0.0,1.762,0.0023,0.004,-0.004
+linsvc,4,rise: htmlencode normal minus plain normal,10,[32],digits,0.101,0.0382,0.0039,0.101,0.0025,0.0003,0.0036
+linsvc,4,rise: htmlencode normal minus plain normal,11,[6],digits,0.3573,0.0261,0.0093,0.3573,0.0168,0.006,0.0033
+linsvc,4,rise: htmlencode normal minus plain normal,12,[a ],lower-case letters,-0.4335,0.0141,-0.0061,-0.4335,0.0193,-0.0084,0.0023
+linsvc,4,rise: htmlencode normal minus plain normal,13,[o ],lower-case letters,-0.35,0.0092,-0.0032,-0.35,0.0124,-0.0043,0.0011
+linsvc,4,rise: htmlencode normal minus plain normal,14,[ c],lower-case letters,-0.3457,0.008,-0.0027,-0.3457,0.0107,-0.0037,0.001
+linsvc,4,rise: htmlencode normal minus plain normal,15,[@],other symbols,-0.1338,0.0,0.0,-0.1338,0.0063,-0.0008,0.0008
+linsvc,4,rise: htmlencode normal minus plain normal,16,[ a],lower-case letters,0.7646,0.004,0.0031,0.7646,0.0051,0.0039,-0.0008
+linsvc,4,rise: htmlencode normal minus plain normal,17,[de ],lower-case letters,-0.2296,0.0003,-0.0001,-0.2296,0.0037,-0.0008,0.0008
+linsvc,4,rise: htmlencode normal minus plain normal,18,[le ],lower-case letters,-0.2467,0.0007,-0.0002,-0.2467,0.0038,-0.0009,0.0008
+linsvc,4,rise: htmlencode normal minus plain normal,19,[5],digits,0.5424,0.0175,0.0095,0.5424,0.0161,0.0087,0.0008
+linsvc,4,rise: htmlencode normal minus plain normal,20,[ de],lower-case letters,-0.1961,0.0015,-0.0003,-0.1961,0.0051,-0.001,0.0007
+linsvc,4,gap: B minus A on base64encode attacks,1,[N],upper-case letters,0.5923,0.175,0.1037,,0.0,0.0,0.1037
+linsvc,4,gap: B minus A on base64encode attacks,2,[S],upper-case letters,0.4314,0.1501,0.0647,,0.0,0.0,0.0647
+linsvc,4,gap: B minus A on base64encode attacks,3,[L],upper-case letters,0.8305,0.0605,0.0502,,0.0,0.0,0.0502
+linsvc,4,gap: B minus A on base64encode attacks,4,[I],upper-case letters,0.2265,0.2068,0.0468,,0.0,0.0,0.0468
+linsvc,4,gap: B minus A on base64encode attacks,5,[ ],word boundary,1.4483,0.023,0.0333,1.5751,0.044,0.0692,-0.0359
+linsvc,4,gap: B minus A on base64encode attacks,6,[=],other symbols,1.4944,0.0243,0.0363,1.4464,0.0497,0.0719,-0.0356
+linsvc,4,gap: B minus A on base64encode attacks,7,[M],upper-case letters,0.1385,0.2565,0.0355,,0.0,0.0,0.0355
+linsvc,4,gap: B minus A on base64encode attacks,8,[T],upper-case letters,0.313,0.1013,0.0317,,0.0,0.0,0.0317
+linsvc,4,gap: B minus A on base64encode attacks,9,[C],upper-case letters,0.4647,0.0682,0.0317,,0.0,0.0,0.0317
+linsvc,4,gap: B minus A on base64encode attacks,10,[H],upper-case letters,0.3443,0.0803,0.0276,,0.0,0.0,0.0276
+linsvc,4,gap: B minus A on base64encode attacks,11,[E],upper-case letters,0.8292,0.0317,0.0263,,0.0,0.0,0.0263
+linsvc,4,gap: B minus A on base64encode attacks,12,[A],upper-case letters,0.4033,0.0636,0.0256,,0.0,0.0,0.0256
+linsvc,4,gap: B minus A on base64encode attacks,13,[D],upper-case letters,0.242,0.0982,0.0238,,0.0,0.0,0.0238
+linsvc,4,gap: B minus A on base64encode attacks,14,[U],upper-case letters,0.3621,0.062,0.0225,,0.0,0.0,0.0225
+linsvc,4,gap: B minus A on base64encode attacks,15,[0],digits,0.3035,0.0351,0.0107,0.4019,0.074,0.0297,-0.0191
+linsvc,4,gap: B minus A on base64encode attacks,16,[w],lower-case letters,0.3419,0.0447,0.0153,0.3737,0.0897,0.0335,-0.0183
+linsvc,4,gap: B minus A on base64encode attacks,17,[O],upper-case letters,0.3172,0.0513,0.0163,,0.0,0.0,0.0163
+linsvc,4,gap: B minus A on base64encode attacks,18,[W],upper-case letters,0.122,0.1297,0.0158,,0.0,0.0,0.0158
+linsvc,4,gap: B minus A on base64encode attacks,19,[G],upper-case letters,0.08,0.1844,0.0147,,0.0,0.0,0.0147
+linsvc,4,gap: B minus A on base64encode attacks,20,[K],upper-case letters,0.0907,0.1517,0.0138,,0.0,0.0,0.0138
+linsvc,4,gap: B minus A on base64encode normal,1,[=],other symbols,1.4944,0.0858,0.1282,1.4464,0.1819,0.2631,-0.1348
+linsvc,4,gap: B minus A on base64encode normal,2,[ ],word boundary,1.4483,0.0796,0.1153,1.5751,0.1549,0.244,-0.1287
+linsvc,4,gap: B minus A on base64encode normal,3,[N],upper-case letters,0.5923,0.1073,0.0636,,0.0,0.0,0.0636
+linsvc,4,gap: B minus A on base64encode normal,4,[E],upper-case letters,0.8292,0.0267,0.0221,,0.0,0.0,0.0221
+linsvc,4,gap: B minus A on base64encode normal,5,[T],upper-case letters,0.313,0.0598,0.0187,,0.0,0.0,0.0187
+linsvc,4,gap: B minus A on base64encode normal,6,[M],upper-case letters,0.1385,0.1301,0.018,,0.0,0.0,0.018
+linsvc,4,gap: B minus A on base64encode normal,7,[A],upper-case letters,0.4033,0.0382,0.0154,,0.0,0.0,0.0154
+linsvc,4,gap: B minus A on base64encode normal,8,[O],upper-case letters,0.3172,0.044,0.014,,0.0,0.0,0.014
+linsvc,4,gap: B minus A on base64encode normal,9,[W],upper-case letters,0.122,0.1056,0.0129,,0.0,0.0,0.0129
+linsvc,4,gap: B minus A on base64encode normal,10,[U],upper-case letters,0.3621,0.0339,0.0123,,0.0,0.0,0.0123
+linsvc,4,gap: B minus A on base64encode normal,11,[R],upper-case letters,0.4784,0.024,0.0115,,0.0,0.0,0.0115
+linsvc,4,gap: B minus A on base64encode normal,12,[D],upper-case letters,0.242,0.0451,0.0109,,0.0,0.0,0.0109
+linsvc,4,gap: B minus A on base64encode normal,13,[I],upper-case letters,0.2265,0.0433,0.0098,,0.0,0.0,0.0098
+linsvc,4,gap: B minus A on base64encode normal,14,[L],upper-case letters,0.8305,0.011,0.0092,,0.0,0.0,0.0092
+linsvc,4,gap: B minus A on base64encode normal,15,[G],upper-case letters,0.08,0.1125,0.009,,0.0,0.0,0.009
+linsvc,4,gap: B minus A on base64encode normal,16,[w],lower-case letters,0.3419,0.023,0.0079,0.3737,0.0434,0.0162,-0.0084
+linsvc,4,gap: B minus A on base64encode normal,17,[0],digits,0.3035,0.0135,0.0041,0.4019,0.0302,0.0122,-0.0081
+linsvc,4,gap: B minus A on base64encode normal,18,[y],lower-case letters,0.1489,0.0365,0.0054,0.1948,0.0678,0.0132,-0.0078
+linsvc,4,gap: B minus A on base64encode normal,19,[Y],upper-case letters,0.0443,0.1723,0.0076,,0.0,0.0,0.0076
+linsvc,4,gap: B minus A on base64encode normal,20,[1],digits,0.6275,0.0096,0.006,0.6475,0.0208,0.0135,-0.0075
+linsvc,4,gap: D minus B on base64encode attacks,1,[ ],word boundary,2.0021,0.0226,0.0453,1.4483,0.023,0.0333,0.012
+linsvc,4,gap: D minus B on base64encode attacks,2,[D],upper-case letters,0.2455,0.1424,0.035,0.242,0.0982,0.0238,0.0112
+linsvc,4,gap: D minus B on base64encode attacks,3,[E],upper-case letters,0.8938,0.0409,0.0366,0.8292,0.0317,0.0263,0.0103
+linsvc,4,gap: D minus B on base64encode attacks,4,[N],upper-case letters,0.553,0.1719,0.0951,0.5923,0.175,0.1037,-0.0086
+linsvc,4,gap: D minus B on base64encode attacks,5,[S],upper-case letters,0.3937,0.1475,0.0581,0.4314,0.1501,0.0647,-0.0067
+linsvc,4,gap: D minus B on base64encode attacks,6,[A],upper-case letters,0.4294,0.0742,0.0318,0.4033,0.0636,0.0256,0.0062
+linsvc,4,gap: D minus B on base64encode attacks,7,[2],digits,0.4454,0.0407,0.0181,0.586,0.0402,0.0235,-0.0054
+linsvc,4,gap: D minus B on base64encode attacks,8,[C],upper-case letters,0.3928,0.094,0.0369,0.4647,0.0682,0.0317,0.0052
+linsvc,4,gap: D minus B on base64encode attacks,9,[I],upper-case letters,0.2091,0.2034,0.0425,0.2265,0.2068,0.0468,-0.0043
+linsvc,4,gap: D minus B on base64encode attacks,10,[B],upper-case letters,0.0877,0.1081,0.0095,0.0712,0.0758,0.0054,0.0041
+linsvc,4,gap: D minus B on base64encode attacks,11,[T],upper-case letters,0.2838,0.0995,0.0282,0.313,0.1013,0.0317,-0.0035
+linsvc,4,gap: D minus B on base64encode attacks,12,[L],upper-case letters,0.7885,0.0594,0.0469,0.8305,0.0605,0.0502,-0.0034
+linsvc,4,gap: D minus B on base64encode attacks,13,[M],upper-case letters,0.1281,0.252,0.0323,0.1385,0.2565,0.0355,-0.0032
+linsvc,4,gap: D minus B on base64encode attacks,14,[=],other symbols,1.5171,0.0224,0.0339,1.4944,0.0243,0.0363,-0.0024
+linsvc,4,gap: D minus B on base64encode attacks,15,[W],upper-case letters,0.106,0.1277,0.0135,0.122,0.1297,0.0158,-0.0023
+linsvc,4,gap: D minus B on base64encode attacks,16,[H],upper-case letters,0.3249,0.079,0.0257,0.3443,0.0803,0.0276,-0.002
+linsvc,4,gap: D minus B on base64encode attacks,17,[O],upper-case letters,0.2877,0.0501,0.0144,0.3172,0.0513,0.0163,-0.0018
+linsvc,4,gap: D minus B on base64encode attacks,18,[9],digits,0.4571,0.0217,0.0099,0.3841,0.0211,0.0081,0.0018
+linsvc,4,gap: D minus B on base64encode attacks,19,[K],upper-case letters,0.0822,0.149,0.0122,0.0907,0.1517,0.0138,-0.0015
+linsvc,4,gap: D minus B on base64encode attacks,20,[F],upper-case letters,0.0816,0.056,0.0046,0.0867,0.0364,0.0032,0.0014

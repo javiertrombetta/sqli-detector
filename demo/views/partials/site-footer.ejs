@@ -1,0 +1,9 @@
+<footer class="site-footer"><div class="wrap">
+  <div class="footer-cols">
+    <div><%- include('logo') %><p>Demonstration site of a research project on the detection of SQL injection.</p></div>
+    <div><h4>Project</h4><ul><li><a href="/#about">About</a></li><li><a href="/#how">How it works</a></li><li><a href="/#model">The model</a></li><li><a href="/#findings">Findings</a></li></ul></div>
+    <div><h4>Demonstration</h4><ul><li><a href="/#try">Try the detector</a></li><li><a href="/#demo">Try the sign-in</a></li><li><a href="/login">Sign in</a></li></ul></div>
+    <div><h4>Source</h4><ul><li><a href="<%= project.repository %>">Code and results on GitHub</a></li></ul></div>
+  </div>
+  <div class="legal"><span>&copy; 2026 <%= project.author %></span><span>Released under the MIT licence.</span></div>
+</div><%- include('env-note') %></footer>

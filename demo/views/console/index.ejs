@@ -1,0 +1,80 @@
+<%- include('../partials/head', { title }) %>
+<div class="app">
+  <aside class="sidebar">
+    <%- include('../partials/logo', { sub: 'Detector console' }) %>
+    <nav class="side-nav" aria-label="Console">
+      <a class="active" href="/console"><%- include('../partials/icon', { name: 'layout-grid' }) %> Overview</a>
+      <a href="/console#sign-in-check"><%- include('../partials/icon', { name: 'check' }) %> Sign-in check</a>
+      <a href="/console#blocked"><%- include('../partials/icon', { name: 'shield-x' }) %> Blocked requests</a>
+      <a href="/console#model"><%- include('../partials/icon', { name: 'list' }) %> The model</a>
+    </nav>
+  </aside>
+  <div class="app-main">
+    <div class="app-top">
+      <a href="/">About the project</a>
+      <div class="user">
+        <div><%= currentUser.fullName %></div>
+        <form method="post" action="/logout"><button class="linklike" type="submit">Sign out</button></form>
+      </div>
+    </div>
+    <main class="content">
+      <h1>Detector console</h1>
+      <p class="signed-in">Signed in as <%= currentUser.username %>.</p>
+      <div class="summary">
+        <div class="tile"><div class="label">Sign-ins scored since the server started</div><div class="value"><%= scored %></div></div>
+        <div class="tile"><div class="label">Requests blocked</div><div class="value"><%= blockedTotal %></div></div>
+        <div class="tile"><div class="label">Decision threshold</div><div class="value"><%= model ? model.threshold.toFixed(3) : 'Off' %></div></div>
+      </div>
+      <section class="panel" id="sign-in-check">
+        <h2>Sign-in check</h2>
+        <% if (detectorCheck) { %>
+        <table>
+          <thead><tr><th scope="col">Field</th><th scope="col">Detector score</th><th scope="col">Threshold</th><th scope="col">Result</th></tr></thead>
+          <tbody>
+            <% detectorCheck.fields.forEach((f) => { %>
+            <tr><td><%= f.field %></td><td><%= f.score.toFixed(3) %></td><td><%= detectorCheck.threshold.toFixed(3) %></td><td><span class="badge ok">Passed</span></td></tr>
+            <% }) %>
+          </tbody>
+        </table>
+        <p class="empty">The detector scored both fields of your sign-in before the database was queried.</p>
+        <% } else { %>
+        <p class="empty">Login protection is off. This sign-in was not checked by the detector.</p>
+        <% } %>
+      </section>
+      <section class="panel" id="blocked">
+        <h2>Blocked requests</h2>
+        <% if (blocked.length) { %>
+        <table>
+          <thead><tr><th scope="col">Time</th><th scope="col">Reference</th><th scope="col">Field</th><th scope="col">Score</th><th scope="col">Value sent</th><th scope="col">Source</th></tr></thead>
+          <tbody>
+            <% blocked.forEach((entry) => { %>
+            <tr><td><%= entry.time %></td><td><%= entry.reference %></td><td><%= entry.field %></td><td><span class="badge hold"><%= entry.score.toFixed(3) %></span></td>
+                <td><% if (entry.value === null) { %>not recorded<% } else { %><code><%= entry.value %></code><% } %></td><td><%= entry.source %></td></tr>
+            <% }) %>
+          </tbody>
+        </table>
+        <% } else { %>
+        <p class="empty"><%= model ? 'No request has been blocked since the server started.' : 'Login protection is off, so no request is checked or blocked.' %></p>
+        <% } %>
+      </section>
+      <section class="panel" id="model">
+        <h2>The model</h2>
+        <% if (model) { %>
+        <table>
+          <tbody>
+            <tr><th scope="row">Algorithm</th><td>Logistic regression</td></tr>
+            <tr><th scope="row">Features</th><td>Character n-grams of <%= model.ngramRange.join(' to ') %> characters, weighted with TF-IDF</td></tr>
+            <tr><th scope="row">Vocabulary</th><td><%= model.vocabularySize.toLocaleString('en-NZ') %> n-grams</td></tr>
+            <tr><th scope="row">Decision threshold</th><td><%= model.threshold.toFixed(3) %></td></tr>
+          </tbody>
+        </table>
+        <p class="empty">The <a href="/#how">project page</a> explains how the score is computed.</p>
+        <% } else { %>
+        <p class="empty">Login protection is off, so the detector is not loaded.</p>
+        <% } %>
+      </section>
+      <%- include('../partials/env-note') %>
+    </main>
+  </div>
+</div>
+<%- include('../partials/foot') %>

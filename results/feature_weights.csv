@@ -1,0 +1,101 @@
+model,measure,direction,rank,ngram,value
+logreg,weight,attack,1,),4.8815
+logreg,weight,attack,2, ,4.6056
+logreg,weight,attack,3,(,3.2849
+logreg,weight,attack,4,-,3.2394
+logreg,weight,attack,5,",",3.1901
+logreg,weight,attack,6,',2.8528
+logreg,weight,attack,7,=,2.5246
+logreg,weight,attack,8,) ,2.2186
+logreg,weight,attack,9,1,2.0546
+logreg,weight,attack,10,"""",1.9317
+logreg,weight,attack,11, -,1.9016
+logreg,weight,attack,12,e,1.8681
+logreg,weight,attack,13,)),1.7609
+logreg,weight,attack,14, a,1.7143
+logreg,weight,attack,15,5,1.6579
+logreg,weight,attack,16,se,1.5939
+logreg,weight,attack,17,0,1.5895
+logreg,weight,attack,18,s,1.5722
+logreg,weight,attack,19,3,1.4784
+logreg,weight,attack,20,l,1.4527
+logreg,weight,normal,1,a ,-1.3751
+logreg,weight,normal,2,", ",-1.0802
+logreg,weight,normal,3,o ,-0.9806
+logreg,weight,normal,4, c,-0.6979
+logreg,weight,normal,5,a,-0.6682
+logreg,weight,normal,6, ca,-0.6061
+logreg,weight,normal,7,ra,-0.5684
+logreg,weight,normal,8,la,-0.5603
+logreg,weight,normal,9, p,-0.4931
+logreg,weight,normal,10,lle,-0.4893
+logreg,weight,normal,11,sa,-0.4778
+logreg,weight,normal,12,de ,-0.4735
+logreg,weight,normal,13,0 ,-0.4689
+logreg,weight,normal,14,na,-0.4638
+logreg,weight,normal,15,os,-0.4591
+logreg,weight,normal,16,@,-0.454
+logreg,weight,normal,17, 0,-0.4427
+logreg,weight,normal,18,le ,-0.4419
+logreg,weight,normal,19,ca,-0.441
+logreg,weight,normal,20, de ,-0.4386
+linsvc,weight,attack,1,),2.0684
+linsvc,weight,attack,2,",",1.9718
+linsvc,weight,attack,3,-,1.762
+linsvc,weight,attack,4, ,1.5751
+linsvc,weight,attack,5,=,1.4464
+linsvc,weight,attack,6,',1.3308
+linsvc,weight,attack,7, -,1.3069
+linsvc,weight,attack,8,(,1.1824
+linsvc,weight,attack,9,) ,1.0868
+linsvc,weight,attack,10,"""",0.9603
+linsvc,weight,attack,11, a,0.7646
+linsvc,weight,attack,12, or,0.757
+linsvc,weight,attack,13,#,0.7452
+linsvc,weight,attack,14,# ,0.7452
+linsvc,weight,attack,15, or ,0.7405
+linsvc,weight,attack,16,nd ,0.7212
+linsvc,weight,attack,17,and ,0.708
+linsvc,weight,attack,18, and,0.6795
+linsvc,weight,attack,19,or ,0.6689
+linsvc,weight,attack,20,)),0.6571
+linsvc,weight,normal,1,", ",-0.8515
+linsvc,weight,normal,2,a ,-0.4335
+linsvc,weight,normal,3,o ,-0.35
+linsvc,weight,normal,4, c,-0.3457
+linsvc,weight,normal,5, 0,-0.2939
+linsvc,weight,normal,6,0 ,-0.2909
+linsvc,weight,normal,7,lle,-0.2781
+linsvc,weight,normal,8, ca,-0.2671
+linsvc,weight,normal,9,le ,-0.2467
+linsvc,weight,normal,10, 4,-0.2417
+linsvc,weight,normal,11,de ,-0.2296
+linsvc,weight,normal,12,alle,-0.2261
+linsvc,weight,normal,13, p,-0.2217
+linsvc,weight,normal,14, 3,-0.2181
+linsvc,weight,normal,15, cal,-0.212
+linsvc,weight,normal,16,lle ,-0.2111
+linsvc,weight,normal,17, de ,-0.2102
+linsvc,weight,normal,18,7 ,-0.2024
+linsvc,weight,normal,19, 2,-0.2022
+linsvc,weight,normal,20,ra,-0.2022
+rf,importance,unsigned,1,),0.02291
+rf,importance,unsigned,2,ect,0.01852
+rf,importance,unsigned,3,=,0.01831
+rf,importance,unsigned,4,lec,0.01657
+rf,importance,unsigned,5,) ,0.01572
+rf,importance,unsigned,6,se,0.01547
+rf,importance,unsigned,7,sele,0.01517
+rf,importance,unsigned,8,(,0.01415
+rf,importance,unsigned,9,ec,0.01325
+rf,importance,unsigned,10,and ,0.01295
+rf,importance,unsigned,11,',0.01126
+rf,importance,unsigned,12,-- ,0.01087
+rf,importance,unsigned,13,ct ,0.01031
+rf,importance,unsigned,14, and,0.00865
+rf,importance,unsigned,15,and,0.00846
+rf,importance,unsigned,16,sel,0.00841
+rf,importance,unsigned,17, a,0.00834
+rf,importance,unsigned,18,-,0.00805
+rf,importance,unsigned,19, 1,0.00764
+rf,importance,unsigned,20,--,0.00736

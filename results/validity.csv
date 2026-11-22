@@ -1,0 +1,10 @@
+family,syntactically_valid_pct,reaches_backend_pct
+original (no tamper),4.0,100.0
+charencode,0.0,100.0
+chardoubleencode,0.0,0.0
+base64encode,28.0,0.0
+percentage,0.0,0.0
+htmlencode,0.0,0.0
+space2comment,4.0,100.0
+randomcomments,4.0,100.0
+randomcase,4.0,100.0

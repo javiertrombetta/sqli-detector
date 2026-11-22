@@ -1,0 +1,112 @@
+<%- include('partials/head', { title }) %>
+<%- include('partials/site-header') %>
+<% const count = (value) => value.toLocaleString('en-NZ'); %>
+<main>
+<section class="hero"><div class="wrap">
+  <h1><%= project.title %></h1>
+  <p>A machine-learning model checks every sign-in to this site before the database is queried. This page explains how it works and lets you test it.</p>
+</div></section>
+
+<section class="section" id="about"><div class="wrap two-col">
+  <div>
+    <h2>About the project</h2>
+    <p>In an SQL injection, an attacker types part of a database query into a form field. Detectors based on machine learning recognise these attacks well. The difficulty is that the same attack can be rewritten or encoded until it no longer looks like the examples the detector learned from.</p>
+    <p>This project trains a small detector on the text of request parameters and tests it against obfuscated attacks that it never saw during training. It compares two defences, adversarial training and input normalisation, used separately and together.</p>
+    <p class="note">The site has a console behind a sign-in page. That sign-in is the target of the attack and the place where the detector works.</p>
+  </div>
+  <dl class="facts">
+    <dt>Author</dt><dd><%= project.author %></dd>
+    <dt>Source code</dt><dd><a href="<%= project.repository %>"><%= project.repository.replace('https://', '') %></a></dd>
+  </dl>
+</div></section>
+
+<section class="section tinted" id="how"><div class="wrap">
+  <h2>How a sign-in is checked</h2>
+  <p class="lead">The detector sits between the sign-in form and the database. It reads the username and the password of every request.</p>
+  <ol class="steps">
+    <li><h3>The form is submitted</h3><p>The browser sends the username and the password to the server.</p></li>
+    <li><h3>Both values go to the model</h3><p>Before any database access, a guard passes each value to the detector.</p></li>
+    <li><h3>The model returns a score</h3><p>The text is cut into pieces of one to four characters. Each piece has a weight learned from the training data, and the weighted sum becomes a score between 0 and 1.</p></li>
+    <li><h3>The score decides</h3><p>At or above the threshold, the request is blocked, even when the username and the password are correct. Below it, the credentials are checked with a parameterised query.</p></li>
+  </ol>
+</div></section>
+
+<section class="section" id="model"><div class="wrap two-col">
+  <div>
+    <h2>The model</h2>
+    <p>The detector is a logistic regression, a simple model whose weights can be read one by one. It runs inside this server in JavaScript, with the weights exported from the model trained in Python. A test confirms that both give the same score for more than 300 sample texts.</p>
+    <p>The demonstration runs the detector with no added defence, which is version A of the study.</p>
+    <p>The data were not collected in this project. The detector was trained and tested on <a href="<%= project.dataset.url %>"><%= project.dataset.name %></a>, published by <%= project.dataset.author %> in <%= project.dataset.year %> under the <%= project.dataset.licence %> licence. Its normal values come from the CSIC 2010 dataset, and its SQL injection samples were generated with sqlmap.</p>
+  </div>
+  <table class="facts-table">
+    <tbody>
+      <tr><th scope="row">Algorithm</th><td>Logistic regression</td></tr>
+      <tr><th scope="row">Features</th><td>Character n-grams<% if (model) { %> of <%= model.ngramRange.join(' to ') %> characters<% } %>, weighted with TF-IDF</td></tr>
+      <% if (model) { %>
+      <tr><th scope="row">Vocabulary</th><td><%= count(model.vocabularySize) %> n-grams</td></tr>
+      <tr><th scope="row">Decision threshold</th><td><%= model.threshold.toFixed(3) %>, set on validation data for 1% of false positives</td></tr>
+      <% } %>
+      <tr><th scope="row">Data</th><td><%= project.dataset.name %> (<%= project.dataset.author %>, <%= project.dataset.year %>): <%= count(project.dataset.train) %> values for training, <%= count(project.dataset.val) %> for validation and <%= count(project.dataset.test) %> for testing</td></tr>
+      <tr><th scope="row">Clean test set</th><td>Detects <%= project.cleanTest.detection %>% of the attacks and flags <%= project.cleanTest.falsePositives %>% of the normal values (F1 of <%= project.cleanTest.f1 %>)</td></tr>
+    </tbody>
+  </table>
+</div></section>
+
+<section class="section tinted" id="findings"><div class="wrap">
+  <h2>Findings</h2>
+  <p class="lead">The hardest test withholds every encoding from training. The table shows how many encoded attacks each version detects, and how many normal values it flags by mistake when they are encoded in the same way.</p>
+  <div class="panel">
+    <table>
+      <thead><tr><th scope="col">Version</th><th scope="col">Defence</th><th scope="col">Encoded attacks detected</th><th scope="col">Encoded normal values flagged</th></tr></thead>
+      <tbody>
+        <% project.unseenEncodings.forEach((row) => { %>
+        <tr><td><%= row.version %></td><td><%= row.defence %></td><td><%= row.detected.toFixed(1) %>%</td><td><%= row.normalFlagged.toFixed(1) %>%</td></tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Logistic regression, mean of five seeds. Adversarial training detects more attacks, input normalisation raises fewer false alarms, and the two together separate attacks from normal values best.</p>
+</div></section>
+
+<section class="section" id="try"><div class="wrap narrow">
+  <h2>Try the detector</h2>
+  <% if (model) { %>
+  <p class="lead">Type any text. The server passes it to the same model that guards the sign-in and shows the score.</p>
+  <form class="try-form" method="post" action="/check#try">
+    <label for="text">Text to check</label>
+    <div class="input-row">
+      <input id="text" name="text" type="text" maxlength="300" value="<%= check ? check.text : '' %>" placeholder="For example: ' OR 1=1 --" autocomplete="off" required>
+      <button class="btn btn-navy" type="submit">Check</button>
+    </div>
+  </form>
+  <% if (check) { %>
+  <div class="result <%= check.attack ? 'flagged' : 'passed' %>">
+    <h3><%= check.attack ? 'Flagged as SQL injection' : 'Not flagged' %></h3>
+    <p>Score <strong><%= check.score.toFixed(3) %></strong>. The threshold is <%= check.threshold.toFixed(3) %>.</p>
+    <meter min="0" max="1" low="<%= check.threshold.toFixed(4) %>" high="<%= check.threshold.toFixed(4) %>" optimum="0" value="<%= check.score.toFixed(4) %>" aria-label="Detector score"><%= check.score.toFixed(3) %></meter>
+    <% if (check.evidence.length) { %>
+    <p>Pieces of the text that raised the score most (<code>&#x2423;</code> marks a space):</p>
+    <ul class="evidence">
+      <% check.evidence.forEach((item) => { %><li><code><%= showSpaces(item.ngram) %></code><span>+<%= item.contribution.toFixed(2) %></span></li><% }) %>
+    </ul>
+    <% } %>
+  </div>
+  <% } %>
+  <% } else { %>
+  <p class="lead">Login protection is off, so the detector is not loaded. Start the server with <code>npm start</code> to use this form.</p>
+  <% } %>
+</div></section>
+
+<section class="section tinted" id="demo"><div class="wrap narrow">
+  <h2>Try the sign-in</h2>
+  <ol class="walkthrough">
+    <li>Open the <a href="/login">sign-in page</a> and enter <code>researcher</code> with the password <code>researcher123</code>. The console shows the scores the detector gave to both fields.</li>
+    <li>Sign out and enter <code>' OR 1=1 --</code> as the username. The request is blocked and the page shows the score.</li>
+    <li>Sign in as <code>operator</code> with the password <code>' OR '1'='1</code>. This is the real password of that account, and the request is still blocked.</li>
+    <li>Sign in as <code>researcher</code> again. The console now lists the two blocked requests, with their scores.</li>
+    <li>Stop the server and start it again with <code>npm run start:vulnerable</code>. Protection is now off, and the attack in step 2 opens the console with any password.</li>
+  </ol>
+</div></section>
+</main>
+<%- include('partials/site-footer') %>
+<%- include('partials/foot') %>

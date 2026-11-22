@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+demo/node_modules/
+results/predictions/
+results/variants.csv
+demo/security/model.json
+demo/tests/parity_cases.json

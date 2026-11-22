@@ -1,0 +1,31 @@
+model,threshold_rule,kind_removed_from_training,training_attacks_removed,test_attacks_of_that_kind,detected_when_seen_pct,detected_when_unseen_pct,false_positive_rate_pct
+logreg,ROC corners (old rule),boolean-based,1831,391,99.74424552429667,94.8849104859335,0.1035911602209944
+logreg,exact 1% FPR,boolean-based,1831,391,99.74424552429667,99.74424552429667,1.3812154696132597
+logreg,ROC corners (old rule),error-based,913,211,100.0,100.0,0.1381215469613259
+logreg,exact 1% FPR,error-based,913,211,100.0,100.0,1.0013812154696131
+logreg,ROC corners (old rule),stacked queries,1433,284,100.0,100.0,0.1381215469613259
+logreg,exact 1% FPR,stacked queries,1433,284,100.0,100.0,1.0359116022099446
+logreg,ROC corners (old rule),time-based,2095,444,100.0,100.0,0.1381215469613259
+logreg,exact 1% FPR,time-based,2095,444,100.0,100.0,0.9668508287292816
+logreg,ROC corners (old rule),union,1324,298,100.0,65.77181208053692,0.0690607734806629
+logreg,exact 1% FPR,union,1324,298,100.0,90.93959731543625,1.0704419889502763
+linsvc,ROC corners (old rule),boolean-based,1831,391,99.74424552429667,78.26086956521739,0.0
+linsvc,exact 1% FPR,boolean-based,1831,391,99.74424552429667,99.74424552429667,1.3121546961325967
+linsvc,ROC corners (old rule),error-based,913,211,100.0,100.0,0.1035911602209944
+linsvc,exact 1% FPR,error-based,913,211,100.0,100.0,1.0013812154696131
+linsvc,ROC corners (old rule),stacked queries,1433,284,100.0,100.0,0.1035911602209944
+linsvc,exact 1% FPR,stacked queries,1433,284,100.0,100.0,0.8287292817679558
+linsvc,ROC corners (old rule),time-based,2095,444,100.0,100.0,0.1035911602209944
+linsvc,exact 1% FPR,time-based,2095,444,100.0,100.0,1.0013812154696131
+linsvc,ROC corners (old rule),union,1324,298,100.0,59.73154362416108,0.0345303867403314
+linsvc,exact 1% FPR,union,1324,298,100.0,97.6510067114094,0.9323204419889504
+rf,ROC corners (old rule),boolean-based,1831,391,99.74424552429667,99.74424552429667,0.9323204419889504
+rf,exact 1% FPR,boolean-based,1831,391,99.74424552429667,99.74424552429667,0.9323204419889504
+rf,ROC corners (old rule),error-based,913,211,100.0,100.0,1.0013812154696133
+rf,exact 1% FPR,error-based,913,211,100.0,100.0,1.0013812154696133
+rf,ROC corners (old rule),stacked queries,1433,284,100.0,100.0,1.0704419889502763
+rf,exact 1% FPR,stacked queries,1433,284,100.0,100.0,1.0704419889502763
+rf,ROC corners (old rule),time-based,2095,444,100.0,100.0,0.8632596685082874
+rf,exact 1% FPR,time-based,2095,444,100.0,100.0,0.8632596685082874
+rf,ROC corners (old rule),union,1324,298,100.0,100.0,0.8632596685082874
+rf,exact 1% FPR,union,1324,298,100.0,100.0,0.8632596685082874

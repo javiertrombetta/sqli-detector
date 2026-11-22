@@ -1,0 +1,5 @@
+column,content,role,check
+payload,the request parameter value (text),input: the only column given to the model,
+length,number of characters of payload,not used: derived from payload,equal to len(payload) in 100.00% of the rows used; alone it separates the classes with ROC AUC 0.987
+attack_type,"norm, sqli, xss, cmdi or path-traversal","the answer: defines y (sqli = 1, norm = 0); other types are left out",911 rows of other attack types excluded
+label,norm or anom,not used: a coarser copy of attack_type,agrees with attack_type in 100.00% of the rows used

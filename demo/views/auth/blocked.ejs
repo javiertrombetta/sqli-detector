@@ -1,0 +1,26 @@
+<%- include('../partials/head', { title }) %>
+<div class="gate">
+  <div class="gate-top"><%- include('../partials/logo', { sub: 'Login protection' }) %></div>
+  <main class="gate-body">
+    <section class="gate-card">
+      <%- include('../partials/icon', { name: 'shield-x' }) %>
+      <h1>Request blocked</h1>
+      <p>Your sign-in was stopped by the detector because the <%= check.field %> contained a pattern associated with SQL injection. The database was not queried.</p>
+      <table class="gate-facts">
+        <tbody>
+          <tr><th scope="row">Field</th><td><%= check.field %></td></tr>
+          <tr><th scope="row">Detector score</th><td><%= check.score.toFixed(3) %></td></tr>
+          <tr><th scope="row">Threshold</th><td><%= check.threshold.toFixed(3) %></td></tr>
+          <% if (check.evidence.length) { %>
+          <tr><th scope="row">Strongest signals</th><td><% check.evidence.forEach((item) => { %><code><%= showSpaces(item.ngram) %></code> <% }) %><small>(<code>&#x2423;</code> marks a space)</small></td></tr>
+          <% } %>
+        </tbody>
+      </table>
+      <div class="ref"><span>Incident reference:</span> <%= reference %></div>
+      <p>The request was recorded with this reference. It is listed on the console after the next sign-in.</p>
+      <a class="btn btn-navy" href="/login">Back to sign-in</a>
+    </section>
+  </main>
+  <%- include('../partials/env-note') %>
+</div>
+<%- include('../partials/foot') %>

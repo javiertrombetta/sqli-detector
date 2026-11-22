@@ -1,0 +1,13 @@
+model,params,threshold,val_detection_pct,val_f1,selected
+logreg,"{""C"": 0.1}",0.1564,100.0,0.9915,True
+logreg,"{""C"": 0.3}",0.1103,100.0,0.9915,False
+logreg,"{""C"": 1.0}",0.07,100.0,0.9915,False
+logreg,"{""C"": 3.0}",0.0415,100.0,0.9915,False
+logreg,"{""C"": 10.0}",0.0204,100.0,0.9915,False
+linsvc,"{""C"": 0.03}",0.3387,100.0,0.9915,True
+linsvc,"{""C"": 0.1}",0.3247,100.0,0.9915,False
+linsvc,"{""C"": 0.3}",0.3133,100.0,0.9915,False
+linsvc,"{""C"": 1.0}",0.3094,100.0,0.9915,False
+linsvc,"{""C"": 3.0}",0.3055,100.0,0.9915,False
+rf,"{""n_estimators"": 100, ""max_depth"": null}",0.04,100.0,0.9918,False
+rf,"{""n_estimators"": 300, ""max_depth"": null}",0.0367,100.0,0.9936,True
